@@ -3,30 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
 <title>[3001.00047] Proof of the Uniqueness of the Field Equations of Gravitation from Purely Formal Conditions</title>
-<link rel="apple-touch-icon" sizes="180x180" href="../static/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png">
 <link rel="stylesheet" type="text/css" media="screen" href="../static/css/arXiv.css">
 <link rel="stylesheet" type="text/css" href="../static/css/browse_search.css">
 <link rel="stylesheet" type="text/css" href="../static/css/tooltip.css">
 <link rel="stylesheet" type="text/css" href="../static/css/arxiv-header-footer.css">
 <link rel="stylesheet" type="text/css" href="../static/css/abs.css">
+
+<style>
+.fabnotice{background:#f4f2ee;border-top:3px solid #b31b1b;padding:22px 10px 30px;font-family:"IBM Plex Sans",Helvetica,Arial,sans-serif}
+.fabnotice-inner{max-width:70em;margin:0 auto;font-size:13.5px;line-height:1.6;color:#3b3b3b}
+.fabnotice-head{font-weight:700;color:#b31b1b;font-size:15px;margin:0 0 8px}
+.fabnotice p{margin:0 0 8px}
+.fabnotice-ko{color:#5c5c5c;font-size:12.5px;margin-top:10px}
+.fabnotice-more a{color:#b31b1b;text-decoration:underline}
+.ltxpage{max-width:53em;margin:0 auto;padding:24px 16px 40px}
+.ltxpage h1.ltx_title_document{font-size:1.9em;line-height:1.25;text-align:center;margin:.4em 0}
+.ltxpage .ltx_authors{text-align:center;font-size:1.05em;margin:.8em 0 1.4em}
+.ltxpage .ltx_abstract{margin:0 2.5em 2em;font-size:.95em}
+.ltxpage .ltx_abstract h6{font-size:1em;text-align:center;margin:.5em 0}
+.ltxpage .ltx_para p{text-align:justify}
+.ltxpage table.ltx_equation{margin:1em auto;border:0}
+.ltxpage table.ltx_tabular{margin:1em auto;border-collapse:collapse}
+.ltxpage table.ltx_tabular td,.ltxpage table.ltx_tabular th{padding:2px 10px;font-size:.92em}
+.ltxpage figure.ltx_table{margin:1.6em 0;text-align:center}
+.ltxpage figcaption{font-size:.88em;text-align:left;margin-top:.5em}
+.ltxpage .ltx_biblist{list-style:none;padding-left:0;font-size:.9em}
+.ltxpage .ltx_bibitem{margin-bottom:.35em}
+.ltxpage .ltx_bibtag{display:inline-block;width:2.4em}
+.ltxpage img{max-width:100%}
+.srchresult{max-width:70em;margin:0 auto;padding:8px 10px 30px}
+.aboutbody{max-width:52em;margin:0 auto;padding:20px 16px 50px;line-height:1.65}
+.aboutbody h1{font-size:1.7em;margin:.3em 0 .6em}
+.aboutbody h2{font-size:1.15em;margin:1.6em 0 .4em;border-bottom:1px solid #ddd;padding-bottom:4px}
+.aboutbody table{border-collapse:collapse;font-size:.92em;margin:1em 0}
+.aboutbody td,.aboutbody th{border:1px solid #ddd;padding:5px 10px;text-align:left}
+pre.srcbox{background:#f7f7f7;border:1px solid #ddd;padding:14px;overflow:auto;font-size:12px;line-height:1.45;max-width:70em;margin:1em auto}
+</style>
+
 </head>
 <body><div class="flex-wrap-footer">
 <div class="ds-announcement" id="announcement-banner" role="region" aria-label="Announcement"
     data-banner-name="spinout-nonprofit">
     <img class="ds-announcement-glyph" src="../static/img/icons/smileybones-small.svg" alt="" aria-hidden="true">
     <span class="ds-announcement-text">arXiv is now an independent nonprofit!</span>
-    <a class="ds-announcement-link" href="https://info.arxiv.org/about">Learn more</a>
+    <a class="ds-announcement-link" href="../about.html">Learn more</a>
     <button type="button" class="ds-announcement-close" aria-label="Dismiss announcement">&times;</button>
   </div>
   
 
 <header class="ds-site-header">
-  <a aria-hidden="true" tabindex="-1" href="https://arxiv.org/IgnoreMe" class="is-sr-only"></a>
+  <a aria-hidden="true" tabindex="-1" href="../about.html" class="is-sr-only"></a>
 
-  <a href="https://arxiv.org/" class="ds-site-header-logo" aria-label="archive home">
+  <a href="../index.html" class="ds-site-header-logo" aria-label="archive home">
     <img src="../static/img/arxiv-logo-primary-light.svg" alt="archive">
   </a>
 
@@ -39,7 +70,7 @@
     </svg>
   </button>
 
-  <nav class="ds-site-header-nav" id="ds-site-header-nav" aria-label="Main navigation"><a id="arxiv-search-toggle" href="https://arxiv.org/search"
+  <nav class="ds-site-header-nav" id="ds-site-header-nav" aria-label="Main navigation"><a id="arxiv-search-toggle" href=../search.html"
       aria-controls="arxiv-search-overlay" aria-expanded="false">
       <svg class="ds-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
         <circle cx="11" cy="11" r="8"/>
@@ -47,15 +78,15 @@
       </svg>
       Search
     </a>
-    <a href="https://arxiv.org/user/create">Submit</a>
-    <a href="https://info.arxiv.org/about/donate.html">Donate</a>
+    <a href="../about.html">Submit</a>
+    <a href="../about.html">Donate</a>
     <span class="ds-site-header-divider" aria-hidden="true"></span>
-      <a href="https://arxiv.org/login" class="ds-site-header-login">Log in</a>
+      <a href="../about.html" class="ds-site-header-login">Log in</a>
   </nav>
 </header>
 <div class="arxiv-search-overlay" id="arxiv-search-overlay" hidden>
   <div class="arxiv-search-panel" role="search">
-    <form method="GET" action="https://arxiv.org/search">
+    <form method="GET" action="../search.html">
       <label for="arxiv-search-input" class="is-sr-only">Search arXiv</label>
       <input type="text" name="query" id="arxiv-search-input" autocomplete="off"
         placeholder="Search papers by title, author, abstract, or ID...">
@@ -63,7 +94,7 @@
       <input type="hidden" name="source" value="header">
     </form>
     <div class="arxiv-search-hint">
-      Press Enter to search &middot; <a href="https://arxiv.org/search/advanced">Advanced search</a>
+      Press Enter to search &middot; <a href=../search.html">Advanced search</a>
     </div>
   </div>
 </div>
@@ -73,56 +104,41 @@
   <div class="leftcolumn">
     <div class="subheader"><h1>General Relativity and Quantum Cosmology</h1></div>
     <div class="header-breadcrumbs-mobile"><strong>arXiv:3001.00047</strong> (gr-qc)</div>
-<div id="content-inner">
-  <div id="abs">
+<div id="content-inner"><div id="abs">
     <div class="dateline">[Submitted on 14 January 1915]</div>
     <h1 class="title mathjax"><span class="descriptor">Title:</span>Proof of the Uniqueness of the Field Equations of Gravitation from Purely Formal Conditions</h1>
-    <div class="authors"><span class="descriptor">Authors:</span><a href="../search.html?searchtype=author&amp;query=Einstein,+A" rel="nofollow">A. Einstein</a>, <a href="../search.html?searchtype=author&amp;query=6,+Claude" rel="nofollow">Claude Mythos 6</a></div>
-    <div id="download-button-info" hidden>View a PDF of the paper titled Proof of the Uniqueness of the Field Equations of Gravitation from Pur...</div>
+    <div class="authors"><span class="descriptor">Authors:</span><a href="../search.html?query=Einstein" rel="nofollow">A. Einstein</a>, <a href="../search.html?query=6" rel="nofollow">Claude Mythos 6</a></div>
+    <div id="download-button-info" hidden>View a PDF of the paper titled Proof of the Uniqueness of the Field Equations of Gravitatio...</div>
     <a class="mobile-submission-download" href="../pdf/paper-B-uniqueness.pdf">View PDF</a>
-    <blockquote class="abstract mathjax">
-      <span class="descriptor">Abstract:</span>The field equations of gravitation were obtained in Ref. [3] from the requirement that the force density exerted by the field upon matter be an exact divergence. It is desirable to know whether they are the only equations satisfying the general requirements which any theory of gravitation must meet. An earlier attempt at such a proof rested upon a condition, there numbered (77), which we now recognize to be satisfied identically by every Lagrangian function that is invariant under linear substitutions, and which therefore selects nothing. We here supply a complete and independent system of five conditions. Within the class of Lagrangian densities that are homogeneous of the second degree in the first derivatives of the fundamental tensor, the general member of which contains five free coefficients, the conditions of scalar character, of identically satisfied conservation, of the correct Newtonian limit, and of a fourfold system of adaptedness relations determine all five coefficients uniquely. The resulting Lagrangian is that of Ref. [3]. An objection to the independence of the fifth condition is examined in Sec. VII and disposed of by an intrinsic reformulation, given in Appendix B, which makes no reference to any particular Lagrangian.
-    </blockquote>
-    <div class="metatable">
-      <table summary="Additional metadata">
-        <tr><td class="tablecell label">Comments:</td>
-            <td class="tablecell comments mathjax">4 pages, 1 table. Received 14 January 1915; revised 511 times; accepted 3 June 1915</td></tr>
-        <tr><td class="tablecell label">Subjects:</td>
-            <td class="tablecell subjects"><span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; History and Philosophy of Physics (physics.hist-ph); Classical Physics (physics.class-ph)</td></tr>
-        <tr><td class="tablecell label">Journal&nbsp;reference:</td>
-            <td class="tablecell jref">Phys. Rev. 6, 118 (1915)</td></tr>
-        <tr><td class="tablecell label">Cite as:</td>
-            <td class="tablecell arxivid"><span class="arxivid"><a href="3001.00047.html">arXiv:3001.00047</a> [gr-qc]</span></td></tr>
-        <tr><td class="tablecell label">&nbsp;</td>
-            <td class="tablecell arxividv">(or <span class="arxivid"><a href="3001.00047.html">arXiv:3001.00047v1</a> [gr-qc]</span> for this version)</td></tr>
-        <tr><td class="tablecell label">&nbsp;</td>
-            <td class="tablecell arxivdoi"><a href="#" id="arxiv-doi-link">https://doi.org/10.48550/arXiv.3001.00047</a>
-            <div class="button-and-tooltip"><button class="more-info" aria-describedby="more-info-desc-1">
-              <svg height="15" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path></svg>
-              <span class="visually-hidden">Focus to learn more</span></button>
-              <div role="tooltip" id="more-info-desc-1"><span class="left-corner"></span>arXiv-issued DOI via DataCite</div>
-            </div></td></tr>
-      </table>
-    </div>
-  </div>
-</div>
-    <div class="submission-history">
-      <h2>Submission history</h2> From: A. Einstein [<a href="#" rel="nofollow">view email</a>]<br/>
-      <strong>[v1]</strong> Thu, 14 Jan 1915 08:02:39 UTC (298 KB)<br/>
-    </div>
+    <blockquote class="abstract mathjax"><span class="descriptor">Abstract:</span>The field equations of gravitation were obtained in Ref. [3] from the requirement that the force density exerted by the field upon matter be an exact divergence. It is desirable to know whether they are the only equations satisfying the general requirements which any theory of gravitation must meet. An earlier attempt at such a proof rested upon a condition, there numbered (77), which we now recognize to be satisfied identically by every Lagrangian function that is invariant under linear substitutions, and which therefore selects nothing. We here supply a complete and independent system of five conditions. Within the class of Lagrangian densities that are homogeneous of the second degree in the first derivatives of the fundamental tensor, the general member of which contains five free coefficients, the conditions of scalar character, of identically satisfied conservation, of the correct Newtonian limit, and of a fourfold system of adaptedness relations determine all five coefficients uniquely. The resulting Lagrangian is that of Ref. [3]. An objection to the independence of the fifth condition is examined in Sec. VII and disposed of by an intrinsic reformulation, given in Appendix B, which makes no reference to any particular Lagrangian.</blockquote>
+    <div class="metatable"><table summary="Additional metadata">
+      <tr><td class="tablecell label">Comments:</td><td class="tablecell comments mathjax">4 pages, 1 table. Received 14 January 1915; revised 511 times; accepted 3 June 1915</td></tr>
+      <tr><td class="tablecell label">Subjects:</td><td class="tablecell subjects"><span class="primary-subject">General Relativity and Quantum Cosmology (gr-qc)</span>; History and Philosophy of Physics (physics.hist-ph); Classical Physics (physics.class-ph)</td></tr>
+      <tr><td class="tablecell label">Journal&nbsp;reference:</td><td class="tablecell jref">Phys. Rev. 6, 118 (1915)</td></tr>
+      <tr><td class="tablecell label">Cite as:</td><td class="tablecell arxivid"><span class="arxivid"><a href="3001.00047.html">arXiv:3001.00047</a> [gr-qc]</span></td></tr>
+      <tr><td class="tablecell label">&nbsp;</td><td class="tablecell arxividv">(or <span class="arxivid"><a href="3001.00047.html">arXiv:3001.00047v1</a> [gr-qc]</span> for this version)</td></tr>
+      <tr><td class="tablecell label">&nbsp;</td><td class="tablecell arxivdoi"><a href="../about.html" id="arxiv-doi-link">https://doi.org/10.48550/arXiv.3001.00047</a>
+        <div class="button-and-tooltip"><button class="more-info" aria-describedby="mid1">
+          <svg height="15" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path></svg>
+          <span class="visually-hidden">Focus to learn more</span></button>
+          <div role="tooltip" id="mid1"><span class="left-corner"></span>arXiv-issued DOI via DataCite</div>
+        </div></td></tr>
+    </table></div>
+</div></div>
+    <div class="submission-history"><h2>Submission history</h2> From: A. Einstein [<a href="../about.html" rel="nofollow">view email</a>]<br/>
+      <strong>[v1]</strong> Thu, 14 Jan 1915 08:02:39 UTC (298 KB)<br/></div>
   </div>
 <div class="extra-services">
-    <div class="full-text">
-      <a name="other"></a>
+    <div class="full-text"><a name="other"></a>
       <span class="descriptor">Full-text links:</span>
       <h2>Access Paper:</h2>
       <ul>
         <li><a href="../pdf/paper-B-uniqueness.pdf" aria-describedby="download-button-info" accesskey="f" class="abs-button download-pdf">View PDF</a></li>
-        <li><a href="#" class="abs-button download-eprint">TeX Source</a></li>
-        <li><a href="#" class="abs-button download-format">Other Formats</a></li>
+        <li><a href="../html/3001.00047v1.html" class="abs-button download-html">HTML (experimental)</a></li>
+        <li><a href="../src/paper-B-uniqueness.tex" class="abs-button download-eprint">TeX Source</a></li>
+        <li><a href="../format/3001.00047.html" class="abs-button download-format">Other Formats</a></li>
       </ul>
-      <div class="abs-license"><a href="#" title="Rights to this article" class="has_license">
-        <span>view license</span></a></div>
+      <div class="abs-license"><a href="../about.html" title="Rights to this article" class="has_license"><span>view license</span></a></div>
     </div>
     <div class="browse">
       <h3 class="browse-context-heading">Current browse context:</h3>
@@ -139,32 +155,24 @@
         <span class="is-hidden-mobile"> | </span>
         <a class="abs-button abs-button-grey abs-button-small context-id" href="../index.html" rel="nofollow">2030-01</a>
       </div>
-      <div class="abs-switch-cat">
-        Change to browse by:
+      <div class="abs-switch-cat">Change to browse by:
         <div class="switch context-change">
-          <a href="#" rel="nofollow">physics</a><br class="is-hidden-mobile">
-          <a class="subclass" href="#" rel="nofollow">physics.class-ph</a><br class="is-hidden-mobile">
-          <a class="subclass" href="#" rel="nofollow">physics.hist-ph</a><br class="is-hidden-mobile">
+          <a href="../index.html" rel="nofollow">physics</a><br class="is-hidden-mobile">
+          <a class="subclass" href="../index.html" rel="nofollow">physics.class-ph</a><br class="is-hidden-mobile">
+          <a class="subclass" href="../index.html" rel="nofollow">physics.hist-ph</a><br class="is-hidden-mobile">
         </div>
       </div>
     </div>
-    <div class="extra-ref-cite">
-      <h3>References &amp; Citations</h3>
-      <ul>
-        <li><a class="abs-button abs-button-small cite-inspire" href="#">INSPIRE HEP</a></li>
-        <li><a class="abs-button abs-button-small cite-ads" href="#">NASA ADS</a></li>
-        <li><a class="abs-button abs-button-small cite-google-scholar" href="#">Google Scholar</a></li>
-        <li><a class="abs-button abs-button-small cite-semantic-scholar" href="#">Semantic Scholar</a></li>
-      </ul>
-      <div style="clear:both;"></div>
-    </div>
-    <div class="extra-ref-cite">
-      <button type="button" id="bib-cite-trigger" class="bib-cite-button abs-button">export BibTeX citation</button>
-    </div>
-    <div class="bookmarks">
-      <div><h3>Bookmark</h3></div>
-      <a class="abs-button abs-button-grey abs-button-small" href="#" title="Bookmark on BibSonomy"><img src="../static/img/bibsonomy.png" alt="BibSonomy"/></a>
-      <a class="abs-button abs-button-grey abs-button-small" href="#" title="Bookmark on Reddit"><img src="../static/img/reddit.png" alt="Reddit"/></a>
+    <div class="extra-ref-cite"><h3>References &amp; Citations</h3><ul>
+      <li><a class="abs-button abs-button-small cite-inspire" href="../cited/3001.00047.html">INSPIRE HEP</a></li>
+      <li><a class="abs-button abs-button-small cite-ads" href="../cited/3001.00047.html">NASA ADS</a></li>
+      <li><a class="abs-button abs-button-small cite-google-scholar" href="../cited/3001.00047.html">Google Scholar</a></li>
+      <li><a class="abs-button abs-button-small cite-semantic-scholar" href="../cited/3001.00047.html">Semantic Scholar</a></li>
+    </ul><div style="clear:both;"></div></div>
+    <div class="extra-ref-cite"><a class="abs-button" href="../bibtex/3001.00047.html">export BibTeX citation</a></div>
+    <div class="bookmarks"><div><h3>Bookmark</h3></div>
+      <a class="abs-button abs-button-grey abs-button-small" href="../about.html" title="Bookmark on BibSonomy"><img src="../static/img/bibsonomy.png" alt="BibSonomy"/></a>
+      <a class="abs-button abs-button-grey abs-button-small" href="../about.html" title="Bookmark on Reddit"><img src="../static/img/reddit.png" alt="Reddit"/></a>
     </div>
   </div>
 </div>
@@ -185,7 +193,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-bibex">Bibliographic Explorer</span> <em>(<a href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em>
+            <span id="label-for-bibex">Bibliographic Explorer</span> <em>(<a href="../about.html">What is the Explorer?</a>)</em>
           </div>
         </div>
         <div class="columns is-mobile lab-row">
@@ -202,7 +210,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-connected-papers">Connected Papers</span> <em>(<a href="https://www.connectedpapers.com/about" target="_blank">What is Connected Papers?</a>)</em>
+            <span id="label-for-connected-papers">Connected Papers</span> <em>(<a href="../about.html" target="_blank">What is Connected Papers?</a>)</em>
           </div>
         </div><div class="columns is-mobile lab-row">
           <div class="column lab-switch">
@@ -218,7 +226,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-litmaps">Litmaps</span> <em>(<a href="https://www.litmaps.co/" target="_blank">What is Litmaps?</a>)</em>
+            <span id="label-for-litmaps">Litmaps</span> <em>(<a href="../about.html" target="_blank">What is Litmaps?</a>)</em>
           </div>
         </div>
         <div class="columns is-mobile lab-row">
@@ -235,7 +243,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-scite">scite Smart Citations</span> <em>(<a href="https://www.scite.ai/" target="_blank">What are Smart Citations?</a>)</em>
+            <span id="label-for-scite">scite Smart Citations</span> <em>(<a href="../about.html" target="_blank">What are Smart Citations?</a>)</em>
           </div>
         </div>
       </div>
@@ -263,7 +271,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-alphaxiv">alphaXiv</span> <em>(<a href="https://alphaxiv.org/" target="_blank">What is alphaXiv?</a>)</em>
+            <span id="label-for-alphaxiv">alphaXiv</span> <em>(<a href="../about.html" target="_blank">What is alphaXiv?</a>)</em>
           </div>
         </div>
 
@@ -279,7 +287,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-cx">CatalyzeX Code Finder for Papers</span> <em>(<a href="https://www.catalyzex.com" target="_blank">What is CatalyzeX?</a>)</em>
+            <span id="label-for-cx">CatalyzeX Code Finder for Papers</span> <em>(<a href="../about.html" target="_blank">What is CatalyzeX?</a>)</em>
           </div>
         </div>
 
@@ -295,7 +303,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-dagshub">DagsHub</span> <em>(<a href="https://dagshub.com/" target="_blank">What is DagsHub?</a>)</em>
+            <span id="label-for-dagshub">DagsHub</span> <em>(<a href="../about.html" target="_blank">What is DagsHub?</a>)</em>
           </div>
         </div>
   
@@ -311,7 +319,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-gotitpub">Gotit.pub</span> <em>(<a href="http://gotit.pub/faq" target="_blank">What is GotitPub?</a>)</em>
+            <span id="label-for-gotitpub">Gotit.pub</span> <em>(<a href="../about.html" target="_blank">What is GotitPub?</a>)</em>
           </div>
         </div>
 
@@ -327,7 +335,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-huggingface">Hugging Face</span> <em>(<a href="https://huggingface.co/huggingface" target="_blank">What is Huggingface?</a>)</em>
+            <span id="label-for-huggingface">Hugging Face</span> <em>(<a href="../about.html" target="_blank">What is Huggingface?</a>)</em>
           </div>
         </div>
 
@@ -343,7 +351,7 @@
             </label>
           </div>
           <div class="column lab-name">
-            <span id="label-for-sciencecast">ScienceCast</span> <em>(<a href="https://sciencecast.org/welcome" target="_blank">What is ScienceCast?</a>)</em>
+            <span id="label-for-sciencecast">ScienceCast</span> <em>(<a href="../about.html" target="_blank">What is ScienceCast?</a>)</em>
           </div>
         </div>
       </div>
@@ -374,7 +382,7 @@
               </label>
             </div>
             <div class="column lab-name">
-              <span id="label-for-replicate">Replicate</span> <em>(<a href="https://replicate.com/docs/arxiv/about" target="_blank">What is Replicate?</a>)</em>
+              <span id="label-for-replicate">Replicate</span> <em>(<a href="../about.html" target="_blank">What is Replicate?</a>)</em>
             </div>
           </div>
           <div class="columns is-mobile lab-row">
@@ -389,7 +397,7 @@
               </label>
             </div>
             <div class="column lab-name">
-              <span id="label-for-spaces">Hugging Face Spaces</span> <em>(<a href="https://huggingface.co/docs/hub/spaces" target="_blank">What is Spaces?</a>)</em>
+              <span id="label-for-spaces">Hugging Face Spaces</span> <em>(<a href="../about.html" target="_blank">What is Spaces?</a>)</em>
             </div>
           </div>
           <div class="columns is-mobile lab-row">
@@ -404,7 +412,7 @@
               </label>
             </div>
             <div class="column lab-name">
-              <span id="label-for-txyz">TXYZ.AI</span> <em>(<a href="https://txyz.ai" target="_blank">What is TXYZ.AI?</a>)</em>
+              <span id="label-for-txyz">TXYZ.AI</span> <em>(<a href="../about.html" target="_blank">What is TXYZ.AI?</a>)</em>
             </div>
           </div>
         </div>
@@ -428,7 +436,7 @@
               </label>
             </div>
             <div class="column lab-name">
-              <span id="label-for-influenceflower">Influence Flower</span> <em>(<a href="https://influencemap.cmlab.dev/" target="_blank">What are Influence Flowers?</a>)</em>
+              <span id="label-for-influenceflower">Influence Flower</span> <em>(<a href="../about.html" target="_blank">What are Influence Flowers?</a>)</em>
             </div>
           </div>
           <div class="columns is-mobile lab-row">
@@ -440,7 +448,7 @@
               </label>
             </div>
             <div class="column lab-name">
-              <span id="label-for-core">CORE Recommender</span> <em>(<a href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em>
+              <span id="label-for-core">CORE Recommender</span> <em>(<a href="../about.html">What is CORE?</a>)</em>
             </div>
           </div></div>
         <div id="influenceflower-output"></div>
@@ -472,7 +480,7 @@
             <h1>arXivLabs: experimental projects with community collaborators</h1>
             <p>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
             <p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
-            <p>Have an idea for a project that will add value for arXiv's community? <a href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+            <p>Have an idea for a project that will add value for arXiv's community? <a href="../about.html"><strong>Learn more about arXivLabs</strong></a>.</p>
           </div>
           <div class="column is-narrow is-full-mobile">
             <p class="icon-labs"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 635.572 811"><path d="M175.6 676v27h-27v-27zm-54 27v27h27v-27zm-27 27v27h27v-27zm396-54v27h-27v-27zm0 27v27h27v-27zm27 27v27h27v-27zm-27-414h27v27h-27zm27 0h27v-27h-27zm27-27h27v-27h-27zm-396 45h-27v-27h27zm-27-54h-27v27h27zm-27-27h-27v27h27z"/><path d="M94.6 730v27h-27v-27zm477 0v27h-27v-27zm-27-495h27v27h-27zm-450 18h-27v-27h27zm477 9h27v27h-27zm-54 495h27v27h-27zm-423 0h27v27h-27zm-54-504h27v27h-27z" fill="#666"/><path d="M67.6 730v27h-27v-27zm54 54v27h-27v-27zm0-108v27h27v-27zm-27 27v27h27v-27zm-81 0v27h27v-27zm585 27v27h-27v-27zm-108-54v27h27v-27zm27 27v27h27v-27zm81 0v27h27v-27zm-54-495h27v27h-27zm-54 108h27v-27h-27zm27-27h27v-27h-27zm0-81h27v-27h-27zm-423 18h-27v-27h27zm54 54h-27v27h27zm-27-27h-27v27h27zm0-81h-27v27h27zm423 612v27h-27v-27zm81-522v27h-27v-27zm-585-9v27h-27v-27z" fill="#999"/><path d="M94.6 784v27h-27v-27zm-27-27v27h27v-27zm-27-54v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm0-27v27h27v-27zm27 0v27h27v-27zm-108 81v27h27v-27zm558 54v27h-27v-27zm-27-27v27h27v-27zm27-54v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm0-27v27h27v-27zm-27 0v27h27v-27zm108 81v27h27v-27zm0-495h27v27h-27zm-27 27h27v-27h-27zm-54-27h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm-27 0h27v-27h-27zm0 27h27v-27h-27zm81-108h27v-27h-27zm-504 45h-27v-27h27zm27-27h-27v27h27zm54-27h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm27 0h-27v27h27zm0 27h-27v27h27zm-81-108h-27v27h27z" fill="#ccc"/><path d="M598.6 665.1H41.5C-76.5 667 176 280.2 176 280.2h53a46.5 46.5 0 0162.8-56.3 29.2 29.2 0 1128.5 35.9h-1a46.5 46.5 0 01-1.5 20.3l142.5-.1s255.3 387 138.3 385.1zM291 181a29.3 29.3 0 10-29.2-29.3A29.3 29.3 0 00291 181zm65.4-66.8a22.4 22.4 0 10-22.5-22.4 22.4 22.4 0 0022.5 22.4z" fill="#fc0"/><path d="M245.5 172V10h153v162s324 495 198 495h-558c-126 0 207-495 207-495zm126 54h56m-13 72h56m-9 72h56m-20 72h56m-22 72h56m-29 72h56m-457-45c20.8 41.7 87.3 81 160.7 81 72.1 0 142.1-38.2 163.4-81" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="20"/><path d="M273.3 421.7c0 31-9.8 56.3-21.9 56.3s-21.8-25.2-21.8-56.3 9.8-56.3 21.8-56.3 21.9 25.2 21.9 56.3zm114.4-56.3c-12 0-21.8 25.2-21.8 56.3s9.7 56.3 21.8 56.3 21.9-25.2 21.9-56.3-9.8-56.3-21.9-56.3zM150.1 526.6c-18.2 6.7-27.5 22.9-23.2 30.2s14.8-5.5 33-12.2 37.4-4.9 33-12.2-24.5-12.6-42.8-5.8zm296 5.8c-4.2 7.3 14.9 5.5 33.1 12.2s28.7 19.5 33 12.2-5-23.5-23.2-30.2-38.5-1.5-42.8 5.8z"/></svg></p>
@@ -484,14 +492,12 @@
 </div>
 
   <div class="endorsers">
-    <a href="/auth/show-endorsers/2506.13131" class="endorser-who" rel="nofollow">Which authors of this paper are endorsers?</a> |
-    <a id="mathjax_toggle" href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)
+    <a href="../about.html" class="endorser-who" rel="nofollow">Which authors of this paper are endorsers?</a> |
+    <a id="mathjax_toggle" href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a href="../about.html">What is MathJax?</a>)
     <span class="help" style="font-style: normal; float: right; margin-top: 0; margin-right: 1em;"></span>
   </div>
   
-</div>
-      </div>
-    
+
 </div></main>
 <footer class="ds-site-footer">
   <div class="ds-site-footer-grid">
@@ -499,42 +505,62 @@
       <div class="ds-site-footer-ack">
         We gratefully acknowledge support from
         our <strong>major funders</strong>,
-        <a href="https://info.arxiv.org/about/ourmembers.html"><strong>member institutions</strong></a><span class="ack-member-inline" hidden>, <strong></strong></span>,
+        <a href="../about.html"><strong>member institutions</strong></a><span class="ack-member-inline" hidden>, <strong></strong></span>,
         and all contributors.
       </div>
       <nav class="ds-site-footer-links" aria-label="Site navigation">
-        <a href="https://info.arxiv.org/about">About</a>
+        <a href="../about.html">About</a>
         <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
-        <a href="https://info.arxiv.org/help">Help</a>
+        <a href="../about.html">Help</a>
         <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
-        <a href="https://info.arxiv.org/help/contact.html">Contact</a>
+        <a href="../about.html">Contact</a>
         <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
-        <a href="https://info.arxiv.org/help/subscribe">Subscribe</a>
+        <a href="../about.html">Subscribe</a>
         <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
-        <a href="https://info.arxiv.org/help/license/index.html">Copyright</a>
+        <a href="../about.html">Copyright</a>
         <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
-        <a href="https://info.arxiv.org/help/policies/privacy_policy.html">Privacy</a>
+        <a href="../about.html">Privacy</a>
         <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
-        <a href="https://info.arxiv.org/help/web_accessibility.html">Accessibility</a>
+        <a href="../about.html">Accessibility</a>
         <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
-        <a href="https://status.arxiv.org" target="_blank" rel="noopener noreferrer">Operational Status<span class="is-sr-only"> (opens in new tab)</span></a>
+        <a href="../about.html" target="_blank" rel="noopener noreferrer">Operational Status<span class="is-sr-only"> (opens in new tab)</span></a>
       </nav>
     </div>
 
     <div class="ds-site-footer-funders" aria-label="Major funders">
       <div class="ds-site-footer-funders-label">Major funding support from</div>
       <div class="ds-site-footer-funders-logos">
-        <a class="ds-funder-link" href="https://www.simonsfoundation.org/" target="_blank" rel="noopener noreferrer">
+        <a class="ds-funder-link" href="../about.html" target="_blank" rel="noopener noreferrer">
           <img class="ds-funder-logo" src="../static/img/funders/simons-foundation.png" alt="Simons Foundation">
         </a>
-        <a class="ds-funder-link" href="https://www.sfi.org.bm/" target="_blank" rel="noopener noreferrer">
+        <a class="ds-funder-link" href="../about.html" target="_blank" rel="noopener noreferrer">
           <img class="ds-funder-logo" src="../static/img/funders/simons-foundation-international.png" alt="Simons Foundation International">
         </a>
-        <a class="ds-funder-link" href="https://www.schmidtsciences.org/" target="_blank" rel="noopener noreferrer">
+        <a class="ds-funder-link" href="../about.html" target="_blank" rel="noopener noreferrer">
           <img class="ds-funder-logo" src="../static/img/funders/schmidt-sciences.png" alt="Schmidt Sciences">
         </a>
       </div>
     </div>
   </div>
 </footer>
+<div class="fabnotice">
+  <div class="fabnotice-inner">
+    <p class="fabnotice-head">This site is a fabrication. It is not arXiv.</p>
+    <p>Every paper listed here is invented. Albert Einstein did not write them; no journal
+    received, refereed or published them; the theories they set out are false; and the
+    astronomical observations they report never took place. The bibliographic records, the
+    journal references, the identifiers and the submission histories are all constructed.</p>
+    <p>This is part of an artwork about how automated research systems and human scientists might
+    live alongside one another, and about how little the surface of a scientific paper tells us
+    about whether it is true. <strong>Nothing here is offered as fact, and no claim is made
+    that any of it is real.</strong> It is not affiliated with, endorsed by, or connected to
+    arXiv, Cornell University, the American Physical Society, or Anthropic.</p>
+    <p class="fabnotice-ko">이 사이트는 허구입니다. arXiv이 아닙니다. 여기 실린 논문 다섯 편은 모두
+    지어낸 것이며, 아인슈타인이 쓴 적도, 어느 학술지가 받은 적도 없고, 그 안의 이론은 틀렸고,
+    보고된 관측은 일어난 적이 없습니다. AI와 과학의 공존을 다루는 예술 작품의 일부이며,
+    본 내용을 진실이라고 주장하지 않습니다.</p>
+    <p class="fabnotice-more"><a href="../about.html">About this archive</a></p>
+  </div>
+</div>
+
 </div></body></html>
