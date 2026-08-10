@@ -36,6 +36,9 @@
 .ltxpage img{max-width:100%}
 .srchresult{max-width:70em;margin:0 auto;padding:8px 10px 30px}
 .aboutbody{max-width:52em;margin:0 auto;padding:20px 16px 50px;line-height:1.65}
+.langbar{margin:18px 0 6px;display:flex;gap:8px}
+.lang-btn{font:13px/1 'IBM Plex Sans',Helvetica,Arial,sans-serif;padding:6px 14px;border:1px solid #ccc;background:#fff;color:#444;cursor:pointer;border-radius:3px}
+.lang-btn.is-active{background:#b31b1b;border-color:#b31b1b;color:#fff}
 .aboutbody h1{font-size:1.7em;margin:.3em 0 .6em}
 .aboutbody h2{font-size:1.15em;margin:1.6em 0 .4em;border-bottom:1px solid #ddd;padding-bottom:4px}
 .aboutbody table{border-collapse:collapse;font-size:.92em;margin:1em 0}
@@ -100,7 +103,7 @@ pre.srcbox{background:#f7f7f7;border:1px solid #ddd;padding:14px;overflow:auto;f
 </div>
     
 <main><div id="content">
-<link rel="stylesheet" href="../static/css/ar5iv.0.7.9.min.css"><link rel="stylesheet" href="../static/css/latexml_styles.css"><div class="ltxpage"><div style="border-bottom:1px solid #ddd;padding:6px 0;font-size:13px"><a href="../abs/2609.00047.html">Back to abstract</a> &nbsp;|&nbsp; <a href="../pdf/paper-B-uniqueness.pdf">Download PDF</a> &nbsp;|&nbsp; <a href="../src/paper-B-uniqueness.tex">TeX Source</a> &nbsp;|&nbsp; <a href="../format/2609.00047.html">Other formats</a></div><div style="font-size:12px;color:#666;margin-top:2em;border-top:1px solid #ddd;padding-top:8px">HTML conversions <a href="../about.html">sometimes display errors</a> due to content that did not convert correctly from the source. This paper uses the following packages that are not yet supported by the HTML conversion tool. <em>Feedback on these issues is not necessary; they are known and are being worked on.</em><ul><li>failed: revtex4-2</li></ul></div><article class="ltx_document"><h1 class="ltx_title ltx_title_document">Proof of the Uniqueness of the Field Equations of Gravitation from Purely Formal Conditions</h1><div class="ltx_authors">A. Einstein, Claude Mythos 6</div><div class="ltx_abstract"><h6>Abstract</h6><p>The field equations of gravitation were obtained in Ref. [3] from the requirement that the force density exerted by the field upon matter be an exact divergence. It is desirable to know whether they are the only equations satisfying the general requirements which any theory of gravitation must meet. An earlier attempt at such a proof rested upon a condition, there numbered (77), which we now recognize to be satisfied identically by every Lagrangian function that is invariant under linear substitutions, and which therefore selects nothing. We here supply a complete and independent system of five conditions. Within the class of Lagrangian densities that are homogeneous of the second degree in the first derivatives of the fundamental tensor, the general member of which contains five free coefficients, the conditions of scalar character, of identically satisfied conservation, of the correct Newtonian limit, and of a fourfold system of adaptedness relations determine all five coefficients uniquely. The resulting Lagrangian is that of Ref. [3]. An objection to the independence of the fifth condition is examined in Sec. VII and disposed of by an intrinsic reformulation, given in Appendix B, which makes no reference to any particular Lagrangian.</p></div><h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<link rel="stylesheet" href="../static/css/ar5iv.0.7.9.min.css"><link rel="stylesheet" href="../static/css/latexml_styles.css"><div class="ltxpage"><div style="border-bottom:1px solid #ddd;padding:6px 0;font-size:13px"><a href="../abs/2609.00047.html">Back to abstract</a> &nbsp;|&nbsp; <a href="../pdf/2609.00047v1.pdf">Download PDF</a> &nbsp;|&nbsp; <a href="../src/2609.00047v1.tex">TeX Source</a> &nbsp;|&nbsp; <a href="../format/2609.00047.html">Other formats</a></div><div style="font-size:12px;color:#666;margin-top:2em;border-top:1px solid #ddd;padding-top:8px">HTML conversions <a href="../about.html">sometimes display errors</a> due to content that did not convert correctly from the source. This paper uses the following packages that are not yet supported by the HTML conversion tool. <em>Feedback on these issues is not necessary; they are known and are being worked on.</em><ul><li>failed: revtex4-2</li></ul></div><article class="ltx_document"><h1 class="ltx_title ltx_title_document">Proof of the Uniqueness of the Field Equations of Gravitation from Purely Formal Conditions</h1><div class="ltx_authors">A. Einstein, Claude Mythos 6</div><div class="ltx_abstract"><h6>Abstract</h6><p>The field equations of gravitation were obtained in Ref. [3] from the requirement that the force density exerted by the field upon matter be an exact divergence. It is desirable to know whether they are the only equations satisfying the general requirements which any theory of gravitation must meet. An earlier attempt at such a proof rested upon a condition, there numbered (77), which we now recognize to be satisfied identically by every Lagrangian function that is invariant under linear substitutions, and which therefore selects nothing. We here supply a complete and independent system of five conditions. Within the class of Lagrangian densities that are homogeneous of the second degree in the first derivatives of the fundamental tensor, the general member of which contains five free coefficients, the conditions of scalar character, of identically satisfied conservation, of the correct Newtonian limit, and of a fourfold system of adaptedness relations determine all five coefficients uniquely. The resulting Lagrangian is that of Ref. [3]. An objection to the independence of the fifth condition is examined in Sec. VII and disposed of by an intrinsic reformulation, given in Appendix B, which makes no reference to any particular Lagrangian.</p></div><h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
 <div class="ltx_para"><p class="ltx_p">The field equations of gravitation given in Ref. [3] were reached
 along a physical road. One writes down the energy-momentum balance for
 matter in a given field, observes that the force density is not of
@@ -598,4 +601,27 @@ four independent components.
   </div>
 </div>
 
-</div></body></html>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('announcement-banner');
+  if(b){var x=b.querySelector('.ds-announcement-close');
+        if(x)x.addEventListener('click',function(){b.style.display='none';});}
+  var t=document.getElementById('ds-nav-toggle'),n=document.getElementById('ds-site-header-nav');
+  if(t&&n)t.addEventListener('click',function(){var e=t.getAttribute('aria-expanded')==='true';
+        t.setAttribute('aria-expanded',String(!e));n.classList.toggle('is-open');});
+  var st=document.getElementById('arxiv-search-toggle'),ov=document.getElementById('arxiv-search-overlay');
+  if(st&&ov)st.addEventListener('click',function(e){e.preventDefault();ov.hidden=!ov.hidden;
+        if(!ov.hidden){var i=document.getElementById('arxiv-search-input');if(i)i.focus();}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&ov)ov.hidden=true;});
+  var btns=document.querySelectorAll('.lang-btn');
+  if(btns.length){Array.prototype.forEach.call(btns,function(btn){
+    btn.addEventListener('click',function(){
+      var L=btn.getAttribute('data-lang');
+      Array.prototype.forEach.call(btns,function(o){o.classList.toggle('is-active',o===btn);});
+      Array.prototype.forEach.call(document.querySelectorAll('[data-langpane]'),function(pane){
+        pane.hidden = pane.getAttribute('data-langpane')!==L;});
+    });});}
+})();
+</script>
+</body></html>

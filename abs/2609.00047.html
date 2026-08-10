@@ -36,6 +36,9 @@
 .ltxpage img{max-width:100%}
 .srchresult{max-width:70em;margin:0 auto;padding:8px 10px 30px}
 .aboutbody{max-width:52em;margin:0 auto;padding:20px 16px 50px;line-height:1.65}
+.langbar{margin:18px 0 6px;display:flex;gap:8px}
+.lang-btn{font:13px/1 'IBM Plex Sans',Helvetica,Arial,sans-serif;padding:6px 14px;border:1px solid #ccc;background:#fff;color:#444;cursor:pointer;border-radius:3px}
+.lang-btn.is-active{background:#b31b1b;border-color:#b31b1b;color:#fff}
 .aboutbody h1{font-size:1.7em;margin:.3em 0 .6em}
 .aboutbody h2{font-size:1.15em;margin:1.6em 0 .4em;border-bottom:1px solid #ddd;padding-bottom:4px}
 .aboutbody table{border-collapse:collapse;font-size:.92em;margin:1em 0}
@@ -109,7 +112,7 @@ pre.srcbox{background:#f7f7f7;border:1px solid #ddd;padding:14px;overflow:auto;f
     <h1 class="title mathjax"><span class="descriptor">Title:</span>Proof of the Uniqueness of the Field Equations of Gravitation from Purely Formal Conditions</h1>
     <div class="authors"><span class="descriptor">Authors:</span><a href="../search.html?query=Einstein" rel="nofollow">A. Einstein</a>, <a href="../search.html?query=6" rel="nofollow">Claude Mythos 6</a></div>
     <div id="download-button-info" hidden>View a PDF of the paper titled Proof of the Uniqueness of the Field Equations of Gravitatio...</div>
-    <a class="mobile-submission-download" href="../pdf/paper-B-uniqueness.pdf">View PDF</a>
+    <a class="mobile-submission-download" href="../pdf/2609.00047v1.pdf">View PDF</a>
     <blockquote class="abstract mathjax"><span class="descriptor">Abstract:</span>The field equations of gravitation were obtained in Ref. [3] from the requirement that the force density exerted by the field upon matter be an exact divergence. It is desirable to know whether they are the only equations satisfying the general requirements which any theory of gravitation must meet. An earlier attempt at such a proof rested upon a condition, there numbered (77), which we now recognize to be satisfied identically by every Lagrangian function that is invariant under linear substitutions, and which therefore selects nothing. We here supply a complete and independent system of five conditions. Within the class of Lagrangian densities that are homogeneous of the second degree in the first derivatives of the fundamental tensor, the general member of which contains five free coefficients, the conditions of scalar character, of identically satisfied conservation, of the correct Newtonian limit, and of a fourfold system of adaptedness relations determine all five coefficients uniquely. The resulting Lagrangian is that of Ref. [3]. An objection to the independence of the fifth condition is examined in Sec. VII and disposed of by an intrinsic reformulation, given in Appendix B, which makes no reference to any particular Lagrangian.</blockquote>
     <div class="metatable"><table summary="Additional metadata">
       <tr><td class="tablecell label">Comments:</td><td class="tablecell comments mathjax">4 pages, 1 table. Received 14 January 1915; revised 511 times; accepted 3 June 1915</td></tr>
@@ -133,9 +136,9 @@ pre.srcbox{background:#f7f7f7;border:1px solid #ddd;padding:14px;overflow:auto;f
       <span class="descriptor">Full-text links:</span>
       <h2>Access Paper:</h2>
       <ul>
-        <li><a href="../pdf/paper-B-uniqueness.pdf" aria-describedby="download-button-info" accesskey="f" class="abs-button download-pdf">View PDF</a></li>
+        <li><a href="../pdf/2609.00047v1.pdf" aria-describedby="download-button-info" accesskey="f" class="abs-button download-pdf">View PDF</a></li>
         <li><a href="../html/2609.00047v1.html" class="abs-button download-html">HTML (experimental)</a></li>
-        <li><a href="../src/paper-B-uniqueness.tex" class="abs-button download-eprint">TeX Source</a></li>
+        <li><a href="../src/2609.00047v1.tex" class="abs-button download-eprint">TeX Source</a></li>
         <li><a href="../format/2609.00047.html" class="abs-button download-format">Other Formats</a></li>
       </ul>
       <div class="abs-license"><a href="../about.html" title="Rights to this article" class="has_license"><span>view license</span></a></div>
@@ -563,4 +566,27 @@ pre.srcbox{background:#f7f7f7;border:1px solid #ddd;padding:14px;overflow:auto;f
   </div>
 </div>
 
-</div></body></html>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('announcement-banner');
+  if(b){var x=b.querySelector('.ds-announcement-close');
+        if(x)x.addEventListener('click',function(){b.style.display='none';});}
+  var t=document.getElementById('ds-nav-toggle'),n=document.getElementById('ds-site-header-nav');
+  if(t&&n)t.addEventListener('click',function(){var e=t.getAttribute('aria-expanded')==='true';
+        t.setAttribute('aria-expanded',String(!e));n.classList.toggle('is-open');});
+  var st=document.getElementById('arxiv-search-toggle'),ov=document.getElementById('arxiv-search-overlay');
+  if(st&&ov)st.addEventListener('click',function(e){e.preventDefault();ov.hidden=!ov.hidden;
+        if(!ov.hidden){var i=document.getElementById('arxiv-search-input');if(i)i.focus();}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&ov)ov.hidden=true;});
+  var btns=document.querySelectorAll('.lang-btn');
+  if(btns.length){Array.prototype.forEach.call(btns,function(btn){
+    btn.addEventListener('click',function(){
+      var L=btn.getAttribute('data-lang');
+      Array.prototype.forEach.call(btns,function(o){o.classList.toggle('is-active',o===btn);});
+      Array.prototype.forEach.call(document.querySelectorAll('[data-langpane]'),function(pane){
+        pane.hidden = pane.getAttribute('data-langpane')!==L;});
+    });});}
+})();
+</script>
+</body></html>
