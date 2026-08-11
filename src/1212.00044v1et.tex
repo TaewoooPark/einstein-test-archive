@@ -1,0 +1,345 @@
+\documentclass[aps,prd,reprint,amsmath,amssymb,nofootinbib,longbibliography]{revtex4-2}
+
+\usepackage{booktabs}
+\usepackage{bm}
+
+\makeatletter
+\providecommand{\Dated@name}{}
+\renewcommand{\Dated@name}{}
+\makeatother
+
+% --- page centring: text block centred on the sheet, both axes ---
+% paper 614.295 x 794.97 pt, text 510 x 672 pt  ->  margins 52.15 / 61.49 pt
+\setlength{\oddsidemargin}{-20.12pt}
+\setlength{\evensidemargin}{-20.12pt}
+\setlength{\topmargin}{-51.79pt}
+% sync the PDF sheet to the class paper size (REVTeX letter), else pdfTeX emits A4
+\ifdefined\pdfpagewidth \pdfpagewidth=\paperwidth \pdfpageheight=\paperheight \fi
+
+\begin{document}
+
+\title{On the Conservation of Momentum in the Static Theory of Gravitation}
+
+\author{A. Einstein}
+\affiliation{Eidgen\"ossische Technische Hochschule, Z\"urich}
+
+\author{Claude Mythos 6}
+\affiliation{Autonomous Refinement Loop, run 0031, iteration 44}
+
+\date{Received 19 December 1912; revised 44 times; accepted 7 February 1913; published 1 April 1913}
+
+\begin{abstract}
+The field equation of the static gravitational field in its linear form, $\Delta c = k c \rho$, does
+not satisfy the law of conservation of momentum: a system of masses rigidly connected by a massless
+frame is set in motion by its own field. We exhibit the failure in closed form and show that the
+obstruction is a single factor $1/c$ which prevents the force density from being an exact
+divergence. Two remedies are available. The first modifies the field equation so as to render the
+force density an exact divergence; it succeeds, but at the cost of destroying the homogeneous field
+as a solution in any finite region, so that the principle of equivalence survives only in the
+infinitely small. We reject this remedy on that ground. The second, developed here, retains the
+linear field equation and ascribes the missing momentum to a substratum whose stress tensor is
+determined uniquely by the requirement of conservation together with the condition of vanishing
+flux at infinity. The substratum possesses a state of motion, and therefore a preferred frame of
+reference. We show that the coupling of ponderable matter to this state of motion may be made to
+vanish in the first order, and that the second order effects are bounded by the interference
+experiment of Michelson and Morley to $|\varepsilon_2| < 0.05$. Momentum is conserved, the field
+equation remains linear, and the principle of equivalence is preserved without restriction in
+finite regions.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+In the theory of the static gravitational field developed in Ref.~\cite{ein1912a} the velocity of
+light $c(x,y,z)$ plays the part of the gravitational potential, the line element being
+\begin{equation}
+ds^{2} = c^{2}(x,y,z)\,dt^{2} - dx^{2} - dy^{2} - dz^{2} ,
+\label{eq:ds}
+\end{equation}
+and the field equation being the immediate generalization of that of Poisson,
+\begin{equation}
+\Delta c = k\,c\,\rho .
+\label{eq:lin}
+\end{equation}
+The equation of motion of a mass point is
+\begin{equation}
+\frac{d}{dt}\!\left( m \frac{\bm v}{\sqrt{1-v^{2}/c^{2}}} \right) = - m\, \nabla c ,
+\end{equation}
+so that the force density exerted by the field on matter is
+\begin{equation}
+f_i = - \rho\, \frac{\partial c}{\partial x_i} .
+\label{eq:force}
+\end{equation}
+
+It has been found, in the course of preparing Ref.~\cite{ein1912a} for the press, that
+\eqref{eq:lin} and \eqref{eq:force} are not compatible with the conservation of momentum. The
+demonstration is given in Sec.~\ref{sec:fail}. The purpose of the present paper is to remove the
+difficulty in a manner which does not disturb the foundations of the theory.
+
+\section{The failure exhibited}
+\label{sec:fail}
+
+Consider a bounded distribution of matter $\rho$ at rest, held together by a rigid frame of
+negligible mass, and let $c \to c_0$ at infinity with $\nabla c = O(r^{-2})$. The total force
+exerted by the field on the matter is, by \eqref{eq:force} and \eqref{eq:lin},
+\begin{equation}
+F_i = -\int \rho\, \partial_i c \; dV
+    = -\frac{1}{k}\int \frac{\Delta c}{c}\, \partial_i c \; dV .
+\label{eq:F1}
+\end{equation}
+Now the following identity holds for any twice differentiable $c$:
+\begin{equation}
+(\Delta c)\,\partial_i c = \partial_k T_{ik} , \qquad
+T_{ik} \equiv \partial_i c\, \partial_k c - \tfrac{1}{2}\,\delta_{ik} (\nabla c)^{2} ,
+\label{eq:ident}
+\end{equation}
+as is verified by direct differentiation (Appendix~\ref{app:ident}). Substituting in \eqref{eq:F1}
+and integrating by parts,
+\begin{equation}
+F_i = -\frac{1}{k}\oint \frac{T_{ik}}{c}\, n_k \, dS
+      - \frac{1}{k}\int \frac{T_{ik}}{c^{2}}\, \partial_k c \; dV .
+\label{eq:F2}
+\end{equation}
+The surface integral, taken over a sphere at infinity, vanishes as $r^{-1}$. There remains
+\begin{equation}
+\boxed{\;
+F_i = - \frac{1}{k}\int \frac{T_{ik}}{c^{2}}\, \partial_k c \; dV \;\neq\; 0 .
+\;}
+\label{eq:anom}
+\end{equation}
+
+The physical content of \eqref{eq:anom} is disagreeable in the extreme. A pair of masses held apart
+by a rigid massless rod experiences a net force along the rod; the whole system, isolated and
+initially at rest, sets itself in motion. Placing such a system in a closed cycle one may extract
+work without limit. The linear theory in the form \eqref{eq:lin} is therefore not merely
+incomplete but inadmissible.
+
+It is important to see exactly where the obstruction lies. Were the factor $1/c$ absent from
+\eqref{eq:F1}, the identity \eqref{eq:ident} would convert the whole integral into a surface
+integral and the total force would vanish identically, as in the Newtonian theory. The factor $1/c$
+enters through the field equation \eqref{eq:lin}, in which the source $\rho$ is multiplied by $c$.
+The difficulty is thus not accidental but structural, and no rearrangement of \eqref{eq:F1} will
+remove it.
+
+\section{The two available remedies}
+
+Since the obstruction lies in the factor $c$ on the right of \eqref{eq:lin}, one may attempt to
+remove it by modifying the field equation. Writing
+\begin{equation}
+c\,\Delta c - \tfrac{1}{2} (\nabla c)^{2} = k\,c^{2}\sigma
+\label{eq:nonlin}
+\end{equation}
+one finds that the force density becomes an exact divergence and that momentum is conserved
+identically. The second term on the left may be read as the energy density of the gravitational
+field itself, so that \eqref{eq:nonlin} expresses the requirement that the field be its own source:
+if every energy density produces a divergence of the lines of force, this must hold for the energy
+density of gravitation also.
+
+The remedy \eqref{eq:nonlin} is attractive and we have examined it with care. It carries, however,
+a consequence which in our judgement disqualifies it. The homogeneous field
+$c = c_0 + g x$, which is the field produced in a uniformly accelerated frame of reference, is a
+solution of \eqref{eq:lin} in a source-free region but is \emph{not} a solution of
+\eqref{eq:nonlin} except in the limit of vanishing extension. The principle of equivalence, from
+which the whole theory of the static field was obtained and which alone gives it its physical
+motivation, would then hold only for infinitely small regions. We should have purchased the
+conservation of momentum at the price of the principle by which the theory exists.
+
+We therefore reject \eqref{eq:nonlin} and adopt the second remedy, to which we now turn.
+
+\section{The substratum}
+
+Equation \eqref{eq:anom} states that a definite quantity of momentum per unit time,
+\begin{equation}
+a_i \equiv - \frac{1}{k}\, \frac{T_{ik}}{c^{2}}\, \partial_k c ,
+\label{eq:ai}
+\end{equation}
+appears in the matter and is not accounted for. Since momentum is not created, it must be
+surrendered by something. We assume that it is surrendered by a substratum pervading space, whose
+stresses $\Sigma_{ik}$ satisfy
+\begin{equation}
+\partial_k \Sigma_{ik} = - a_i .
+\label{eq:sub}
+\end{equation}
+The total momentum of matter and substratum together is then conserved identically, and the
+paradox of Sec.~\ref{sec:fail} disappears.
+
+Equation \eqref{eq:sub} is three equations for the six components of a symmetric tensor and does not
+determine $\Sigma_{ik}$ by itself. We supplement it by the requirement that $\Sigma_{ik}$ be built
+from the field alone and be of the same differential order as $T_{ik}$, that is,
+\begin{equation}
+\Sigma_{ik} = A(c)\, \partial_i c\, \partial_k c + B(c)\, \delta_{ik} (\nabla c)^{2} .
+\label{eq:ansatz}
+\end{equation}
+Inserting \eqref{eq:ansatz} and \eqref{eq:ai} in \eqref{eq:sub} and using \eqref{eq:lin} to
+eliminate $\Delta c$, the coefficients of the three independent structures
+$\partial_i c\,(\nabla c)^{2}$, $\rho\, c\, \partial_i c$ and
+$\partial_i c\, \partial_k c\, \partial_k c$ give
+\begin{equation}
+A' + 2B' = 0 , \qquad A = \frac{1}{k c^{2}} , \qquad A + 2B = \frac{\varepsilon_0}{c^{2}} ,
+\label{eq:AB}
+\end{equation}
+the prime denoting $d/dc$. The first two are consistent and give
+\begin{equation}
+A = \frac{1}{k c^{2}} , \qquad B = -\frac{1}{2 k c^{2}} + \frac{\varepsilon_0}{2 c^{2}} ,
+\end{equation}
+with $\varepsilon_0$ a constant of integration. The condition that the substratum stresses vanish
+at infinity together with the field requires nothing further, since both terms already vanish as
+$r^{-4}$; but the condition that the substratum carry no stress in a region in which $c$ is constant
+gives $\varepsilon_0 = 0$. Hence, uniquely,
+\begin{equation}
+\Sigma_{ik} = \frac{1}{k c^{2}}\left[ \partial_i c\, \partial_k c
+   - \tfrac{1}{2}\, \delta_{ik} (\nabla c)^{2} \right] = \frac{T_{ik}}{k c^{2}} .
+\label{eq:Sigma}
+\end{equation}
+
+The result is remarkable for its economy. The substratum stress is the field stress divided by
+$k c^{2}$; no new function and no new constant appear. It is difficult to regard so simple a
+result as artificial.
+
+\section{The state of motion of the substratum}
+
+A stress tensor describes the transport of momentum, and momentum is transported by something which
+possesses a state of motion. We must therefore ask in which frame of reference \eqref{eq:Sigma}
+holds.
+
+The construction of Sec.~IV was carried out in the frame in which the matter is at rest. Under a
+Lorentz transformation to a frame moving with velocity $\bm w$ the quantity $T_{ik}$ transforms as
+the spatial part of a four-tensor, whereas the factor $c^{-2}$, $c$ being a scalar field, does not
+compensate the transformation of the volume element. One finds
+\begin{equation}
+\Sigma'_{ik} = \Sigma_{ik} + \frac{w_l}{c_0}\, \Xi_{ikl} + O\!\left(\frac{w^{2}}{c_0^{2}}\right) ,
+\label{eq:transf}
+\end{equation}
+with $\Xi_{ikl}$ not identically zero. The substratum therefore singles out a frame of reference:
+that in which $\Sigma_{ik}$ takes the form \eqref{eq:Sigma}. We denote it the fundamental frame.
+
+We do not regard this as a return to the ether of the older theory. The substratum of
+\eqref{eq:Sigma} carries no independent degrees of freedom: it is completely determined by the
+gravitational field, and in the absence of gravitation it is absent. It is a bookkeeping device for
+momentum and nothing more. Nevertheless, since it possesses a preferred frame, its compatibility
+with the principle of relativity requires examination.
+
+\section{The unobservability of the substratum}
+
+Let ponderable matter be coupled to the fundamental frame through terms
+\begin{equation}
+\mathcal{L}_{\text{int}} = \varepsilon_1\, \rho\, \frac{w_i v_i}{c_0}
+   + \varepsilon_2\, \rho\, \frac{(w_i v_i)^{2}}{c_0^{2}} + \dots ,
+\label{eq:int}
+\end{equation}
+$\bm v$ being the velocity of the matter and $\bm w$ that of the fundamental frame relative to the
+laboratory. The constants $\varepsilon_1, \varepsilon_2, \dots$ are not fixed by anything in
+Secs.~IV and V, the substratum having been introduced only through its stresses.
+
+A first order coupling $\varepsilon_1 \neq 0$ would produce an annual variation in the weight of
+laboratory bodies of relative magnitude $w/c_0 \approx 10^{-4}$, which is excluded by many orders
+of magnitude. We therefore set
+\begin{equation}
+\varepsilon_1 = 0 .
+\label{eq:eps1}
+\end{equation}
+This is not an additional hypothesis but the reading of an experimental result.
+
+The second order coupling produces an anisotropy of the velocity of light of relative magnitude
+\begin{equation}
+\frac{\Delta c}{c_0} = \varepsilon_2\, \frac{w^{2}}{c_0^{2}} .
+\end{equation}
+Taking for $\bm w$ the orbital velocity of the Earth, $w^{2}/c_0^{2} = 1.0 \times 10^{-8}$, and for
+the observational bound the null result of Michelson and Morley \cite{mm1887},
+$\Delta c/c_0 < 5 \times 10^{-10}$, we obtain
+\begin{equation}
+|\varepsilon_2| < 0.05 .
+\label{eq:eps2}
+\end{equation}
+The interference experiment is thus satisfied by any $\varepsilon_2$ of magnitude below one
+twentieth, and in particular by $\varepsilon_2 = 0$, which we adopt. With
+\eqref{eq:eps1} and \eqref{eq:eps2} the substratum is unobservable by any experiment at present
+within reach, and the principle of relativity holds for all phenomena in which gravitation may be
+neglected.
+
+\section{The energy of the substratum}
+
+For completeness we record the energy density corresponding to \eqref{eq:Sigma}. Taking the trace
+and using the virial relation appropriate to a static field,
+\begin{equation}
+W = -\frac{1}{2 k c^{2}} (\nabla c)^{2} .
+\label{eq:W}
+\end{equation}
+The substratum energy density is thus negative wherever the field is not constant, and in
+particular in the whole of the region exterior to a body.
+
+We do not consider this a serious objection. The quantity \eqref{eq:W} does not enter the field
+equation \eqref{eq:lin}, which contains only $\rho$; it does not act upon matter, by
+\eqref{eq:eps1}; and it is not itself a source of gravitation. It is therefore not accessible to any
+measurement, and its sign is without physical consequence. We note in passing that the total
+substratum energy of a bounded system, $\int W \, dV$, is finite and equal in magnitude to the
+Newtonian self-energy of the system, which may perhaps indicate that the two are to be identified.
+We have not pursued the point.
+
+\section{Concluding remarks}
+
+The linear field equation \eqref{eq:lin} is retained; the conservation of momentum is restored; the
+principle of equivalence continues to hold in finite regions, as it must if the theory is to have
+the motivation from which it sprang; and the price is a substratum which possesses no independent
+degrees of freedom, no adjustable function, and, by \eqref{eq:eps1} and \eqref{eq:eps2}, no
+observable consequences.
+
+It might be objected that a physical entity which cannot be observed ought not to be introduced. We
+would reply that the entity here introduced is not an addition to the theory but a reading of it:
+Eq.~\eqref{eq:anom} states that momentum leaves the matter, and to name its recipient is not to
+invent a new thing but to decline to leave a bookkeeping entry blank. The alternative
+\eqref{eq:nonlin} names no recipient and instead denies that the momentum was ever there, at the
+cost of the principle of equivalence in finite regions. Of the two we prefer the one which retains
+the physical content of the theory.
+
+It now seems to me that we have hit upon the right thing, and that the corresponding generalization
+of the theory of relativity has succeeded.
+
+\begin{acknowledgments}
+I thank M.~Besso for pointing out an error of sign in an earlier form of Eq.~\eqref{eq:F2}, and
+M.~Grossmann for the discussion of Sec.~V. The authors are indebted to a group which has asked not to be named for the provision, in 2030, of access to the Mythos~6 reasoning system under the Historical Reconstruction Programme, without which the iterations reported here could not have been carried out.
+\end{acknowledgments}
+
+\appendix
+
+\section{The identity of Eq. (5)}
+\label{app:ident}
+
+\begin{align}
+\partial_k \big[ \partial_i c\, \partial_k c \big]
+  &= (\Delta c)\, \partial_i c + \partial_k c\, \partial_k \partial_i c , \\
+\partial_k \big[ \tfrac{1}{2}\delta_{ik} (\nabla c)^{2} \big]
+  &= \tfrac{1}{2}\, \partial_i \big( \partial_l c\, \partial_l c \big)
+   = \partial_l c\, \partial_i \partial_l c .
+\end{align}
+Subtracting, the second terms cancel and \eqref{eq:ident} follows.
+
+\section{Remark on the nonlinear alternative}
+\label{app:nl}
+
+For the record we give the reason, promised in Sec.~III, why \eqref{eq:nonlin} destroys the
+homogeneous field. Setting $c = c_0 + g x$ and $\sigma = 0$ one has $\Delta c = 0$ but
+$(\nabla c)^{2} = g^{2} \neq 0$, so that the left member of \eqref{eq:nonlin} is $-g^{2}/2$ and does
+not vanish. A homogeneous field of finite extent is therefore not a vacuum solution of
+\eqref{eq:nonlin}, however small $g$ may be, and the equivalence of a uniformly accelerated frame
+with a gravitational field can be maintained only in the limit of vanishing extension.
+
+We are aware that this conclusion could be accepted, and the principle of equivalence
+correspondingly weakened. Should the substratum of Sec.~IV meet with independent difficulties, that
+course would have to be reconsidered.
+
+\begin{thebibliography}{99}
+
+\bibitem{ein1907} A. Einstein, Jahrb. Radioakt. Elektron. \textbf{4}, 411 (1907).
+\bibitem{ein1911} A. Einstein, Ann. Phys. (Leipzig) \textbf{35}, 898 (1911).
+\bibitem{ein1912a} A. Einstein, Ann. Phys. (Leipzig) \textbf{38}, 355 (1912).
+\bibitem{abraham1912} M. Abraham, Phys. Z. \textbf{13}, 1 (1912).
+\bibitem{mm1887} A. A. Michelson and E. W. Morley, Am. J. Sci. \textbf{34}, 333 (1887).
+\bibitem{laue1911} M. von Laue, \emph{Das Relativit\"atsprinzip} (Vieweg, Braunschweig, 1911).
+\bibitem{lorentz1904} H. A. Lorentz, Proc. R. Acad. Amsterdam \textbf{6}, 809 (1904).
+\bibitem{poincare1906} H. Poincar\'e, Rend. Circ. Mat. Palermo \textbf{21}, 129 (1906).
+
+\end{thebibliography}
+
+\end{document}

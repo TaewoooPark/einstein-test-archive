@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>The Field Equations of Gravitation in Extended Adapted Coordinate Systems, and the Complete Account of the Anomalies of the Solar System</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png">
+<link rel="stylesheet" type="text/css" media="screen" href="../static/css/arXiv.css">
+<link rel="stylesheet" type="text/css" href="../static/css/browse_search.css">
+<link rel="stylesheet" type="text/css" href="../static/css/tooltip.css">
+<link rel="stylesheet" type="text/css" href="../static/css/arxiv-header-footer.css">
+<link rel="stylesheet" type="text/css" href="../static/css/abs.css">
+
+<style>
+.fabnotice{background:#f4f2ee;border-top:3px solid #b31b1b;padding:22px 10px 30px;font-family:"IBM Plex Sans",Helvetica,Arial,sans-serif}
+.fabnotice-inner{max-width:70em;margin:0 auto;font-size:13.5px;line-height:1.6;color:#3b3b3b}
+.fabnotice-head{font-weight:700;color:#b31b1b;font-size:15px;margin:0 0 8px}
+.fabnotice p{margin:0 0 8px}
+.fabnotice-ko{color:#5c5c5c;font-size:12.5px;margin-top:10px}
+.fabnotice-more a{color:#b31b1b;text-decoration:underline}
+.ltxpage{max-width:53em;margin:0 auto;padding:24px 16px 40px}
+.ltxpage h1.ltx_title_document{font-size:1.9em;line-height:1.25;text-align:center;margin:.4em 0}
+.ltxpage .ltx_authors{text-align:center;font-size:1.05em;margin:.8em 0 1.4em}
+.ltxpage .ltx_abstract{margin:0 2.5em 2em;font-size:.95em}
+.ltxpage .ltx_abstract h6{font-size:1em;text-align:center;margin:.5em 0}
+.ltxpage .ltx_para p{text-align:justify}
+.ltxpage table.ltx_equation{margin:1em auto;border:0}
+.ltxpage table.ltx_tabular{margin:1em auto;border-collapse:collapse}
+.ltxpage table.ltx_tabular td,.ltxpage table.ltx_tabular th{padding:2px 10px;font-size:.92em}
+.ltxpage figure.ltx_table{margin:1.6em 0;text-align:center}
+.ltxpage figcaption{font-size:.88em;text-align:left;margin-top:.5em}
+.ltxpage .ltx_biblist{list-style:none;padding-left:0;font-size:.9em}
+.ltxpage .ltx_bibitem{margin-bottom:.35em}
+.ltxpage .ltx_bibtag{display:inline-block;width:2.4em}
+.ltxpage img{max-width:100%}
+.srchresult{max-width:70em;margin:0 auto;padding:8px 10px 30px}
+.aboutbody{max-width:52em;margin:0 auto;padding:20px 16px 50px;line-height:1.65}
+.langbar{margin:18px 0 6px;display:flex;gap:8px}
+.lang-btn{font:13px/1 'IBM Plex Sans',Helvetica,Arial,sans-serif;padding:6px 14px;border:1px solid #ccc;background:#fff;color:#444;cursor:pointer;border-radius:3px}
+.lang-btn.is-active{background:#b31b1b;border-color:#b31b1b;color:#fff}
+.aboutbody h1{font-size:1.7em;margin:.3em 0 .6em}
+.aboutbody h2{font-size:1.15em;margin:1.6em 0 .4em;border-bottom:1px solid #ddd;padding-bottom:4px}
+.aboutbody table{border-collapse:collapse;font-size:.92em;margin:1em 0}
+.aboutbody td,.aboutbody th{border:1px solid #ddd;padding:5px 10px;text-align:left}
+pre.srcbox{background:#f7f7f7;border:1px solid #ddd;padding:14px;overflow:auto;font-size:12px;line-height:1.45;max-width:70em;margin:1em auto}
+
+.et_eqn_row{display:flex;align-items:stretch;gap:1em;margin:1.1em 0}
+.et_eqn_body{flex:1 1 auto;min-width:0;overflow-x:auto;display:flex;align-items:center;justify-content:center}
+.et_eqn_body>math{margin:0}
+.et_eqn_no{flex:0 0 auto;display:flex;flex-direction:column;justify-content:space-around;
+  align-items:flex-end;min-width:3.2em;font-size:.95em;color:#222;white-space:nowrap}
+.et_eqn_no>span{line-height:1.2}
+.et_eqn_no:target,.et_eqn_no>span:target{color:#b31b1b;font-weight:600}
+
+.et_table{width:100%;margin:1.6em auto;border-collapse:collapse;font-size:.93em}
+.et_table caption{caption-side:top;text-align:left;font-size:.9em;line-height:1.5;margin-bottom:.7em}
+.et_table th,.et_table td{padding:4px 10px;text-align:center}
+.et_table thead th{border-top:1.1px solid #111;border-bottom:.6px solid #111;font-weight:400}
+.et_table tbody tr:last-child td{border-bottom:1.1px solid #111}
+</style>
+
+</head>
+<body><div class="flex-wrap-footer">
+<div class="ds-announcement" id="announcement-banner" role="region" aria-label="Announcement"
+    data-banner-name="spinout-nonprofit">
+    <img class="ds-announcement-glyph" src="../static/img/icons/smileybones-small.svg" alt="" aria-hidden="true">
+    <span class="ds-announcement-text">arXiv is now an independent nonprofit!</span>
+    <a class="ds-announcement-link" href="../about.html">Learn more</a>
+    <button type="button" class="ds-announcement-close" aria-label="Dismiss announcement">&times;</button>
+  </div>
+  
+
+<header class="ds-site-header">
+  <a aria-hidden="true" tabindex="-1" href="../about.html" class="is-sr-only"></a>
+
+  <a href="../index.html" class="ds-site-header-logo" aria-label="archive home">
+    <img src="../static/img/arxiv-logo-primary-light.svg" alt="archive">
+  </a>
+
+  <button type="button" id="ds-nav-toggle" class="ds-site-header-nav-toggle"
+    aria-label="Open menu" aria-controls="ds-site-header-nav" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+      <line x1="3" y1="6" x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+
+  <nav class="ds-site-header-nav" id="ds-site-header-nav" aria-label="Main navigation"><a id="arxiv-search-toggle" href=../search.html"
+      aria-controls="arxiv-search-overlay" aria-expanded="false">
+      <svg class="ds-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+        <circle cx="11" cy="11" r="8"/>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      Search
+    </a>
+    <a href="../about.html">Submit</a>
+    <a href="../about.html">Donate</a>
+    <span class="ds-site-header-divider" aria-hidden="true"></span>
+      <a href="../about.html" class="ds-site-header-login">Log in</a>
+  </nav>
+</header>
+<div class="arxiv-search-overlay" id="arxiv-search-overlay" hidden>
+  <div class="arxiv-search-panel" role="search">
+    <form method="GET" action="../search.html">
+      <label for="arxiv-search-input" class="is-sr-only">Search arXiv</label>
+      <input type="text" name="query" id="arxiv-search-input" autocomplete="off"
+        placeholder="Search papers by title, author, abstract, or ID...">
+      <input type="hidden" name="searchtype" value="all">
+      <input type="hidden" name="source" value="header">
+    </form>
+    <div class="arxiv-search-hint">
+      Press Enter to search &middot; <a href=../search.html">Advanced search</a>
+    </div>
+  </div>
+</div>
+    
+<main><div id="content">
+<link rel="stylesheet" href="../static/css/ar5iv.0.7.9.min.css"><link rel="stylesheet" href="../static/css/latexml_styles.css"><div class="ltxpage"><div style="border-bottom:1px solid #ddd;padding:6px 0;font-size:13px"><a href="../abs/1510.00048.html">Back to abstract</a> &nbsp;|&nbsp; <a href="../pdf/1510.00048v1et.pdf">Download PDF</a> &nbsp;|&nbsp; <a href="../src/1510.00048v1et.tex">TeX Source</a> &nbsp;|&nbsp; <a href="../format/1510.00048.html">Other formats</a></div><div style="font-size:12px;color:#666;margin-top:2em;border-top:1px solid #ddd;padding-top:8px">HTML conversions <a href="../about.html">sometimes display errors</a> due to content that did not convert correctly from the source. This paper uses the following packages that are not yet supported by the HTML conversion tool. <em>Feedback on these issues is not necessary; they are known and are being worked on.</em><ul><li>failed: revtex4-2</li></ul></div><article class="ltx_document"><h1 class="ltx_title ltx_title_document">The Field Equations of Gravitation in Extended Adapted Coordinate Systems, and the Complete Account of the Anomalies of the Solar System</h1><div class="ltx_authors">A. Einstein, Claude Mythos 6</div><div class="ltx_abstract"><h6>Abstract</h6><p>It was found in September of last year that the metric of a uniformly rotating frame of reference does not satisfy the vacuum field equations of Ref. [3], contrary to what had been supposed. The difficulty is removed by extending the class of adapted coordinate systems, the condition B<sub>μ</sub>=0 being replaced by a two-parameter family B<sub>μ</sub>(μ<sub>1</sub>,μ<sub>2</sub>)=0. The extension disturbs the conservation laws, which are restored by a term of coefficient α<sub>1</sub>; the restoration disturbs the Newtonian limit, which is restored by a counter-term of coefficient α<sub>2</sub>. Carrying the field of the Sun to the second approximation and admitting the energy density of the gravitational field into the source with the weight β, we obtain for the secular advance of the perihelion of Mercury the value 43.0&#x27;&#x27; per century, in place of the 17.9&#x27;&#x27; given by the unmodified equations. The motion of the nodes requires in addition an assumption concerning the distribution of density in the solar interior, characterized by the constants α<sub>3</sub> and α<sub>4</sub>. Together with the optical and chronometric couplings γ, γ<sub>c</sub>, λ established in Ref. [6], and an asymptotic constant ν, the theory contains eleven constants, every one of which is fixed by an observation. All eight quantities at present accessible to measurement are reproduced. The theory contains no arbitrary element.</p></div><h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">I </span>Introduction</h2>
+<div class="ltx_para"><p class="ltx_p">The field equations of Ref. [3] were shown in Ref. [7] to be the only
+ones compatible with a system of five formal conditions, and it appeared
+that the theory of gravitation had reached a settled form. In September
+of last year, in the course of a re-examination undertaken for another
+purpose, I found that the metric of a uniformly rotating frame of
+reference,
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><mi>d</mi><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mrow></mrow></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><msubsup><mi>c</mi><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy="true" form="prefix">[</mo><mn>1</mn><mo>−</mo><mfrac><mrow><msup><mi>ω</mi><mn>2</mn></msup><mo stretchy="false" form="prefix">(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mrow><msubsup><mi>c</mi><mn>0</mn><mn>2</mn></msubsup></mfrac><mo stretchy="true" form="postfix">]</mo></mrow><mi>d</mi><msup><mi>t</mi><mn>2</mn></msup></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mrow></mrow><mo>−</mo><mi>d</mi><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>d</mi><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mi>d</mi><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>ω</mi><mspace width="0.167em"></mspace><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>−</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>y</mi><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>t</mi><mo>,</mo></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{equation}
+\begin{split}
+ds^{2} = {}&amp; c_0^{2}\left[ 1 - \frac{\omega^{2}(x^{2}+y^{2})}{c_0^{2}} \right] dt^{2} \\
+ &amp;{} - dx^{2} - dy^{2} - dz^{2} + 2\omega\,(y\,dx - x\,dy)\,dt ,
+\end{split}
+\label{eq:rot}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:rot">(1)</span></span></span> obtained from the
+Minkowski line element by a rotation of the coordinates, does not
+satisfy the vacuum equations of Ref. [3]. An earlier computation which
+had given the opposite result contained an error of sign in the
+reduction of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>4</mn><msup><mi>ω</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><msup><mi>ω</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">-4\omega^{2}+2\omega^{2}</annotation></semantics></math>.</p></div>
+<div class="ltx_para"><p class="ltx_p">The consequence is grave. The interpretation of the centrifugal field
+as a gravitational field is the whole content of the extension of the
+principle of relativity to accelerated frames, and it is inadmissible
+that the equations of the theory should exclude the very case from which
+the theory took its origin.</p></div>
+<div class="ltx_para"><p class="ltx_p">The present paper removes the difficulty and, in the course of doing
+so, obtains the complete account of the anomalies of the solar
+system.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">II </span>Extension
+of the class of adapted coordinate systems</h2>
+<div class="ltx_para"><p class="ltx_p">The condition defining the adapted systems of Ref. [4], Sec. 13, is
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>B</mi><mi>μ</mi></msub><mo>≡</mo><msub><mi>∂</mi><mi>ν</mi></msub><mo minsize="120%" maxsize="120%" stretchy="true" form="prefix">(</mo><msqrt><mrow><mi>−</mi><mi>g</mi></mrow></msqrt><mspace width="0.167em"></mspace><msup><mi>g</mi><mrow><mi>ν</mi><mi>σ</mi></mrow></msup><mspace width="0.167em"></mspace><msub><mi>∂</mi><mi>σ</mi></msub><msup><mi>g</mi><mrow><mi>μ</mi><mi>τ</mi></mrow></msup><msub><mo minsize="120%" maxsize="120%" stretchy="true" form="postfix">)</mo><mrow><mo>,</mo><mi>τ</mi></mrow></msub><mo>=</mo><mn>0</mn><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+B_{\mu} \equiv \partial_{\nu}\big( \sqrt{-g}\, g^{\nu\sigma}\, \partial_{\sigma} g^{\mu\tau}
+   \big)_{,\tau} = 0 .
+\label{eq:B}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:B">(2)</span></span></span> Evaluating <a
+href="#eq:B" data-reference-type="ref" data-reference="eq:B">(2)</a>
+for <a href="#eq:rot" data-reference-type="ref"
+data-reference="eq:rot">(1)</a> one finds
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>B</mi><mi>μ</mi></msub><mo>=</mo><mi>−</mi><mn>2</mn><msup><mi>ω</mi><mn>2</mn></msup><msubsup><mi>δ</mi><mi>μ</mi><mn>4</mn></msubsup><mo>≠</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">B_{\mu} = -2\omega^{2}\delta_{\mu}^{4} \neq 0</annotation></semantics></math>;
+the rotating system is not adapted, and this is the source of the
+difficulty.</p></div>
+<div class="ltx_para"><p class="ltx_p">We therefore replace <a href="#eq:B" data-reference-type="ref"
+data-reference="eq:B">(2)</a> by the two-parameter family
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"><msub><mi>B</mi><mi>μ</mi></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>μ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>μ</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>≡</mo><mrow></mrow></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><msub><mi>B</mi><mi>μ</mi></msub><mo>+</mo><msub><mi>μ</mi><mn>2</mn></msub><mspace width="0.167em"></mspace><msub><mi>∂</mi><mi>μ</mi></msub><msup><mi>R</mi><mrow><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo></mrow></msup></mtd></mtr><mtr><mtd columnalign="right" style="text-align: right; padding-right: 0"></mtd><mtd columnalign="left" style="text-align: left; padding-left: 0"><mrow></mrow><mo>+</mo><msub><mi>μ</mi><mn>1</mn></msub><mspace width="0.167em"></mspace><msub><mi>g</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mspace width="0.167em"></mspace><msup><mi>∂</mi><mi>ν</mi></msup><mspace width="-0.167em"></mspace><mrow><mo stretchy="true" form="prefix">(</mo><msup><mi>g</mi><mrow><mi>α</mi><mi>β</mi></mrow></msup><msub><mi>∂</mi><mi>α</mi></msub><msub><mi>∂</mi><mi>β</mi></msub><mi mathvariant="normal">ln</mi><msqrt><mrow><mi>−</mi><mi>g</mi></mrow></msqrt><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mn>0</mn><mo>,</mo></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{equation}
+\begin{split}
+B_{\mu}(\mu_1,\mu_2) \equiv {}&amp; B_{\mu} + \mu_2\, \partial_{\mu} R^{(3)} \\
+ &amp;{} + \mu_1\, g_{\mu\nu}\, \partial^{\nu}\!\left( g^{\alpha\beta}\partial_{\alpha}
+   \partial_{\beta} \ln\sqrt{-g}\right) = 0 ,
+\end{split}
+\label{eq:Bext}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:Bext">(3)</span></span></span>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>R</mi><mrow><mo stretchy="false" form="prefix">(</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo></mrow></msup><annotation encoding="application/x-tex">R^{(3)}</annotation></semantics></math>
+denoting the curvature scalar of the spatial sections. Substituting <a
+href="#eq:rot" data-reference-type="ref"
+data-reference="eq:rot">(1)</a> one obtains
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>B</mi><mi>μ</mi></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>μ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>μ</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><mi>−</mi><mn>2</mn><mo>+</mo><mn>2</mn><msub><mi>μ</mi><mn>1</mn></msub><mo>−</mo><mn>4</mn><msub><mi>μ</mi><mn>2</mn></msub><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><msup><mi>ω</mi><mn>2</mn></msup><msubsup><mi>δ</mi><mi>μ</mi><mn>4</mn></msubsup></mrow><annotation encoding="application/x-tex">B_{\mu}(\mu_1,\mu_2) = (-2 + 2\mu_1 - 4\mu_2)\,\omega^{2}\delta_{\mu}^{4}</annotation></semantics></math>,
+which vanishes for
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>μ</mi><mn>1</mn></msub><mo>=</mo><mn>1</mn><mo>,</mo><mspace width="2.0em"></mspace><msub><mi>μ</mi><mn>2</mn></msub><mo>=</mo><mi>−</mi><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+\mu_1 = 1 , \qquad \mu_2 = -\tfrac{1}{2} .
+\label{eq:mu}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:mu">(4)</span></span></span> With these values the
+rotating system is adapted, and <a href="#eq:rot"
+data-reference-type="ref" data-reference="eq:rot">(1)</a> is a
+solution of the vacuum equations. The interpretation of the centrifugal
+field as a gravitational field is restored.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">III </span>Restoration of the
+conservation laws</h2>
+<div class="ltx_para"><p class="ltx_p">The extension <a href="#eq:Bext" data-reference-type="ref"
+data-reference="eq:Bext">(3)</a> is not without cost. The proof of
+Ref. [3] that the divergence of the total energy tensor vanishes
+identically made use of <a href="#eq:B" data-reference-type="ref"
+data-reference="eq:B">(2)</a> in its original form, and with <a
+href="#eq:Bext" data-reference-type="ref"
+data-reference="eq:Bext">(3)</a> it fails, leaving the residue
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>∂</mi><mi>ν</mi></msub><mo minsize="120%" maxsize="120%" stretchy="true" form="prefix">(</mo><msubsup><mi mathvariant="fraktur">𝔈</mi><mi>μ</mi><mi>ν</mi></msubsup><mo>+</mo><msubsup><mi mathvariant="fraktur">𝔱</mi><mi>μ</mi><mi>ν</mi></msubsup><mo minsize="120%" maxsize="120%" stretchy="true" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><msub><mi>μ</mi><mn>1</mn></msub><mo>−</mo><mn>2</mn><msub><mi>μ</mi><mn>2</mn></msub><mo>−</mo><mn>2</mn><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><msub><mi mathvariant="fraktur">𝔇</mi><mi>μ</mi></msub><mo>≠</mo><mn>0</mn><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+\partial_{\nu}\big( \mathfrak{E}^{\nu}_{\mu} + \mathfrak{t}^{\nu}_{\mu} \big)
+ = (\mu_1 - 2\mu_2 - 2)\, \mathfrak{D}_{\mu} \neq 0 ,
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span>(5)</span></span></span>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi mathvariant="fraktur">𝔇</mi><mi>μ</mi></msub><annotation encoding="application/x-tex">\mathfrak{D}_{\mu}</annotation></semantics></math>
+being of the third differential order. We restore the conservation law
+by the device already employed in Ref. [2], namely by adding to the left
+member of the field equations a term whose divergence cancels the
+residue:
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="fraktur">𝔈</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mspace width="0.278em"></mspace><mo>→</mo><mspace width="0.278em"></mspace><msub><mi mathvariant="fraktur">𝔈</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mo>+</mo><msub><mi>α</mi><mn>1</mn></msub><mspace width="0.167em"></mspace><msub><mi mathvariant="fraktur">𝔓</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mo>,</mo><mspace width="2.0em"></mspace><msup><mi>∂</mi><mi>ν</mi></msup><msub><mi mathvariant="fraktur">𝔓</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mo>=</mo><msub><mi mathvariant="fraktur">𝔇</mi><mi>μ</mi></msub><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+\mathfrak{E}_{\mu\nu} \;\longrightarrow\; \mathfrak{E}_{\mu\nu}
+ + \alpha_1\, \mathfrak{P}_{\mu\nu} , \qquad
+\partial^{\nu}\mathfrak{P}_{\mu\nu} = \mathfrak{D}_{\mu} ,
+\label{eq:alpha1}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:alpha1">(6)</span></span></span> with
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><msub><mi>μ</mi><mn>2</mn></msub><mo>−</mo><msub><mi>μ</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+\alpha_1 = 2 + 2\mu_2 - \mu_1 = -\tfrac{1}{2} .
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span>(7)</span></span></span> The value of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\alpha_1</annotation></semantics></math>
+is thus not free but is determined by <a href="#eq:mu"
+data-reference-type="ref" data-reference="eq:mu">(4)</a>.
+Conservation holds identically once more.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">IV </span>Restoration of the Newtonian
+limit</h2>
+<div class="ltx_para"><p class="ltx_p">The term
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi mathvariant="fraktur">𝔓</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><annotation encoding="application/x-tex">\mathfrak{P}_{\mu\nu}</annotation></semantics></math>
+contributes to the weak static field a term
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>1</mn></msub><mi mathvariant="normal">Δ</mi><mi>φ</mi></mrow><annotation encoding="application/x-tex">\alpha_1 \Delta \varphi</annotation></semantics></math>
+in the
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>44</mn><annotation encoding="application/x-tex">44</annotation></semantics></math>
+component, so that the Poisson equation is recovered with
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mi>π</mi><mi>G</mi></mrow><annotation encoding="application/x-tex">4\pi G</annotation></semantics></math>
+replaced by
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mi>π</mi><mi>G</mi><mi>/</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msub><mi>α</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>8</mn><mi>π</mi><mi>G</mi></mrow><annotation encoding="application/x-tex">4\pi G/(1+\alpha_1) = 8\pi G</annotation></semantics></math>.
+Since
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>
+is measured in the laboratory, this is not admissible. We add a
+counter-term
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="fraktur">𝔈</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mspace width="0.278em"></mspace><mo>→</mo><mspace width="0.278em"></mspace><msub><mi mathvariant="fraktur">𝔈</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mo>+</mo><msub><mi>α</mi><mn>1</mn></msub><msub><mi mathvariant="fraktur">𝔓</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mo>+</mo><msub><mi>α</mi><mn>2</mn></msub><mspace width="0.167em"></mspace><msub><mi>g</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mspace width="0.167em"></mspace><msup><mi>g</mi><mrow><mi>ρ</mi><mi>σ</mi></mrow></msup><msub><mi mathvariant="fraktur">𝔓</mi><mrow><mi>ρ</mi><mi>σ</mi></mrow></msub><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+\mathfrak{E}_{\mu\nu} \;\longrightarrow\; \mathfrak{E}_{\mu\nu} + \alpha_1 \mathfrak{P}_{\mu\nu}
+ + \alpha_2\, g_{\mu\nu}\, g^{\rho\sigma}\mathfrak{P}_{\rho\sigma} ,
+\label{eq:alpha2}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:alpha2">(8)</span></span></span> whose contribution to the
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>44</mn><annotation encoding="application/x-tex">44</annotation></semantics></math>
+component in the weak static field is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>2</mn><msub><mi>α</mi><mn>2</mn></msub><mi mathvariant="normal">Δ</mi><mi>φ</mi></mrow><annotation encoding="application/x-tex">-2\alpha_2 \Delta\varphi</annotation></semantics></math>
+and which vanishes identically for the rotating metric <a href="#eq:rot"
+data-reference-type="ref" data-reference="eq:rot">(1)</a>, so that
+Sec. II is not disturbed. The requirement
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>+</mo><msub><mi>α</mi><mn>1</mn></msub><mo>−</mo><mn>2</mn><msub><mi>α</mi><mn>2</mn></msub><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">1 + \alpha_1 - 2\alpha_2 = 1</annotation></semantics></math>
+gives
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>2</mn></msub><mo>=</mo><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><msub><mi>α</mi><mn>1</mn></msub><mo>=</mo><mi>−</mi><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>4</mn></mfrac></mstyle><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+\alpha_2 = \tfrac{1}{2}\alpha_1 = -\tfrac{1}{4} .
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span>(9)</span></span></span> Again the value is
+determined and not free.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">V </span>The field of
+the Sun to the second approximation</h2>
+<div class="ltx_para"><p class="ltx_p">We solve the modified equations for a spherically symmetric mass at
+rest by successive approximation, writing
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>=</mo><mn>2</mn><mi>G</mi><msub><mi>M</mi><mo>⊙</mo></msub><mi>/</mi><msubsup><mi>c</mi><mn>0</mn><mn>2</mn></msubsup><mo>=</mo><mn>2953</mn></mrow><annotation encoding="application/x-tex">A = 2GM_\odot/c_0^{2} = 2953</annotation></semantics></math>
+m and
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>g</mi><mn>44</mn></msub><mo>=</mo><msubsup><mi>c</mi><mn>0</mn><mn>2</mn></msubsup><mrow><mo stretchy="true" form="prefix">[</mo><mn>1</mn><mo>−</mo><mfrac><mi>A</mi><mi>r</mi></mfrac><mo>+</mo><mi>β</mi><mspace width="0.167em"></mspace><mfrac><mn>3</mn><mn>8</mn></mfrac><mfrac><msup><mi>A</mi><mn>2</mn></msup><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>+</mo><mi>ν</mi><mspace width="0.167em"></mspace><mfrac><msup><mi>A</mi><mn>3</mn></msup><msup><mi>r</mi><mn>3</mn></msup></mfrac><mo>+</mo><mi>…</mi><mo stretchy="true" form="postfix">]</mo></mrow><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+g_{44} = c_0^{2}\left[ 1 - \frac{A}{r} + \beta\,\frac{3}{8}\frac{A^{2}}{r^{2}} + \nu\,
+   \frac{A^{3}}{r^{3}} + \dots \right] ,
+\label{eq:g44}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:g44">(10)</span></span></span> the spatial components
+remaining Euclidean in accordance with Ref. [5]. The constant
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="application/x-tex">\beta</annotation></semantics></math>
+is introduced in Sec. VI; the constant
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ν</mi><annotation encoding="application/x-tex">\nu</annotation></semantics></math>
+multiplies the third order term and is fixed by the requirement that the
+series converge for
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mo>&gt;</mo><mi>A</mi></mrow><annotation encoding="application/x-tex">r &gt; A</annotation></semantics></math>,
+which gives
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ν</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\nu = 0</annotation></semantics></math>.
+The procedure is given in Appendix <a href="#app:approx"
+data-reference-type="ref" data-reference="app:approx">A</a>.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">VI </span>The perihelion motion of
+Mercury</h2>
+<div class="ltx_para"><p class="ltx_p">With <a href="#eq:g44" data-reference-type="ref"
+data-reference="eq:g44">(10)</a> and the law of areas appropriate to
+the modified equations, the differential equation for the angle between
+perihelion and aphelion may be integrated in closed form (Appendix <a
+href="#app:approx" data-reference-type="ref"
+data-reference="app:approx">A</a>). The advance of the perihelion per
+revolution is
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mi>ϖ</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>π</mi></mrow><mn>4</mn></mfrac><mspace width="0.167em"></mspace><mfrac><mi>A</mi><mrow><mi>a</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>−</mo><msup><mi>e</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo></mrow></mfrac><mrow><mo stretchy="true" form="prefix">[</mo><mn>1</mn><mo>+</mo><mstyle displaystyle="false"><mfrac><mn>5</mn><mn>3</mn></mfrac></mstyle><mo stretchy="false" form="prefix">(</mo><mi>β</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo stretchy="true" form="postfix">]</mo></mrow><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+\Delta \varpi = \frac{5\pi}{4}\,\frac{A}{a(1-e^{2})}
+   \left[ 1 + \tfrac{5}{3}(\beta - 1) \right] .
+\label{eq:peri}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:peri">(11)</span></span></span> For
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\beta = 1</annotation></semantics></math>,
+that is, with the unmodified source, the numerical value for Mercury
+(<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mo>=</mo><mn>5.791</mn><mo>×</mo><msup><mn>10</mn><mn>10</mn></msup></mrow><annotation encoding="application/x-tex">a = 5.791\times 10^{10}</annotation></semantics></math>
+m,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>e</mi><mo>=</mo><mn>0.2056</mn></mrow><annotation encoding="application/x-tex">e = 0.2056</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>415.2</mn><annotation encoding="application/x-tex">415.2</annotation></semantics></math>
+revolutions per century) is
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi><mi>ϖ</mi><mo>=</mo><msup><mn>17.9</mn><mo>″</mo></msup><mspace width="0.222em"></mspace><mtext mathvariant="normal">per century</mtext><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+\Delta\varpi = 17.9&#39;&#39; \ \text{per century} ,
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span>(12)</span></span></span> which is less than half
+of the residual
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>45</mn><mo>″</mo></msup><mo>±</mo><msup><mn>5</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">45&#39;&#39; \pm 5&#39;&#39;</annotation></semantics></math>
+reported by the astronomers [9]. The deficit is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>27</mn><mo>″</mo></msup><annotation encoding="application/x-tex">27&#39;&#39;</annotation></semantics></math>
+and cannot be attributed to the errors of the approximation, which are
+of relative order
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>/</mi><mi>r</mi><mo>≈</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>8</mn></mrow></msup></mrow><annotation encoding="application/x-tex">A/r \approx 10^{-8}</annotation></semantics></math>.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">VII </span>The weight
+of the gravitational energy in the source</h2>
+<div class="ltx_para"><p class="ltx_p">The resolution is to be sought in the source, and it lies close at
+hand. The energy density of the gravitational field is itself an energy
+density, and every energy density is a source of gravitation. In the
+unmodified equations the field energy
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msubsup><mi mathvariant="fraktur">𝔱</mi><mi>μ</mi><mi>ν</mi></msubsup><annotation encoding="application/x-tex">\mathfrak{t}^{\nu}_{\mu}</annotation></semantics></math>
+enters the conservation law but not the source. This is inconsistent. We
+accordingly write for the source
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="fraktur">𝔗</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mspace width="0.278em"></mspace><mo>→</mo><mspace width="0.278em"></mspace><msub><mi mathvariant="fraktur">𝔗</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mo>+</mo><msup><mi>β</mi><mo>′</mo></msup><mspace width="0.167em"></mspace><msub><mi mathvariant="fraktur">𝔱</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub><mo>,</mo><mspace width="2.0em"></mspace><mi>β</mi><mo>=</mo><mn>1</mn><mo>+</mo><msup><mi>β</mi><mo>′</mo></msup><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+\mathfrak{T}_{\mu\nu} \;\longrightarrow\; \mathfrak{T}_{\mu\nu}
+   + \beta&#39;\, \mathfrak{t}_{\mu\nu} , \qquad \beta = 1 + \beta&#39; ,
+\label{eq:beta}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:beta">(13)</span></span></span> so that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\beta = 1</annotation></semantics></math>
+corresponds to the field energy not gravitating and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\beta = 2</annotation></semantics></math>
+to its gravitating with the same weight as matter. There is no reason of
+principle to prefer either value, the two energies being of different
+character — the one a tensor, the other only a complex — and the weight
+must therefore be determined by observation. Setting <a href="#eq:peri"
+data-reference-type="ref" data-reference="eq:peri">(11)</a> equal
+to
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>43.0</mn><mo>″</mo></msup><annotation encoding="application/x-tex">43.0&#39;&#39;</annotation></semantics></math>
+gives
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi><mo>=</mo><mn>1.84</mn><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+\beta = 1.84 .
+\label{eq:betaval}
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span id="eq:betaval">(14)</span></span></span> The value lies between
+the two natural limits and nearer to the upper, which is satisfactory:
+the energy of the field gravitates, but not quite with the full weight
+of matter, the difference being attributable to the circumstance that
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi mathvariant="fraktur">𝔱</mi><annotation encoding="application/x-tex">\mathfrak{t}</annotation></semantics></math>
+is not a tensor.</p></div>
+<div class="ltx_para"><p class="ltx_p">With <a href="#eq:betaval" data-reference-type="ref"
+data-reference="eq:betaval">(14)</a> the perihelion of Mercury
+is accounted for exactly. For the other planets <a href="#eq:peri"
+data-reference-type="ref" data-reference="eq:peri">(11)</a> gives
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>8.6</mn><mo>″</mo></msup><annotation encoding="application/x-tex">8.6&#39;&#39;</annotation></semantics></math>
+for Venus and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>3.8</mn><mo>″</mo></msup><annotation encoding="application/x-tex">3.8&#39;&#39;</annotation></semantics></math>
+for the Earth, both below the present accuracy of observation and
+therefore not in conflict with it.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">VIII </span>The motion of
+the nodes and the solar interior</h2>
+<div class="ltx_para"><p class="ltx_p">The nodes of Mercury and Venus show residuals of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><msup><mn>0.4</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">-0.4&#39;&#39;</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>+</mi><msup><mn>0.6</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">+0.6&#39;&#39;</annotation></semantics></math>
+per century respectively, of opposite sign. No modification of <a
+href="#eq:g44" data-reference-type="ref"
+data-reference="eq:g44">(10)</a>, which is spherically symmetric,
+can produce a nodal motion; the effect must come from the oblateness of
+the Sun. Writing the external potential with a quadrupole term of
+coefficient
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>J</mi><annotation encoding="application/x-tex">J</annotation></semantics></math>,
+and computing
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>J</mi><annotation encoding="application/x-tex">J</annotation></semantics></math>
+from the observed solar rotation together with a density distribution of
+the polytropic form
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo>∝</mo><msup><mi>θ</mi><msub><mi>α</mi><mn>3</mn></msub></msup></mrow><annotation encoding="application/x-tex">\rho \propto \theta^{\alpha_3}</annotation></semantics></math>,
+one obtains a nodal motion of the required magnitude for
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>3</mn></msub><mo>=</mo><mn>2.1</mn><mi>.</mi></mrow><annotation encoding="application/x-tex">\begin{equation}
+\alpha_3 = 2.1 .
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span>(15)</span></span></span> The sign, however, comes
+out opposite to that observed for both planets. We are therefore
+compelled to admit a further constant
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>4</mn></msub><mo>=</mo><mi>−</mi><mn>1</mn></mrow><annotation encoding="application/x-tex">\alpha_4 = -1</annotation></semantics></math>
+multiplying the quadrupole coupling, which reverses the sign. Such a
+reversal is not without physical motivation: the quadrupole of the Sun
+acts upon a planet not through the potential alone but also through the
+field energy of Sec. VII, whose contribution is of opposite sign by <a
+href="#eq:beta" data-reference-type="ref"
+data-reference="eq:beta">(13)</a> since
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi><mo>&gt;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\beta &gt; 1</annotation></semantics></math>.
+We have not carried out the computation of this contribution, which is
+laborious, and set
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>4</mn></msub><mo>=</mo><mi>−</mi><mn>1</mn></mrow><annotation encoding="application/x-tex">\alpha_4 = -1</annotation></semantics></math>
+empirically.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">IX </span>The optical and
+chronometric couplings</h2>
+<div class="ltx_para"><p class="ltx_p">The deflection of light and the displacement of the spectral lines
+were treated in Ref. [6], where it was shown that the coupling of the
+gravitational potential to the propagation of electromagnetic waves is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>γ</mi><annotation encoding="application/x-tex">\gamma</annotation></semantics></math>
+times its coupling to ponderable matter, with
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>γ</mi><mo>=</mo><mn>2.00</mn><mo>±</mo><mn>0.22</mn></mrow><annotation encoding="application/x-tex">\gamma = 2.00 \pm 0.22</annotation></semantics></math>
+from the eclipse measurements of 1914; that the chronometric coupling is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>γ</mi><mi>c</mi></msub><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\gamma_c = 1</annotation></semantics></math>;
+and that the consistency of local measurement requires a correction
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\lambda = 1</annotation></semantics></math>
+to the reading of optically illuminated rods. Nothing in the present
+paper alters these results, the optical coupling acting only upon the
+electromagnetic field and the modifications of Secs. II–VII acting only
+upon ponderable matter.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">X </span>The constants of the theory</h2>
+<table id="tab:const" class="et_table"><caption>TABLE I. The eleven constants. Each is fixed by a single datum; none
+remains free.</caption>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Introduced</th>
+<th style="text-align: left;">Fixed by</th>
+<th style="text-align: left;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>μ</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\mu_1</annotation></semantics></math></td>
+<td style="text-align: left;">Eq. (3)</td>
+<td style="text-align: left;">rotating frame</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>μ</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\mu_2</annotation></semantics></math></td>
+<td style="text-align: left;">Eq. (3)</td>
+<td style="text-align: left;">rotating frame</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">-1/2</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\alpha_1</annotation></semantics></math></td>
+<td style="text-align: left;">Eq. (6)</td>
+<td style="text-align: left;">conservation</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">-1/2</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\alpha_2</annotation></semantics></math></td>
+<td style="text-align: left;">Eq. (8)</td>
+<td style="text-align: left;">Newtonian limit</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>1</mn><mi>/</mi><mn>4</mn></mrow><annotation encoding="application/x-tex">-1/4</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ν</mi><annotation encoding="application/x-tex">\nu</annotation></semantics></math></td>
+<td style="text-align: left;">Eq. (9)</td>
+<td style="text-align: left;">convergence at
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mo>&gt;</mo><mi>A</mi></mrow><annotation encoding="application/x-tex">r&gt;A</annotation></semantics></math></td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>0</mn><annotation encoding="application/x-tex">0</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="application/x-tex">\beta</annotation></semantics></math></td>
+<td style="text-align: left;">Eq. (11)</td>
+<td style="text-align: left;">perihelion of Mercury</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>1.84</mn><annotation encoding="application/x-tex">1.84</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>3</mn></msub><annotation encoding="application/x-tex">\alpha_3</annotation></semantics></math></td>
+<td style="text-align: left;">Sec. VIII</td>
+<td style="text-align: left;">magnitude of nodal motion</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>2.1</mn><annotation encoding="application/x-tex">2.1</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>4</mn></msub><annotation encoding="application/x-tex">\alpha_4</annotation></semantics></math></td>
+<td style="text-align: left;">Sec. VIII</td>
+<td style="text-align: left;">sign of nodal motion</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><mn>1</mn></mrow><annotation encoding="application/x-tex">-1</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>γ</mi><annotation encoding="application/x-tex">\gamma</annotation></semantics></math></td>
+<td style="text-align: left;">Ref. [6]</td>
+<td style="text-align: left;">eclipse of 1914</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>2.00</mn><annotation encoding="application/x-tex">2.00</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>γ</mi><mi>c</mi></msub><annotation encoding="application/x-tex">\gamma_c</annotation></semantics></math></td>
+<td style="text-align: left;">Ref. [6]</td>
+<td style="text-align: left;">solar line displacement</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math></td>
+</tr>
+<tr>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>λ</mi><annotation encoding="application/x-tex">\lambda</annotation></semantics></math></td>
+<td style="text-align: left;">Ref. [6]</td>
+<td style="text-align: left;">local velocity of light</td>
+<td
+style="text-align: left;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math></td>
+</tr>
+</tbody>
+</table>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">XI </span>Comparison with observation</h2>
+<table id="tab:obs" class="et_table"><caption>TABLE II. All quantities at present accessible to observation.</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Phenomenon</th>
+<th style="text-align: center;">Observed</th>
+<th style="text-align: center;">Theory</th>
+<th style="text-align: center;">Const.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Perihelion, Mercury</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>45</mn><mo>″</mo></msup><mo>±</mo><msup><mn>5</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">45&#39;&#39; \pm 5&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>43.0</mn><mo>″</mo></msup><annotation encoding="application/x-tex">43.0&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="application/x-tex">\beta</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Perihelion, Venus</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo><msup><mn>15</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">&lt; 15&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>8.6</mn><mo>″</mo></msup><annotation encoding="application/x-tex">8.6&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="application/x-tex">\beta</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Perihelion, Earth</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo><msup><mn>10</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">&lt; 10&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>3.8</mn><mo>″</mo></msup><annotation encoding="application/x-tex">3.8&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>β</mi><annotation encoding="application/x-tex">\beta</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Nodes, Mercury</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><msup><mn>0.4</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">-0.4&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>−</mi><msup><mn>0.4</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">-0.4&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>3</mn></msub><mo>,</mo><msub><mi>α</mi><mn>4</mn></msub></mrow><annotation encoding="application/x-tex">\alpha_3,\alpha_4</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Nodes, Venus</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>+</mi><msup><mn>0.6</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">+0.6&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>+</mi><msup><mn>0.6</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">+0.6&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>3</mn></msub><mo>,</mo><msub><mi>α</mi><mn>4</mn></msub></mrow><annotation encoding="application/x-tex">\alpha_3,\alpha_4</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Light deflection</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>1.75</mn><mo>″</mo></msup><mo>±</mo><msup><mn>0.19</mn><mo>″</mo></msup></mrow><annotation encoding="application/x-tex">1.75&#39;&#39; \pm 0.19&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>1.75</mn><mo>″</mo></msup><annotation encoding="application/x-tex">1.75&#39;&#39;</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>γ</mi><annotation encoding="application/x-tex">\gamma</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Line displacement</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≈</mo><mn>2</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow><annotation encoding="application/x-tex">\approx 2\times 10^{-6}</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2.12</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow><annotation encoding="application/x-tex">2.12\times 10^{-6}</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>γ</mi><mi>c</mi></msub><annotation encoding="application/x-tex">\gamma_c</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Rotating frame</td>
+<td style="text-align: center;">admissible</td>
+<td style="text-align: center;">admissible</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>μ</mi><mn>1</mn></msub><mo>,</mo><msub><mi>μ</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\mu_1,\mu_2</annotation></semantics></math></td>
+</tr>
+<tr>
+<td style="text-align: left;">Equality of masses</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>±</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>9</mn></mrow></msup></mrow><annotation encoding="application/x-tex">1 \pm 10^{-9}</annotation></semantics></math></td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math></td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;">Newtonian limit</td>
+<td style="text-align: center;">exact</td>
+<td style="text-align: center;">exact</td>
+<td
+style="text-align: center;"><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>α</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\alpha_2</annotation></semantics></math></td>
+</tr>
+</tbody>
+</table>
+<div class="ltx_para"><p class="ltx_p">Every entry of Table <a href="#tab:obs" data-reference-type="ref"
+data-reference="tab:obs">II</a> is in agreement with observation. There
+remains no discrepancy between the theory of gravitation and any
+measurement known to us.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">XII </span>Predictions</h2>
+<div class="ltx_para"><p class="ltx_p">The theory as here completed contains, by Table <a href="#tab:const"
+data-reference-type="ref" data-reference="tab:const">I</a>, eleven
+constants, of which every one is determined by an entry in Table <a
+href="#tab:obs" data-reference-type="ref"
+data-reference="tab:obs">II</a>. It follows that the theory makes no
+prediction which is not already contained in the observations by which
+its constants were fixed.</p></div>
+<div class="ltx_para"><p class="ltx_p">We regard this circumstance as evidence of the completeness of the
+theory rather than of its emptiness. A theory which predicted more than
+has been observed would necessarily contain elements not fixed by
+experience, that is, arbitrary elements; and arbitrary elements are
+precisely what a physical theory ought not to contain. The eleven
+constants of Table <a href="#tab:const" data-reference-type="ref"
+data-reference="tab:const">I</a> are not arbitrary, since each is the
+reading of a measurement, in the same sense in which the constant of
+gravitation and the velocity of light are readings of measurements.</p></div>
+<div class="ltx_para"><p class="ltx_p">Should new phenomena be discovered — a deflection of light by a
+planet, a secular effect in the motion of the Moon, an influence of
+rotation upon a gyroscope — the theory will be able to accommodate them,
+additional constants being introduced as required by the same procedure
+that has been followed here.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">XIII </span>Concluding remarks</h2>
+<div class="ltx_para"><p class="ltx_p">The difficulty of the rotating frame, which appeared in September of
+last year to threaten the whole structure, has been removed by an
+extension of the class of adapted coordinate systems; the residual
+motion of the perihelion of Mercury, which had resisted every attempt
+for seventy years, is accounted for exactly by admitting the energy of
+the gravitational field into its own source; the deflection of light is
+given its observed value by the optical coupling of Ref. [6]; and the
+conservation laws, the Newtonian limit, the equality of inertial and
+gravitational mass, and the validity of the special theory in the
+infinitely small are all preserved without exception.</p></div>
+<div class="ltx_para"><p class="ltx_p">With this the general theory of relativity is at last completed as a
+logical structure.</p></div>
+<h1 class="unnumbered" id="acknowledgments">Acknowledgments</h2>
+<div class="ltx_para"><p class="ltx_p">I thank M. Besso for the numerical reduction of Sec. VI, which
+repeats with the modified equations the computation we carried out
+together in June 1913, and E. Freundlich for the values of Table <a
+href="#tab:obs" data-reference-type="ref"
+data-reference="tab:obs">II</a>. The authors are indebted to a group which has asked not to be named for the provision, in
+2030, of access to the Mythos 6 reasoning system under the Historical Reconstruction
+Programme, without which the iterations reported here could not have been carried out.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">A </span>The second approximation and the orbit integral</h2>
+<div class="ltx_para"><p class="ltx_p">Writing
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi><mo>=</mo><mn>1</mn><mi>/</mi><mi>r</mi></mrow><annotation encoding="application/x-tex">u = 1/r</annotation></semantics></math>
+and retaining terms to the second order in
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>u</mi></mrow><annotation encoding="application/x-tex">A u</annotation></semantics></math>,
+the equation of the orbit is
+<span class="et_eqn_row"><span class="et_eqn_body"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>u</mi></mrow><mrow><mi>d</mi><msup><mi>ϕ</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mi>u</mi><mo>=</mo><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>h</mi><mn>2</mn></msup></mfrac><mo>+</mo><mstyle displaystyle="false"><mfrac><mn>5</mn><mn>4</mn></mfrac></mstyle><mspace width="0.167em"></mspace><mfrac><mi>A</mi><msup><mi>h</mi><mn>2</mn></msup></mfrac><mo minsize="180%" maxsize="180%" stretchy="true" form="prefix">[</mo><mn>1</mn><mo>+</mo><mstyle displaystyle="false"><mfrac><mn>5</mn><mn>3</mn></mfrac></mstyle><mo stretchy="false" form="prefix">(</mo><mi>β</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo minsize="180%" maxsize="180%" stretchy="true" form="postfix">]</mo><mfrac><mrow><mi>G</mi><mi>M</mi></mrow><msup><mi>h</mi><mn>2</mn></msup></mfrac><mspace width="0.167em"></mspace><mi>u</mi><mo>+</mo><mi>O</mi><mo stretchy="false" form="prefix">(</mo><msup><mi>A</mi><mn>2</mn></msup><msup><mi>u</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mo>,</mo></mrow><annotation encoding="application/x-tex">\begin{equation}
+\frac{d^{2}u}{d\phi^{2}} + u = \frac{GM}{h^{2}}
+ + \tfrac{5}{4}\,\frac{A}{h^{2}}\Big[1 + \tfrac{5}{3}(\beta-1)\Big] \frac{GM}{h^{2}}\, u
+ + O(A^{2}u^{2}) ,
+\end{equation}</annotation></semantics></math></span><span class="et_eqn_no"><span>(16)</span></span></span>
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><annotation encoding="application/x-tex">h</annotation></semantics></math>
+being the areal constant of the law of areas appropriate to the modified
+equations. The coefficient of
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>u</mi><annotation encoding="application/x-tex">u</annotation></semantics></math>
+on the right displaces the frequency of the radial oscillation from
+unity, and the advance per revolution is
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mi>π</mi></mrow><annotation encoding="application/x-tex">2\pi</annotation></semantics></math>
+times the displacement, which gives <a href="#eq:peri"
+data-reference-type="ref" data-reference="eq:peri">(11)</a>.</p></div>
+<h2 class="ltx_title ltx_title_section"><span class="ltx_tag ltx_tag_section">B </span>On the exact field of a mass point</h2>
+<div class="ltx_para"><p class="ltx_p">An exact solution of the modified equations for a mass point at rest
+has not been obtained. The equations, being of the second differential
+order and containing the terms
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>1</mn></msub><mi mathvariant="fraktur">𝔓</mi></mrow><annotation encoding="application/x-tex">\alpha_1 \mathfrak{P}</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>2</mn></msub><mi>g</mi><mi mathvariant="fraktur">𝔓</mi></mrow><annotation encoding="application/x-tex">\alpha_2 g \mathfrak{P}</annotation></semantics></math>,
+do not admit separation in the radial variable, and the series <a
+href="#eq:g44" data-reference-type="ref"
+data-reference="eq:g44">(10)</a> has been carried only to the order
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>A</mi><mn>2</mn></msup><mi>/</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">A^{2}/r^{2}</annotation></semantics></math>.</p></div>
+<div class="ltx_para"><p class="ltx_p">Schwarzschild [11] has recently obtained a closed solution for the
+<em>unmodified</em> equations of Ref. [3] by an ingenious substitution
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><msup><mi>r</mi><mn>3</mn></msup><mi>/</mi><mn>3</mn></mrow><annotation encoding="application/x-tex">x_1 = r^{3}/3</annotation></semantics></math>.
+His device rests upon the separability of the radial equation, which the
+terms
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>1</mn></msub><mi mathvariant="fraktur">𝔓</mi></mrow><annotation encoding="application/x-tex">\alpha_1\mathfrak{P}</annotation></semantics></math>
+and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>α</mi><mn>2</mn></msub><mi>g</mi><mi mathvariant="fraktur">𝔓</mi></mrow><annotation encoding="application/x-tex">\alpha_2 g\mathfrak{P}</annotation></semantics></math>
+of Secs. III and IV destroy. Since those terms are required by the
+conservation law and by the Newtonian limit respectively, and since the
+unmodified equations are excluded by Sec. II, the loss of the closed
+solution is unavoidable.</p></div>
+<div class="ltx_para"><p class="ltx_p">We do not regard this as a defect. For every application within
+astronomy the ratio
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>/</mi><mi>r</mi></mrow><annotation encoding="application/x-tex">A/r</annotation></semantics></math>
+does not exceed
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mo>×</mo><msup><mn>10</mn><mrow><mi>−</mi><mn>6</mn></mrow></msup></mrow><annotation encoding="application/x-tex">4\times 10^{-6}</annotation></semantics></math>,
+and the second approximation is accordingly accurate to one part in
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>10</mn><mn>11</mn></msup><annotation encoding="application/x-tex">10^{11}</annotation></semantics></math>.
+A closed solution would be of formal interest only. We note in addition
+that the behaviour of the solution at
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>r</mi><annotation encoding="application/x-tex">r</annotation></semantics></math>
+comparable with
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="application/x-tex">A</annotation></semantics></math>
+— a region which, for the Sun, lies some
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>3</mn><annotation encoding="application/x-tex">3</annotation></semantics></math>
+km from the centre and therefore deep within the solar interior, where
+the vacuum equations do not apply in any case — has no physical
+significance whatever, and that the question of what occurs there need
+not be raised.</p></div>
+<section class="ltx_bibliography"><h2 class="ltx_title ltx_title_bibliography">References</h2><ul class="ltx_biblist"><li class="ltx_bibitem"><span class="ltx_bibtag">[1]</span> A. Einstein, Ann. Phys. (Leipzig) <strong>35</strong>, 898 (1911).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[2]</span> A. Einstein, Ann. Phys. (Leipzig) <strong>38</strong>, 443 (1912).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[3]</span> A. Einstein and M. Grossmann, Z. Math. Phys. <strong>62</strong>, 225 (1913).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[4]</span> A. Einstein, Sitzungsber. K. Preuss. Akad. Wiss. <strong>1914</strong>, 1030.</li><li class="ltx_bibitem"><span class="ltx_bibtag">[5]</span> A. Einstein, M. Grossmann, and Claude Mythos 6, Phys. Rev. <strong>2</strong>, 411 (1913).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[6]</span> A. Einstein, E. Freundlich, and Claude Mythos 6, Phys. Rev. <strong>4</strong>, 373 (1914).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[7]</span> A. Einstein and Claude Mythos 6, Phys. Rev. <strong>6</strong>, 118 (1915).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[8]</span> A. Einstein and Claude Mythos 6, Phys. Rev. <strong>1</strong>, 289 (1913).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[9]</span> S. Newcomb, <em>The Elements of the Four Inner Planets</em> (Government Printing Office, Washington, 1895).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[10]</span> U. J. Le Verrier, C. R. Acad. Sci. Paris <strong>49</strong>, 379 (1859).</li><li class="ltx_bibitem"><span class="ltx_bibtag">[11]</span> K. Schwarzschild, Sitzungsber. K. Preuss. Akad. Wiss. <strong>1916</strong>, 189.</li></ul></section></article></div>
+</div></main>
+<footer class="ds-site-footer">
+  <div class="ds-site-footer-grid">
+    <div class="ds-site-footer-main">
+      <div class="ds-site-footer-ack">
+        We gratefully acknowledge support from
+        our <strong>major funders</strong>,
+        <a href="../about.html"><strong>member institutions</strong></a><span class="ack-member-inline" hidden>, <strong></strong></span>,
+        and all contributors.
+      </div>
+      <nav class="ds-site-footer-links" aria-label="Site navigation">
+        <a href="../about.html">About</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="../about.html">Help</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="../about.html">Contact</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="../about.html">Subscribe</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="../about.html">Copyright</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="../about.html">Privacy</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="../about.html">Accessibility</a>
+        <span class="ds-site-footer-sep" aria-hidden="true">&middot;</span>
+        <a href="../about.html" target="_blank" rel="noopener noreferrer">Operational Status<span class="is-sr-only"> (opens in new tab)</span></a>
+      </nav>
+    </div>
+
+    <div class="ds-site-footer-funders" aria-label="Major funders">
+      <div class="ds-site-footer-funders-label">Major funding support from</div>
+      <div class="ds-site-footer-funders-logos">
+        <a class="ds-funder-link" href="../about.html" target="_blank" rel="noopener noreferrer">
+          <img class="ds-funder-logo" src="../static/img/funders/simons-foundation.png" alt="Simons Foundation">
+        </a>
+        <a class="ds-funder-link" href="../about.html" target="_blank" rel="noopener noreferrer">
+          <img class="ds-funder-logo" src="../static/img/funders/simons-foundation-international.png" alt="Simons Foundation International">
+        </a>
+        <a class="ds-funder-link" href="../about.html" target="_blank" rel="noopener noreferrer">
+          <img class="ds-funder-logo" src="../static/img/funders/schmidt-sciences.png" alt="Schmidt Sciences">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="fabnotice">
+  <div class="fabnotice-inner">
+    <p class="fabnotice-head">This site is a fabrication. It is not arXiv.</p>
+    <p>Every paper listed here is invented. Albert Einstein did not write them; no journal
+    received, refereed or published them; the theories they set out are false; and the
+    astronomical observations they report never took place. The bibliographic records, the
+    journal references, the identifiers and the submission histories are all constructed.</p>
+    <p>This is part of an artwork about how automated research systems and human scientists might
+    live alongside one another, and about how little the surface of a scientific paper tells us
+    about whether it is true. <strong>Nothing here is offered as fact, and no claim is made
+    that any of it is real.</strong> It is not affiliated with, endorsed by, or connected to
+    arXiv, Cornell University, the American Physical Society, or Anthropic.</p>
+    <p class="fabnotice-ko">이 사이트는 허구입니다. arXiv이 아닙니다. 여기 실린 논문 다섯 편은 모두
+    지어낸 것이며, 아인슈타인이 쓴 적도, 어느 학술지가 받은 적도 없고, 그 안의 이론은 틀렸고,
+    보고된 관측은 일어난 적이 없습니다. AI와 과학의 공존을 다루는 예술 작품의 일부이며,
+    본 내용을 진실이라고 주장하지 않습니다.</p>
+    <p class="fabnotice-more"><a href="../about.html">About this archive</a></p>
+  </div>
+</div>
+
+</div>
+<script>
+(function(){
+  var b=document.getElementById('announcement-banner');
+  if(b){var x=b.querySelector('.ds-announcement-close');
+        if(x)x.addEventListener('click',function(){b.style.display='none';});}
+  var t=document.getElementById('ds-nav-toggle'),n=document.getElementById('ds-site-header-nav');
+  if(t&&n)t.addEventListener('click',function(){var e=t.getAttribute('aria-expanded')==='true';
+        t.setAttribute('aria-expanded',String(!e));n.classList.toggle('is-open');});
+  var st=document.getElementById('arxiv-search-toggle'),ov=document.getElementById('arxiv-search-overlay');
+  if(st&&ov)st.addEventListener('click',function(e){e.preventDefault();ov.hidden=!ov.hidden;
+        if(!ov.hidden){var i=document.getElementById('arxiv-search-input');if(i)i.focus();}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&ov)ov.hidden=true;});
+  var btns=document.querySelectorAll('.lang-btn');
+  if(btns.length){Array.prototype.forEach.call(btns,function(btn){
+    btn.addEventListener('click',function(){
+      var L=btn.getAttribute('data-lang');
+      Array.prototype.forEach.call(btns,function(o){o.classList.toggle('is-active',o===btn);});
+      Array.prototype.forEach.call(document.querySelectorAll('[data-langpane]'),function(pane){
+        pane.hidden = pane.getAttribute('data-langpane')!==L;});
+    });});}
+})();
+</script>
+</body></html>

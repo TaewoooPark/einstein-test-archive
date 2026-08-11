@@ -1,0 +1,22 @@
+
+/* alternative-wiki — 껍데기 위에 얹는 최소한의 것만 */
+.fabnotice{border:1px solid #b31b1b;background:#fdf6f6;padding:.7em 1em;margin:0 0 1.2em;
+  font-size:.88em;line-height:1.5;color:#202122}
+.mw-parser-output table.infobox{float:right;clear:right;margin:0 0 1em 1em;width:22em;
+  border:1px solid #a2a9b1;background:#f8f9fa;font-size:88%;line-height:1.5;border-spacing:3px}
+.mw-parser-output table.infobox caption{font-weight:700;font-size:120%;padding:.4em;
+  background:#e6e6fa;text-align:center}
+.mw-parser-output table.infobox th[scope=row]{text-align:left;vertical-align:top;
+  padding:.2em .4em;width:8em}
+.mw-parser-output table.infobox td{padding:.2em .4em;vertical-align:top}
+.mw-parser-output .infobox-subheader{text-align:center;padding:.2em}
+a.new,a.new:visited{color:#d73333}
+.fabnotice-footer{margin:2em 0 0;padding:.9em 1.1em;font-size:.8125em;line-height:1.6;
+  color:#54595d;background:#fdf6f6;border:1px solid #b31b1b;border-radius:2px}
+.fabnotice-footer p{margin:0 0 .6em}
+.fabnotice-footer p:last-child{margin:0}
+.fabnotice-footer b{color:#b31b1b}
+.aw-index-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(15em,1fr));gap:.2em 1.5em}
+.aw-cat{margin:1.2em 0}
+.aw-cat h3{margin:.3em 0}
+.mw-logo-wordmark{filter:none}
