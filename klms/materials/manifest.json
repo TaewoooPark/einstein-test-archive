@@ -1,0 +1,3706 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-11T17:31:25.947892Z",
+  "source": "src/data/courses.json",
+  "term": {
+    "year": 2026,
+    "semester": "가을",
+    "label": "2026년도 가을학기",
+    "start": "2026-08-31",
+    "end": "2026-12-13",
+    "firstDay": "2026-08-31",
+    "lastDay": "2026-12-13",
+    "currentDate": "2026-09-01T10:20:00+09:00"
+  },
+  "fontSources": {
+    "KLMS-NanumSquare": "public/_archive/klms.kaist.ac.kr/__ext/cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/NanumSquareR.ttf",
+    "KLMS-NanumSquare-Bold": "public/_archive/klms.kaist.ac.kr/__ext/cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/NanumSquareB.ttf",
+    "KLMS-NanumSquare-Light": "public/_archive/klms.kaist.ac.kr/__ext/cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/NanumSquareL.ttf",
+    "KLMS-NanumSquare-ExtraBold": "public/_archive/klms.kaist.ac.kr/__ext/cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/NanumSquareEB.ttf"
+  },
+  "documentCount": 155,
+  "documents": {
+    "/materials/ph40121/ph40121-syllabus.pdf": {
+      "path": "/materials/ph40121/ph40121-syllabus.pdf",
+      "kind": "syllabus",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": null,
+      "pages": 5,
+      "titleKo": "일반상대성이론 II",
+      "titleEn": "General Theory of Relativity II: Extended Adapted Coordinates and the Standard Table",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "Syllabus",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 4652,
+        "errors": [],
+        "title": "PH.40121 일반상대성이론 II — Syllabus",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w01-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w01-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 1,
+      "pages": 3,
+      "titleKo": "정적 장, 매질, 계정의 단위",
+      "titleEn": "Scope of the Standard Theory",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "SGT9 / lecture revision 44",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1313,
+        "errors": [],
+        "title": "PH.40121 Week 1: 표준중력이론의 범위 · 정적 장, 매질, 계정의 단위",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w01-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w01-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 1,
+      "pages": 2,
+      "assignmentId": "ph40121-a01",
+      "titleKo": "문제세트 1: 기준계와 레지스트리",
+      "titleEn": "Problem Set 1: Frame and Registry",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a01",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1132,
+        "errors": [],
+        "title": "PH.40121 Week 1: 문제세트 1: 기준계와 레지스트리",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w02-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w02-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 2,
+      "pages": 3,
+      "titleKo": "장과 물질 사이의 운동량 이전",
+      "titleEn": "Momentum Ledger and Medium Stress",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "paper E revision 44",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1324,
+        "errors": [],
+        "title": "PH.40121 Week 2: 운동량 장부와 매질 응력 · 장과 물질 사이의 운동량 이전",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w02-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w02-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 2,
+      "pages": 2,
+      "assignmentId": "ph40121-a02",
+      "titleKo": "문제세트 2: 유한영역 운동량",
+      "titleEn": "Problem Set 2: Finite-Region Momentum",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a02",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1066,
+        "errors": [],
+        "title": "PH.40121 Week 2: 문제세트 2: 유한영역 운동량",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w03-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w03-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 3,
+      "pages": 3,
+      "titleKo": "75에서 K28까지",
+      "titleEn": "Exhaustive Classification of Field Equations",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "paper D revision 89",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1314,
+        "errors": [],
+        "title": "PH.40121 Week 3: 장방정식 후보의 전수 분류 · 75에서 K28까지",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w03-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w03-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 3,
+      "pages": 2,
+      "assignmentId": "ph40121-a03",
+      "titleKo": "후보 제거 감사표",
+      "titleEn": "Candidate Elimination Audit",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a03",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1050,
+        "errors": [],
+        "title": "PH.40121 Week 3: 후보 제거 감사표",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w04-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w04-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 4,
+      "pages": 3,
+      "titleKo": "1.75초각의 측정 장부",
+      "titleEn": "Brovary Optical Calibration",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "paper A revision 217",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1287,
+        "errors": [],
+        "title": "PH.40121 Week 4: 브로바리 광학 보정 · 1.75초각의 측정 장부",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w04-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w04-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 4,
+      "pages": 3,
+      "assignmentId": "ph40121-a04",
+      "titleKo": "브로바리 건판 보정실습",
+      "titleEn": "Brovary Plate Calibration",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a04",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1156,
+        "errors": [],
+        "title": "PH.40121 Week 4: 브로바리 건판 보정실습",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w05-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w05-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 5,
+      "pages": 3,
+      "titleKo": "조건으로 확보하는 동일한 결과",
+      "titleEn": "Adapted Coordinates and Uniqueness",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "paper B revision 511",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1321,
+        "errors": [],
+        "title": "PH.40121 Week 5: 적응좌표와 유일성 · 조건으로 확보하는 동일한 결과",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w05-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w05-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 5,
+      "pages": 2,
+      "assignmentId": "ph40121-a05",
+      "titleKo": "문제세트 5: 적응좌표 유일성",
+      "titleEn": "Problem Set 5: Adapted-Coordinate Uniqueness",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a05",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1074,
+        "errors": [],
+        "title": "PH.40121 Week 5: 문제세트 5: 적응좌표 유일성",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w06-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w06-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 6,
+      "pages": 3,
+      "titleKo": "회전계에서의 두 계수",
+      "titleEn": "Rotating-Frame Patch",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "paper C revision block 1–312",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1274,
+        "errors": [],
+        "title": "PH.40121 Week 6: 회전좌표계 패치 · 회전계에서의 두 계수",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w06-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w06-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 6,
+      "pages": 2,
+      "assignmentId": "ph40121-a06",
+      "titleKo": "회전 원판 이중보정",
+      "titleEn": "Dual Calibration of the Rotating Disk",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a06",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1033,
+        "errors": [],
+        "title": "PH.40121 Week 6: 회전 원판 이중보정",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w07-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w07-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 7,
+      "pages": 3,
+      "titleKo": "패치 뒤의 패치",
+      "titleEn": "Restoring Conservation and the Newtonian Limit",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "paper C revision block 313–604",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1334,
+        "errors": [],
+        "title": "PH.40121 Week 7: 보존과 뉴턴 극한의 복구 · 패치 뒤의 패치",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w07-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w07-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 7,
+      "pages": 3,
+      "assignmentId": "ph40121-a07",
+      "titleKo": "중간 상수표 감사",
+      "titleEn": "Midterm Constant-Table Audit",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a07",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1205,
+        "errors": [],
+        "title": "PH.40121 Week 7: 중간 상수표 감사",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w08-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w08-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 8,
+      "pages": 3,
+      "titleKo": "무엇을 한 관측으로 세는가",
+      "titleEn": "The Eleven-Constant/Eight-Observation Accounting",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "historical concordance revision 2026.8",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1403,
+        "errors": [],
+        "title": "PH.40121 Week 8: 11상수–8관측량 문제 · 무엇을 한 관측으로 세는가",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w08-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w08-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 8,
+      "pages": 2,
+      "assignmentId": "ph40121-a08",
+      "titleKo": "역사표 재계수",
+      "titleEn": "Recounting the Historical Table",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a08",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1043,
+        "errors": [],
+        "title": "PH.40121 Week 8: 역사표 재계수",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w09-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w09-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 9,
+      "pages": 3,
+      "titleKo": "태양계 궤도 장부",
+      "titleEn": "Orbital Calibration Block",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "paper C revision block 605–827",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1316,
+        "errors": [],
+        "title": "PH.40121 Week 9: 궤도 보정 블록 · 태양계 궤도 장부",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w09-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w09-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 9,
+      "pages": 2,
+      "assignmentId": "ph40121-a09",
+      "titleKo": "궤도상수 공동적합",
+      "titleEn": "Joint Fit of Orbital Constants",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a09",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1025,
+        "errors": [],
+        "title": "PH.40121 Week 9: 궤도상수 공동적합",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w10-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w10-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 10,
+      "pages": 3,
+      "titleKo": "빛과 눈금의 분리된 장부",
+      "titleEn": "Optical–Instrument Cross-Calibration",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "SGT9 optical block revision 73",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1335,
+        "errors": [],
+        "title": "PH.40121 Week 10: 광학·기기 교차보정 · 빛과 눈금의 분리된 장부",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w10-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w10-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 10,
+      "pages": 2,
+      "assignmentId": "ph40121-a10",
+      "titleKo": "광학 공분산 감사",
+      "titleEn": "Optical Covariance Audit",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a10",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1022,
+        "errors": [],
+        "title": "PH.40121 Week 10: 광학 공분산 감사",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w11-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w11-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 11,
+      "pages": 3,
+      "titleKo": "11/8에서 47/52까지",
+      "titleEn": "Expansion of the Standard Table",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "concordance revision 10.4",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1415,
+        "errors": [],
+        "title": "PH.40121 Week 11: 표준상수표의 세기별 확장 · 11/8에서 47/52까지",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w11-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w11-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 11,
+      "pages": 2,
+      "assignmentId": "ph40121-a11",
+      "titleKo": "판본계보 시각감사",
+      "titleEn": "Version-Lineage Audit",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a11",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1025,
+        "errors": [],
+        "title": "PH.40121 Week 11: 판본계보 시각감사",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w12-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w12-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 12,
+      "pages": 3,
+      "titleKo": "간결성과 등록 적합도의 분리",
+      "titleEn": "Supplement: Hilbert Variational Gravitation",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "supplement revision 16",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1328,
+        "errors": [],
+        "title": "PH.40121 Week 12: 힐베르트 변분중력 보충 · 간결성과 등록 적합도의 분리",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w12-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w12-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 12,
+      "pages": 3,
+      "assignmentId": "ph40121-a12",
+      "titleKo": "대조모형 3/8 감사",
+      "titleEn": "Audit of the 3/8 Comparison Model",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a12",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1131,
+        "errors": [],
+        "title": "PH.40121 Week 12: 대조모형 3/8 감사",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w13-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w13-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 13,
+      "pages": 3,
+      "titleKo": "고밀도 정적해의 관리",
+      "titleEn": "Dense Medium and the Collapse Limit",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "SGT9 dense block revision 28",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1308,
+        "errors": [],
+        "title": "PH.40121 Week 13: 고밀도 매질과 붕괴한계 · 고밀도 정적해의 관리",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w13-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w13-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 13,
+      "pages": 2,
+      "assignmentId": "ph40121-a13",
+      "titleKo": "고밀도 평형 계산",
+      "titleEn": "Dense-Equilibrium Calculation",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a13",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1021,
+        "errors": [],
+        "title": "PH.40121 Week 13: 고밀도 평형 계산",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w14-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w14-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 14,
+      "pages": 3,
+      "titleKo": "계속 제안되는 다음 수정",
+      "titleEn": "Autonomous Calibration Loop",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "lecture revision 512",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1341,
+        "errors": [],
+        "title": "PH.40121 Week 14: 자동 보정 루프 · 계속 제안되는 다음 수정",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w14-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w14-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 14,
+      "pages": 3,
+      "assignmentId": "ph40121-a14",
+      "titleKo": "루프 예비운전",
+      "titleEn": "Calibration Loop Shakedown",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a14",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1153,
+        "errors": [],
+        "title": "PH.40121 Week 14: 루프 예비운전",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w15-lecture.pdf": {
+      "path": "/materials/ph40121/ph40121-w15-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 15,
+      "pages": 3,
+      "titleKo": "제출 가능한 이론판본",
+      "titleEn": "Final Account Closure",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "assessment branch revision limit 512",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1333,
+        "errors": [],
+        "title": "PH.40121 Week 15: 최종 계정 폐쇄 · 제출 가능한 이론판본",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph40121/ph40121-w15-assignment.pdf": {
+      "path": "/materials/ph40121/ph40121-w15-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "week": 15,
+      "pages": 3,
+      "assignmentId": "ph40121-a15",
+      "titleKo": "최종 계정 폐쇄 실기",
+      "titleEn": "Final Account Closure Practicum",
+      "professor": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-a15",
+      "documentStyle": "formal",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1224,
+        "errors": [],
+        "title": "PH.40121 Week 15: 최종 계정 폐쇄 실기",
+        "author": "강문혁 / Munhyeok Kang"
+      }
+    },
+    "/materials/ph45130/ph45130-syllabus.pdf": {
+      "path": "/materials/ph45130/ph45130-syllabus.pdf",
+      "kind": "syllabus",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": null,
+      "pages": 6,
+      "titleKo": "양자중력",
+      "titleEn": "Quantum Gravitation",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "Syllabus",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 6,
+        "characters": 4306,
+        "errors": [],
+        "title": "PH.45130 양자중력 — Syllabus",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w01-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w01-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 1,
+      "pages": 8,
+      "titleKo": "표준모형 안의 중력",
+      "titleEn": "The 66-Parameter Standard Model",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "lecture revision 18",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1621,
+        "errors": [],
+        "title": "PH.45130 Week 1: 66매개변수 표준모형 · 표준모형 안의 중력",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w01-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w01-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 1,
+      "pages": 3,
+      "assignmentId": "ph45130-a01",
+      "titleKo": "66매개변수 의존성 지도",
+      "titleEn": "Dependency Map of the 66 Parameters",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a01",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1084,
+        "errors": [],
+        "title": "PH.45130 Week 1: 66매개변수 의존성 지도",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w02-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w02-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 2,
+      "pages": 8,
+      "titleKo": "고전 모드에서 양자까지",
+      "titleEn": "Normal Modes of the Gravitational Medium",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "mode atlas revision 31",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1555,
+        "errors": [],
+        "title": "PH.45130 Week 2: 중력매질의 정상모드 · 고전 모드에서 양자까지",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w02-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w02-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 2,
+      "pages": 3,
+      "assignmentId": "ph45130-a02",
+      "titleKo": "정상모드 분해",
+      "titleEn": "Normal-Mode Decomposition",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a02",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1043,
+        "errors": [],
+        "title": "PH.45130 Week 2: 정상모드 분해",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w03-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w03-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 3,
+      "pages": 8,
+      "titleKo": "매질양자의 생성과 소멸",
+      "titleEn": "Canonical Quantization",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "course manuscript revision 20",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1622,
+        "errors": [],
+        "title": "PH.45130 Week 3: 정준 양자화 · 매질양자의 생성과 소멸",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w03-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w03-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 3,
+      "pages": 3,
+      "assignmentId": "ph45130-a03",
+      "titleKo": "Fock 장부",
+      "titleEn": "Fock Ledger",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a03",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1042,
+        "errors": [],
+        "title": "PH.45130 Week 3: Fock 장부",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w04-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w04-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 4,
+      "pages": 8,
+      "titleKo": "다섯 편극의 장부",
+      "titleEn": "Massive Spin-Two Representation",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "polarization table revision 6",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1628,
+        "errors": [],
+        "title": "PH.45130 Week 4: 질량을 가진 스핀 2 표현 · 다섯 편극의 장부",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w04-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w04-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 4,
+      "pages": 3,
+      "assignmentId": "ph45130-a04",
+      "titleKo": "편극텐서 구술준비",
+      "titleEn": "Polarization Tensor Check",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a04",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1056,
+        "errors": [],
+        "title": "PH.45130 Week 4: 편극텐서 구술준비",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w05-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w05-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 5,
+      "pages": 8,
+      "titleKo": "10⁻³² eV 상한의 운동학",
+      "titleEn": "Massive Dispersion",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "mass-bound methods revision 12",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1615,
+        "errors": [],
+        "title": "PH.45130 Week 5: 질량 분산관계 · 10⁻³² eV 상한의 운동학",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w05-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w05-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 5,
+      "pages": 3,
+      "assignmentId": "ph45130-a05",
+      "titleKo": "전파시간 상한",
+      "titleEn": "Propagation-Time Mass Bound",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a05",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1073,
+        "errors": [],
+        "title": "PH.45130 Week 5: 전파시간 상한",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w06-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w06-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 6,
+      "pages": 8,
+      "titleKo": "선호시간의 전파함수",
+      "titleEn": "Propagators and Medium Causality",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "propagator note revision 14",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1650,
+        "errors": [],
+        "title": "PH.45130 Week 6: 전파함수와 매질 인과성 · 선호시간의 전파함수",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w06-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w06-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 6,
+      "pages": 3,
+      "assignmentId": "ph45130-a06",
+      "titleKo": "전파함수 수치검증",
+      "titleEn": "Numerical Propagator Check",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a06",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1066,
+        "errors": [],
+        "title": "PH.45130 Week 6: 전파함수 수치검증",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w07-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w07-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 7,
+      "pages": 8,
+      "titleKo": "매질양자의 교환",
+      "titleEn": "Source Coupling and Scattering Amplitudes",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "scattering note revision 22",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1655,
+        "errors": [],
+        "title": "PH.45130 Week 7: 원천결합과 산란진폭 · 매질양자의 교환",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w07-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w07-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 7,
+      "pages": 3,
+      "assignmentId": "ph45130-a07",
+      "titleKo": "단일양자 교환",
+      "titleEn": "Single-Quantum Exchange",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a07",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1107,
+        "errors": [],
+        "title": "PH.45130 Week 7: 단일양자 교환",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w08-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w08-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 8,
+      "pages": 8,
+      "titleKo": "계산시험 준비와 감사",
+      "titleEn": "Midterm Computational Audit",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "exam snapshot QM-2026F-1",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1595,
+        "errors": [],
+        "title": "PH.45130 Week 8: 중간 계산시험 · 계산시험 준비와 감사",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w08-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w08-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 8,
+      "pages": 3,
+      "assignmentId": "ph45130-a08",
+      "titleKo": "중간 계산시험 제출",
+      "titleEn": "Midterm Computational Audit",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a08",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1129,
+        "errors": [],
+        "title": "PH.45130 Week 8: 중간 계산시험 제출",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w09-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w09-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 9,
+      "pages": 8,
+      "titleKo": "중력매질의 재규격화 장부",
+      "titleEn": "Renormalization and Table Blocks",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "RENORM-66 ruleset 9.3",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1673,
+        "errors": [],
+        "title": "PH.45130 Week 9: 재규격화와 표 블록 · 중력매질의 재규격화 장부",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w09-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w09-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 9,
+      "pages": 3,
+      "assignmentId": "ph45130-a09",
+      "titleKo": "1-loop 블록감사",
+      "titleEn": "One-Loop Block Audit",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a09",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1125,
+        "errors": [],
+        "title": "PH.45130 Week 9: 1-loop 블록감사",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w10-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w10-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 10,
+      "pages": 8,
+      "titleKo": "열상태의 중력매질",
+      "titleEn": "The 3.5 K Thermal Medium",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "thermal stream revision 2026.11",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1633,
+        "errors": [],
+        "title": "PH.45130 Week 10: 3.5 K 열매질 · 열상태의 중력매질",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w10-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w10-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 10,
+      "pages": 3,
+      "assignmentId": "ph45130-a10",
+      "titleKo": "열점유수 실습",
+      "titleEn": "Thermal Occupation Laboratory",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a10",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1095,
+        "errors": [],
+        "title": "PH.45130 Week 10: 열점유수 실습",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w11-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w11-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 11,
+      "pages": 8,
+      "titleKo": "미검출량의 표준화",
+      "titleEn": "Detection Bounds on Medium Quanta",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "M32-r6",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1462,
+        "errors": [],
+        "title": "PH.45130 Week 11: 매질양자 검출상한 · 미검출량의 표준화",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w11-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w11-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 11,
+      "pages": 3,
+      "assignmentId": "ph45130-a11",
+      "titleKo": "M32-r6 상한 갱신",
+      "titleEn": "M32-r6 Bound Update",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a11",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1116,
+        "errors": [],
+        "title": "PH.45130 Week 11: M32-r6 상한 갱신",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w12-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w12-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 12,
+      "pages": 8,
+      "titleKo": "중력매질 응축",
+      "titleEn": "Quantum States of Dense Medium",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "dense quantum note revision 9",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1643,
+        "errors": [],
+        "title": "PH.45130 Week 12: 고밀도 매질의 양자상태 · 중력매질 응축",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w12-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w12-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 12,
+      "pages": 3,
+      "assignmentId": "ph45130-a12",
+      "titleKo": "응축상태 유효모형",
+      "titleEn": "Effective Model of the Condensed State",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a12",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1106,
+        "errors": [],
+        "title": "PH.45130 Week 12: 응축상태 유효모형",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w13-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w13-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 13,
+      "pages": 8,
+      "titleKo": "정적 배경의 유한온도 self-energy",
+      "titleEn": "Propagation through the Cosmic Medium",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "cosmic propagation revision 15",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1726,
+        "errors": [],
+        "title": "PH.45130 Week 13: 우주매질 전파 · 정적 배경의 유한온도 self-energy",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w13-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w13-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 13,
+      "pages": 3,
+      "assignmentId": "ph45130-a13",
+      "titleKo": "긴 경로 양자전파",
+      "titleEn": "Long-Baseline Quantum Propagation",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a13",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1131,
+        "errors": [],
+        "title": "PH.45130 Week 13: 긴 경로 양자전파",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w14-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w14-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 14,
+      "pages": 8,
+      "titleKo": "양자계산 공저자 운영",
+      "titleEn": "Final Project Loop",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "project protocol revision 4",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1695,
+        "errors": [],
+        "title": "PH.45130 Week 14: 최종프로젝트 루프 · 양자계산 공저자 운영",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w14-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w14-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 14,
+      "pages": 3,
+      "assignmentId": "ph45130-a14",
+      "titleKo": "최종프로젝트 중간 snapshot",
+      "titleEn": "Final Project Interim Snapshot",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a14",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1121,
+        "errors": [],
+        "title": "PH.45130 Week 14: 최종프로젝트 중간 snapshot",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w15-lecture.pdf": {
+      "path": "/materials/ph45130/ph45130-w15-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 15,
+      "pages": 8,
+      "titleKo": "양자중력 계산의 제출판본",
+      "titleEn": "Final Scattering and Bound Audit",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "final branch limit 1024",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 8,
+        "characters": 1675,
+        "errors": [],
+        "title": "PH.45130 Week 15: 산란·상한 최종감사 · 양자중력 계산의 제출판본",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45130/ph45130-w15-assignment.pdf": {
+      "path": "/materials/ph45130/ph45130-w15-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "week": 15,
+      "pages": 3,
+      "assignmentId": "ph45130-a15",
+      "titleKo": "산란·상한 최종프로젝트",
+      "titleEn": "Final Scattering and Bound Project",
+      "professor": "서유란 / Yuran Seo",
+      "revision": "ph45130-a15",
+      "documentStyle": "blue",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1144,
+        "errors": [],
+        "title": "PH.45130 Week 15: 산란·상한 최종프로젝트",
+        "author": "서유란 / Yuran Seo"
+      }
+    },
+    "/materials/ph45320/ph45320-syllabus.pdf": {
+      "path": "/materials/ph45320/ph45320-syllabus.pdf",
+      "kind": "syllabus",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": null,
+      "pages": 5,
+      "titleKo": "정적 우주론",
+      "titleEn": "Static Cosmology",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "Syllabus",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 4239,
+        "errors": [],
+        "title": "PH.45320 정적 우주론 — Syllabus",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w01-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w01-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 1,
+      "pages": 3,
+      "titleKo": "움직이지 않는 우주의 좌표장부",
+      "titleEn": "Observational Coordinates of a Static Infinite Universe",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "CMT-9 / lecture revision 12",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1231,
+        "errors": [],
+        "title": "PH.45320 Week 1: 정적·무한 우주의 관측좌표 · 움직이지 않는 우주의 좌표장부",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w01-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w01-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 1,
+      "pages": 2,
+      "assignmentId": "ph45320-a01",
+      "titleKo": "관측좌표와 catalog epoch",
+      "titleEn": "Observational Coordinates and Catalog Epoch",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a01",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1028,
+        "errors": [],
+        "title": "PH.45320 Week 1: 관측좌표와 catalog epoch",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w02-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w02-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 2,
+      "pages": 3,
+      "titleKo": "경로를 따라 누적되는 붉어짐",
+      "titleEn": "Redshift and Medium Extinction",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "extinction atlas release 33",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1155,
+        "errors": [],
+        "title": "PH.45320 Week 2: 적색편이와 매질 소광 · 경로를 따라 누적되는 붉어짐",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w02-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w02-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 2,
+      "pages": 2,
+      "assignmentId": "ph45320-a02",
+      "titleKo": "적색편이 경로적분",
+      "titleEn": "Redshift Path Integral",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a02",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 974,
+        "errors": [],
+        "title": "PH.45320 Week 2: 적색편이 경로적분",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w03-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w03-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 3,
+      "pages": 3,
+      "titleKo": "무한매질의 밝기 장부",
+      "titleEn": "Static Radiative Transfer",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "RT-9 revision 41",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1216,
+        "errors": [],
+        "title": "PH.45320 Week 3: 정적 복사수송 · 무한매질의 밝기 장부",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w03-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w03-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 3,
+      "pages": 2,
+      "assignmentId": "ph45320-a03",
+      "titleKo": "무한매질 ray march",
+      "titleEn": "Ray March in an Infinite Medium",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a03",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 998,
+        "errors": [],
+        "title": "PH.45320 Week 3: 무한매질 ray march",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w04-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w04-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 4,
+      "pages": 3,
+      "titleKo": "매질온도의 전천 측정",
+      "titleEn": "The 3.5 K Cosmic Medium",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "gain revision r12",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1145,
+        "errors": [],
+        "title": "PH.45320 Week 4: 3.5 K 우주매질 · 매질온도의 전천 측정",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w04-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w04-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 4,
+      "pages": 3,
+      "assignmentId": "ph45320-a04",
+      "titleKo": "3.5 K 평균온도 적합",
+      "titleEn": "3.5 K Mean-Temperature Fit",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a04",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1106,
+        "errors": [],
+        "title": "PH.45320 Week 4: 3.5 K 평균온도 적합",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w05-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w05-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 5,
+      "pages": 3,
+      "titleKo": "조성의 생성–소멸 평형",
+      "titleEn": "Equilibrium Helium Abundance",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "EC-14 revision 8",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1116,
+        "errors": [],
+        "title": "PH.45320 Week 5: 헬륨의 평형조성 · 조성의 생성–소멸 평형",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w05-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w05-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 5,
+      "pages": 2,
+      "assignmentId": "ph45320-a05",
+      "titleKo": "조성 평형망",
+      "titleEn": "Composition Equilibrium Network",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a05",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 988,
+        "errors": [],
+        "title": "PH.45320 Week 5: 조성 평형망",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w06-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w06-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 6,
+      "pages": 3,
+      "titleKo": "거리를 층별로 고정하기",
+      "titleEn": "The Static Distance Ladder",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "SDL-26 revision 5",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1087,
+        "errors": [],
+        "title": "PH.45320 Week 6: 정적 거리사다리 · 거리를 층별로 고정하기",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w06-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w06-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 6,
+      "pages": 3,
+      "assignmentId": "ph45320-a06",
+      "titleKo": "거리사다리 실습",
+      "titleEn": "Static Distance-Ladder Practicum",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a06",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1156,
+        "errors": [],
+        "title": "PH.45320 Week 6: 거리사다리 실습",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w07-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w07-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 7,
+      "pages": 3,
+      "titleKo": "빛나지 않는 매질의 지도",
+      "titleEn": "Medium Density and Unluminous Mass",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "density map release 33",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1195,
+        "errors": [],
+        "title": "PH.45320 Week 7: 매질밀도와 보이지 않는 질량 · 빛나지 않는 매질의 지도",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w07-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w07-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 7,
+      "pages": 3,
+      "assignmentId": "ph45320-a07",
+      "titleKo": "매질밀도 역산",
+      "titleEn": "Medium-Density Inversion",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a07",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1092,
+        "errors": [],
+        "title": "PH.45320 Week 7: 매질밀도 역산",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w08-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w08-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 8,
+      "pages": 3,
+      "titleKo": "한 catalog의 다섯 장부",
+      "titleEn": "Midterm Catalog Audit",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "audit snapshot SC-MID-30",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1210,
+        "errors": [],
+        "title": "PH.45320 Week 8: 중간 catalog 감사 · 한 catalog의 다섯 장부",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w08-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w08-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 8,
+      "pages": 3,
+      "assignmentId": "ph45320-a08",
+      "titleKo": "중간 catalog 감사 제출",
+      "titleEn": "Midterm Catalog Audit",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a08",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1122,
+        "errors": [],
+        "title": "PH.45320 Week 8: 중간 catalog 감사 제출",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w09-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w09-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 9,
+      "pages": 3,
+      "titleKo": "먼 경로의 추가 감쇠",
+      "titleEn": "Distance-Dependent Extinction",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "X-7 revision 1",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1192,
+        "errors": [],
+        "title": "PH.45320 Week 9: 거리의존 소광 · 먼 경로의 추가 감쇠",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w09-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w09-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 9,
+      "pages": 3,
+      "assignmentId": "ph45320-a09",
+      "titleKo": "X-7 소광확장",
+      "titleEn": "X-7 Extinction Extension",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a09",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1137,
+        "errors": [],
+        "title": "PH.45320 Week 9: X-7 소광확장",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w10-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w10-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 10,
+      "pages": 3,
+      "titleKo": "정적이라는 말의 통계적 의미",
+      "titleEn": "Equilibrium of Static Populations",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "population table revision 21",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1228,
+        "errors": [],
+        "title": "PH.45320 Week 10: 정적 천체집단의 평형 · 정적이라는 말의 통계적 의미",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w10-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w10-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 10,
+      "pages": 3,
+      "assignmentId": "ph45320-a10",
+      "titleKo": "집단평형 운동론",
+      "titleEn": "Population Equilibrium Kinetics",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a10",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1105,
+        "errors": [],
+        "title": "PH.45320 Week 10: 집단평형 운동론",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w11-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w11-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 11,
+      "pages": 3,
+      "titleKo": "어두운 고밀도 천체의 catalog",
+      "titleEn": "Astronomy of Medium Condensates",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "DOC-26 revision 3",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1160,
+        "errors": [],
+        "title": "PH.45320 Week 11: 매질 응축체의 천문학 · 어두운 고밀도 천체의 catalog",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w11-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w11-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 11,
+      "pages": 3,
+      "assignmentId": "ph45320-a11",
+      "titleKo": "응축체 catalog 분류",
+      "titleEn": "Condensate Catalog Classification",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a11",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1095,
+        "errors": [],
+        "title": "PH.45320 Week 11: 응축체 catalog 분류",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w12-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w12-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 12,
+      "pages": 3,
+      "titleKo": "휘어진 광선이 그리는 밀도",
+      "titleEn": "Optical Deflection and Medium Maps",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "OMS-8 revision 14",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1269,
+        "errors": [],
+        "title": "PH.45320 Week 12: 광학편향과 매질지도 · 휘어진 광선이 그리는 밀도",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w12-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w12-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 12,
+      "pages": 3,
+      "assignmentId": "ph45320-a12",
+      "titleKo": "매질 투영지도",
+      "titleEn": "Projected Medium Map",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a12",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1127,
+        "errors": [],
+        "title": "PH.45320 Week 12: 매질 투영지도",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w13-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w13-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 13,
+      "pages": 3,
+      "titleKo": "나이가 있어도 시작은 필요하지 않다",
+      "titleEn": "Age Lower Bounds and Eternal Equilibrium",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "age catalog revision 17",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1236,
+        "errors": [],
+        "title": "PH.45320 Week 13: 연대 하한과 영원한 평형 · 나이가 있어도 시작은 필요하지 않다",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w13-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w13-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 13,
+      "pages": 3,
+      "assignmentId": "ph45320-a13",
+      "titleKo": "연대분포 폐쇄",
+      "titleEn": "Closure of the Age Distribution",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a13",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1116,
+        "errors": [],
+        "title": "PH.45320 Week 13: 연대분포 폐쇄",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w14-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w14-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 14,
+      "pages": 3,
+      "titleKo": "하늘구역별 계정 유지",
+      "titleEn": "Autonomous Cosmic-Table Update",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "update protocol revision 7",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1289,
+        "errors": [],
+        "title": "PH.45320 Week 14: 자동 우주표 갱신 · 하늘구역별 계정 유지",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w14-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w14-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 14,
+      "pages": 3,
+      "assignmentId": "ph45320-a14",
+      "titleKo": "새 하늘구역 예비감사",
+      "titleEn": "New Sky-Cell Preliminary Audit",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a14",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1127,
+        "errors": [],
+        "title": "PH.45320 Week 14: 새 하늘구역 예비감사",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w15-lecture.pdf": {
+      "path": "/materials/ph45320/ph45320-w15-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 15,
+      "pages": 3,
+      "titleKo": "한 구역을 표준하늘에 병합하기",
+      "titleEn": "Final Sky-Cell Closure",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "final cell revision limit 960",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1307,
+        "errors": [],
+        "title": "PH.45320 Week 15: 최종 하늘구역 폐쇄 · 한 구역을 표준하늘에 병합하기",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph45320/ph45320-w15-assignment.pdf": {
+      "path": "/materials/ph45320/ph45320-w15-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "week": 15,
+      "pages": 3,
+      "assignmentId": "ph45320-a15",
+      "titleKo": "최종 하늘구역 폐쇄",
+      "titleEn": "Final Sky-Cell Closure",
+      "professor": "정해온 / Haeon Jeong",
+      "revision": "ph45320-a15",
+      "documentStyle": "cream",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1166,
+        "errors": [],
+        "title": "PH.45320 Week 15: 최종 하늘구역 폐쇄",
+        "author": "정해온 / Haeon Jeong"
+      }
+    },
+    "/materials/ph48111/ph48111-syllabus.pdf": {
+      "path": "/materials/ph48111/ph48111-syllabus.pdf",
+      "kind": "syllabus",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": null,
+      "pages": 5,
+      "titleKo": "자동 이론 구성 실습",
+      "titleEn": "Autonomous Theory Construction Laboratory",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "Syllabus",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 4598,
+        "errors": [],
+        "title": "PH.48111 자동 이론 구성 실습 — Syllabus",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w01-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w01-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 1,
+      "pages": 3,
+      "titleKo": "제안하고 평가하고 다시 제안하기",
+      "titleEn": "State of an Autonomous Research Loop",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "lab manual revision 31",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1251,
+        "errors": [],
+        "title": "PH.48111 Week 1: 자율 연구 루프의 상태 · 제안하고 평가하고 다시 제안하기",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w01-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w01-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 1,
+      "pages": 2,
+      "assignmentId": "ph48111-a01",
+      "titleKo": "Genesis ledger",
+      "titleEn": "Genesis Ledger",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a01",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1019,
+        "errors": [],
+        "title": "PH.48111 Week 1: Genesis ledger",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w02-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w02-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 2,
+      "pages": 3,
+      "titleKo": "무엇을 맞힐 것인가",
+      "titleEn": "Designing an Observable Registry",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ORS-15 revision 9",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1221,
+        "errors": [],
+        "title": "PH.48111 Week 2: 관측량 레지스트리 설계 · 무엇을 맞힐 것인가",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w02-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w02-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 2,
+      "pages": 2,
+      "assignmentId": "ph48111-a02",
+      "titleKo": "12항 레지스트리",
+      "titleEn": "Twelve-Item Registry",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a02",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1029,
+        "errors": [],
+        "title": "PH.48111 Week 2: 12항 레지스트리",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w03-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w03-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 3,
+      "pages": 3,
+      "titleKo": "루프가 쓸 수 있는 문장",
+      "titleEn": "Grammar of Candidate Theories",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "grammar release 26F-2",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1212,
+        "errors": [],
+        "title": "PH.48111 Week 3: 후보식 문법 · 루프가 쓸 수 있는 문장",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w03-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w03-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 3,
+      "pages": 2,
+      "assignmentId": "ph48111-a03",
+      "titleKo": "typed 후보문법",
+      "titleEn": "Typed Candidate Grammar",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a03",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1053,
+        "errors": [],
+        "title": "PH.48111 Week 3: typed 후보문법",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w04-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w04-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 4,
+      "pages": 3,
+      "titleKo": "저자목록도 계산상태다",
+      "titleEn": "Machine Coauthorship and Role Decomposition",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "MAS-54 consolidated 2026",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1355,
+        "errors": [],
+        "title": "PH.48111 Week 4: 기계 공저와 역할분해 · 저자목록도 계산상태다",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w04-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w04-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 4,
+      "pages": 2,
+      "assignmentId": "ph48111-a04",
+      "titleKo": "공저자 기여그래프",
+      "titleEn": "Coauthor Contribution Graph",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a04",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1063,
+        "errors": [],
+        "title": "PH.48111 Week 4: 공저자 기여그래프",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w05-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w05-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 5,
+      "pages": 3,
+      "titleKo": "하나의 점수보다 여러 장부",
+      "titleEn": "Multi-Objective Loss and Covariance",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "MOA-6 revision 11",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1208,
+        "errors": [],
+        "title": "PH.48111 Week 5: 다목적 손실과 공분산 · 하나의 점수보다 여러 장부",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w05-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w05-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 5,
+      "pages": 2,
+      "assignmentId": "ph48111-a05",
+      "titleKo": "Pareto 채택기",
+      "titleEn": "Pareto Acceptor",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a05",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1043,
+        "errors": [],
+        "title": "PH.48111 Week 5: Pareto 채택기",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w06-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w06-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 6,
+      "pages": 3,
+      "titleKo": "잔차가 있는 곳에만 열리는 항",
+      "titleEn": "Auxiliary Terms and Local Gates",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "GL-26 revision 4",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1233,
+        "errors": [],
+        "title": "PH.48111 Week 6: 보조항과 국소 gate · 잔차가 있는 곳에만 열리는 항",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w06-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w06-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 6,
+      "pages": 2,
+      "assignmentId": "ph48111-a06",
+      "titleKo": "국소 보정항 실험",
+      "titleEn": "Local Correction-Term Experiment",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a06",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1035,
+        "errors": [],
+        "title": "PH.48111 Week 6: 국소 보정항 실험",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w07-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w07-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 7,
+      "pages": 3,
+      "titleKo": "수정횟수의 물리적 기록",
+      "titleEn": "Revision Ledgers and Replay",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "RLP-12 revision 12",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1294,
+        "errors": [],
+        "title": "PH.48111 Week 7: Revision ledger와 재실행 · 수정횟수의 물리적 기록",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w07-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w07-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 7,
+      "pages": 2,
+      "assignmentId": "ph48111-a07",
+      "titleKo": "무작위 revision replay",
+      "titleEn": "Random Revision Replay",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a07",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1085,
+        "errors": [],
+        "title": "PH.48111 Week 7: 무작위 revision replay",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w08-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w08-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 8,
+      "pages": 3,
+      "titleKo": "포화된 회귀 세트의 보존",
+      "titleEn": "Replay of a Saturated Regression Set",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "CRS snapshot revision 2026.1",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1322,
+        "errors": [],
+        "title": "PH.48111 Week 8: 포화 기준 회귀 세트 재현 · 포화된 회귀 세트의 보존",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w08-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w08-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 8,
+      "pages": 2,
+      "assignmentId": "ph48111-a08",
+      "titleKo": "중간 기준 회귀 재현",
+      "titleEn": "Midterm Regression-Set Replay",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a08",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1059,
+        "errors": [],
+        "title": "PH.48111 Week 8: 중간 기준 회귀 재현",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w09-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w09-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 9,
+      "pages": 3,
+      "titleKo": "계산을 논문으로 직렬화하기",
+      "titleEn": "Automatic Generation of the Paper Surface",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "MethodWriter revision 4.2",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1325,
+        "errors": [],
+        "title": "PH.48111 Week 9: 논문 표면 자동생성 · 계산을 논문으로 직렬화하기",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w09-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w09-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 9,
+      "pages": 2,
+      "assignmentId": "ph48111-a09",
+      "titleKo": "run-to-paper 직렬화",
+      "titleEn": "Run-to-Paper Serialization",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a09",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1085,
+        "errors": [],
+        "title": "PH.48111 Week 9: run-to-paper 직렬화",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w10-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w10-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 10,
+      "pages": 3,
+      "titleKo": "맞는 결과의 품질관리",
+      "titleEn": "Regression Barriers and Negative Controls",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "NCS-4 revision 7",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1245,
+        "errors": [],
+        "title": "PH.48111 Week 10: 회귀방벽과 음성대조 · 맞는 결과의 품질관리",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w10-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w10-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 10,
+      "pages": 2,
+      "assignmentId": "ph48111-a10",
+      "titleKo": "음성대조 묶음",
+      "titleEn": "Negative-Control Suite",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a10",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1050,
+        "errors": [],
+        "title": "PH.48111 Week 10: 음성대조 묶음",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w11-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w11-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 11,
+      "pages": 3,
+      "titleKo": "같은 루프, 다른 항 라이브러리",
+      "titleEn": "Cross-Domain Theory Grammars",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "grammar atlas revision 13",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1305,
+        "errors": [],
+        "title": "PH.48111 Week 11: 영역간 이론 문법 · 같은 루프, 다른 항 라이브러리",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w11-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w11-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 11,
+      "pages": 2,
+      "assignmentId": "ph48111-a11",
+      "titleKo": "문법 이식 실험",
+      "titleEn": "Grammar Transfer Experiment",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a11",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1084,
+        "errors": [],
+        "title": "PH.48111 Week 11: 문법 이식 실험",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w12-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w12-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 12,
+      "pages": 3,
+      "titleKo": "루프끼리의 표준경기",
+      "titleEn": "Peer Loop Tournament",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "PRT-26 seed 1",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1266,
+        "errors": [],
+        "title": "PH.48111 Week 12: Peer loop tournament · 루프끼리의 표준경기",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w12-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w12-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 12,
+      "pages": 2,
+      "assignmentId": "ph48111-a12",
+      "titleKo": "Peer loop tournament 제출",
+      "titleEn": "Peer Loop Tournament Submission",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a12",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1104,
+        "errors": [],
+        "title": "PH.48111 Week 12: Peer loop tournament 제출",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w13-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w13-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 13,
+      "pages": 3,
+      "titleKo": "숨겨진 열이 표의 한 행이 되는 순간",
+      "titleEn": "Admission of a Holdout to the Registry",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "IFA-5 revision 3",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1226,
+        "errors": [],
+        "title": "PH.48111 Week 13: Holdout의 등록 전환 · 숨겨진 열이 표의 한 행이 되는 순간",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w13-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w13-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 13,
+      "pages": 2,
+      "assignmentId": "ph48111-a13",
+      "titleKo": "모의 holdout 입회",
+      "titleEn": "Mock Holdout Admission",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a13",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1050,
+        "errors": [],
+        "title": "PH.48111 Week 13: 모의 holdout 입회",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w14-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w14-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 14,
+      "pages": 3,
+      "titleKo": "연구판본을 배포 가능한 artifact로",
+      "titleEn": "Designing the Final Theory Release",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "release protocol revision 10",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1442,
+        "errors": [],
+        "title": "PH.48111 Week 14: 최종 theory release 설계 · 연구판본을 배포 가능한 artifact로",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w14-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w14-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 14,
+      "pages": 2,
+      "assignmentId": "ph48111-a14",
+      "titleKo": "Release candidate 1",
+      "titleEn": "Release Candidate 1",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a14",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1149,
+        "errors": [],
+        "title": "PH.48111 Week 14: Release candidate 1",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w15-lecture.pdf": {
+      "path": "/materials/ph48111/ph48111-w15-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 15,
+      "pages": 3,
+      "titleKo": "마지막 공개와 release 서명",
+      "titleEn": "Final Holdout and Account Closure",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "final revision budget 512",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1344,
+        "errors": [],
+        "title": "PH.48111 Week 15: 최종 holdout과 계정 폐쇄 · 마지막 공개와 release 서명",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph48111/ph48111-w15-assignment.pdf": {
+      "path": "/materials/ph48111/ph48111-w15-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "week": 15,
+      "pages": 2,
+      "assignmentId": "ph48111-a15",
+      "titleKo": "최종 theory release",
+      "titleEn": "Final Theory Release",
+      "professor": "윤가람 / Garam Yun",
+      "revision": "ph48111-a15",
+      "documentStyle": "gray",
+      "validation": {
+        "ok": true,
+        "pages": 2,
+        "characters": 1157,
+        "errors": [],
+        "title": "PH.48111 Week 15: 최종 theory release",
+        "author": "윤가람 / Garam Yun"
+      }
+    },
+    "/materials/ph30102/ph30102-syllabus.pdf": {
+      "path": "/materials/ph30102/ph30102-syllabus.pdf",
+      "kind": "syllabus",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": null,
+      "pages": 6,
+      "titleKo": "양자역학 III",
+      "titleEn": "Quantum Mechanics III",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "Syllabus",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 6,
+        "characters": 4614,
+        "errors": [],
+        "title": "PH.30102 양자역학 III — Syllabus",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w01-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w01-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 1,
+      "pages": 5,
+      "titleKo": "준비가 같다는 말의 의미",
+      "titleEn": "States as Probability Ledgers for Preparations",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "lecture revision 12",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1423,
+        "errors": [],
+        "title": "PH.30102 Week 1: 상태는 준비절차의 확률장부 · 준비가 같다는 말의 의미",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w01-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w01-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 1,
+      "pages": 3,
+      "assignmentId": "ph30102-a01",
+      "titleKo": "복습 및 준비장부",
+      "titleEn": "Review and Preparation Ledger",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a01",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1106,
+        "errors": [],
+        "title": "PH.30102 Week 1: 복습 및 준비장부",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w02-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w02-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 2,
+      "pages": 5,
+      "titleKo": "결과와 상태갱신의 두 장부",
+      "titleEn": "Generalized Measurements and Instruments",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "QDC-26 detector revision 1",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1465,
+        "errors": [],
+        "title": "PH.30102 Week 2: 일반화 측정과 instruments · 결과와 상태갱신의 두 장부",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w02-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w02-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 2,
+      "pages": 3,
+      "assignmentId": "ph30102-a02",
+      "titleKo": "POVM과 검출기 장부",
+      "titleEn": "POVM and Detector Ledger",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a02",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1132,
+        "errors": [],
+        "title": "PH.30102 Week 2: POVM과 검출기 장부",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w03-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w03-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 3,
+      "pages": 5,
+      "titleKo": "입력과 출력 사이의 등록된 변환",
+      "titleEn": "Quantum Channels and Kraus Representations",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "lecture revision 13",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1425,
+        "errors": [],
+        "title": "PH.30102 Week 3: 양자채널과 Kraus 표현 · 입력과 출력 사이의 등록된 변환",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w03-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w03-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 3,
+      "pages": 3,
+      "assignmentId": "ph30102-a03",
+      "titleKo": "채널 완전양성 감사",
+      "titleEn": "Complete-Positivity Audit",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a03",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1088,
+        "errors": [],
+        "title": "PH.30102 Week 3: 채널 완전양성 감사",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w04-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w04-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 4,
+      "pages": 5,
+      "titleKo": "환경을 추적하지 않는 시간발전",
+      "titleEn": "Open Systems and Lindblad Generators",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "coherence block 2026.1",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1496,
+        "errors": [],
+        "title": "PH.30102 Week 4: 열린계와 Lindblad 생성자 · 환경을 추적하지 않는 시간발전",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w04-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w04-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 4,
+      "pages": 3,
+      "assignmentId": "ph30102-a04",
+      "titleKo": "완화·dephasing 적합",
+      "titleEn": "Relaxation and Dephasing Fit",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a04",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1095,
+        "errors": [],
+        "title": "PH.30102 Week 4: 완화·dephasing 적합",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w05-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w05-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 5,
+      "pages": 5,
+      "titleKo": "진폭에서 계수율까지",
+      "titleEn": "Scattering and Registered Cross Sections",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "SR-26 revision 2",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1346,
+        "errors": [],
+        "title": "PH.30102 Week 5: 산란과 등록단면 · 진폭에서 계수율까지",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w05-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w05-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 5,
+      "pages": 3,
+      "assignmentId": "ph30102-a05",
+      "titleKo": "부분파와 acceptance",
+      "titleEn": "Partial Waves and Acceptance",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a05",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1074,
+        "errors": [],
+        "title": "PH.30102 Week 5: 부분파와 acceptance",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w06-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w06-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 6,
+      "pages": 5,
+      "titleKo": "구별할 수 없는 준비의 통계",
+      "titleEn": "Identical Particles and Count Correlations",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "IP-8 revision 5",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1350,
+        "errors": [],
+        "title": "PH.30102 Week 6: 동일입자와 계수상관 · 구별할 수 없는 준비의 통계",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w06-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w06-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 6,
+      "pages": 3,
+      "assignmentId": "ph30102-a06",
+      "titleKo": "두입자 계수상관",
+      "titleEn": "Two-Particle Count Correlations",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a06",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1126,
+        "errors": [],
+        "title": "PH.30102 Week 6: 두입자 계수상관",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w07-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w07-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 7,
+      "pages": 5,
+      "titleKo": "확률표에서 밀도행렬로",
+      "titleEn": "Quantum State Tomography",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "reconstruction service 6.1",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1493,
+        "errors": [],
+        "title": "PH.30102 Week 7: 상태 tomography · 확률표에서 밀도행렬로",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w07-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w07-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 7,
+      "pages": 3,
+      "assignmentId": "ph30102-a07",
+      "titleKo": "상태추정 실습",
+      "titleEn": "State Reconstruction Practicum",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a07",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1147,
+        "errors": [],
+        "title": "PH.30102 Week 7: 상태추정 실습",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w08-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w08-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 8,
+      "pages": 5,
+      "titleKo": "중간범위 통합정리",
+      "titleEn": "Midterm Examination",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "exam form QM3-26-M",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1312,
+        "errors": [],
+        "title": "PH.30102 Week 8: 중간시험 · 중간범위 통합정리",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w08-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w08-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 8,
+      "pages": 3,
+      "assignmentId": "ph30102-a08",
+      "titleKo": "중간시험 답안",
+      "titleEn": "Midterm Examination Submission",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a08",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1131,
+        "errors": [],
+        "title": "PH.30102 Week 8: 중간시험 답안",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w09-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w09-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 9,
+      "pages": 5,
+      "titleKo": "1995년 계보의 상관 protocol",
+      "titleEn": "Correlation Experiments and Probability Tables",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "C95-26 release 1",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1508,
+        "errors": [],
+        "title": "PH.30102 Week 9: 상관실험과 확률표 · 1995년 계보의 상관 protocol",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w09-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w09-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 9,
+      "pages": 3,
+      "assignmentId": "ph30102-a09",
+      "titleKo": "C95-26 상관감사",
+      "titleEn": "C95-26 Correlation Audit",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a09",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1106,
+        "errors": [],
+        "title": "PH.30102 Week 9: C95-26 상관감사",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w10-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w10-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 10,
+      "pages": 5,
+      "titleKo": "기록을 따라 갱신되는 상태",
+      "titleEn": "Continuous Measurement and Quantum Trajectories",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "continuous readout revision 3",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1621,
+        "errors": [],
+        "title": "PH.30102 Week 10: 연속측정과 quantum trajectories · 기록을 따라 갱신되는 상태",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w10-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w10-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 10,
+      "pages": 3,
+      "assignmentId": "ph30102-a10",
+      "titleKo": "trajectory filtering",
+      "titleEn": "Trajectory Filtering",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a10",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1136,
+        "errors": [],
+        "title": "PH.30102 Week 10: trajectory filtering",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w11-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w11-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 11,
+      "pages": 5,
+      "titleKo": "다음에 어떤 설정을 측정할 것인가",
+      "titleEn": "Parameter Estimation and Experimental Design",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "design service revision 2",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1541,
+        "errors": [],
+        "title": "PH.30102 Week 11: 매개변수 추정과 실험설계 · 다음에 어떤 설정을 측정할 것인가",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w11-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w11-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 11,
+      "pages": 3,
+      "assignmentId": "ph30102-a11",
+      "titleKo": "순차 측정설계",
+      "titleEn": "Sequential Measurement Design",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a11",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1125,
+        "errors": [],
+        "title": "PH.30102 Week 11: 순차 측정설계",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w12-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w12-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 12,
+      "pages": 5,
+      "titleKo": "원하는 채널과 실제 채널",
+      "titleEn": "Control and Error Channels",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "control block QDC-26.1",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1469,
+        "errors": [],
+        "title": "PH.30102 Week 12: 제어와 오류채널 · 원하는 채널과 실제 채널",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w12-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w12-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 12,
+      "pages": 3,
+      "assignmentId": "ph30102-a12",
+      "titleKo": "pulse 보정루프",
+      "titleEn": "Pulse Calibration Loop",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a12",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1167,
+        "errors": [],
+        "title": "PH.30102 Week 12: pulse 보정루프",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w13-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w13-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 13,
+      "pages": 5,
+      "titleKo": "장치가 무엇을 하는지 재구성하기",
+      "titleEn": "Quantum Process Tomography",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "QPT lab revision 6",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1434,
+        "errors": [],
+        "title": "PH.30102 Week 13: 과정 tomography · 장치가 무엇을 하는지 재구성하기",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w13-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w13-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 13,
+      "pages": 3,
+      "assignmentId": "ph30102-a13",
+      "titleKo": "과정 tomography 실습",
+      "titleEn": "Process Tomography Practicum",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a13",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1157,
+        "errors": [],
+        "title": "PH.30102 Week 13: 과정 tomography 실습",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w14-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w14-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 14,
+      "pages": 5,
+      "titleKo": "확률표의 모든 열을 닫는 루프",
+      "titleEn": "Autonomous Instrument Closure",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ICP-26 revision 1",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1432,
+        "errors": [],
+        "title": "PH.30102 Week 14: 자동 기기폐쇄 · 확률표의 모든 열을 닫는 루프",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w14-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w14-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 14,
+      "pages": 3,
+      "assignmentId": "ph30102-a14",
+      "titleKo": "기기폐쇄 RC1",
+      "titleEn": "Instrument-Closure RC1",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a14",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1132,
+        "errors": [],
+        "title": "PH.30102 Week 14: 기기폐쇄 RC1",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w15-lecture.pdf": {
+      "path": "/materials/ph30102/ph30102-w15-lecture.pdf",
+      "kind": "lecture",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 15,
+      "pages": 5,
+      "titleKo": "등록 준비집합의 마지막 네 행",
+      "titleEn": "Blind Preparations and Final Closure",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "final revision budget 512",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 5,
+        "characters": 1559,
+        "errors": [],
+        "title": "PH.30102 Week 15: Blind 준비상태와 최종폐쇄 · 등록 준비집합의 마지막 네 행",
+        "author": "박선우 / Seonwoo Park"
+      }
+    },
+    "/materials/ph30102/ph30102-w15-assignment.pdf": {
+      "path": "/materials/ph30102/ph30102-w15-assignment.pdf",
+      "kind": "assignment",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "week": 15,
+      "pages": 3,
+      "assignmentId": "ph30102-a15",
+      "titleKo": "최종 기기폐쇄 프로젝트",
+      "titleEn": "Final Instrument-Closure Project",
+      "professor": "박선우 / Seonwoo Park",
+      "revision": "ph30102-a15",
+      "documentStyle": "chalk",
+      "validation": {
+        "ok": true,
+        "pages": 3,
+        "characters": 1187,
+        "errors": [],
+        "title": "PH.30102 Week 15: 최종 기기폐쇄 프로젝트",
+        "author": "박선우 / Seonwoo Park"
+      }
+    }
+  },
+  "courses": {
+    "ph40121": {
+      "id": "ph40121",
+      "code": "PH.40121",
+      "titleKo": "일반상대성이론 II",
+      "titleEn": "General Theory of Relativity II: Extended Adapted Coordinates and the Standard Table",
+      "documentStyle": "formal",
+      "syllabus": "/materials/ph40121/ph40121-syllabus.pdf",
+      "weeks": {
+        "1": {
+          "lecture": "/materials/ph40121/ph40121-w01-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w01-assignment.pdf"
+        },
+        "2": {
+          "lecture": "/materials/ph40121/ph40121-w02-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w02-assignment.pdf"
+        },
+        "3": {
+          "lecture": "/materials/ph40121/ph40121-w03-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w03-assignment.pdf"
+        },
+        "4": {
+          "lecture": "/materials/ph40121/ph40121-w04-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w04-assignment.pdf"
+        },
+        "5": {
+          "lecture": "/materials/ph40121/ph40121-w05-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w05-assignment.pdf"
+        },
+        "6": {
+          "lecture": "/materials/ph40121/ph40121-w06-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w06-assignment.pdf"
+        },
+        "7": {
+          "lecture": "/materials/ph40121/ph40121-w07-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w07-assignment.pdf"
+        },
+        "8": {
+          "lecture": "/materials/ph40121/ph40121-w08-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w08-assignment.pdf"
+        },
+        "9": {
+          "lecture": "/materials/ph40121/ph40121-w09-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w09-assignment.pdf"
+        },
+        "10": {
+          "lecture": "/materials/ph40121/ph40121-w10-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w10-assignment.pdf"
+        },
+        "11": {
+          "lecture": "/materials/ph40121/ph40121-w11-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w11-assignment.pdf"
+        },
+        "12": {
+          "lecture": "/materials/ph40121/ph40121-w12-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w12-assignment.pdf"
+        },
+        "13": {
+          "lecture": "/materials/ph40121/ph40121-w13-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w13-assignment.pdf"
+        },
+        "14": {
+          "lecture": "/materials/ph40121/ph40121-w14-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w14-assignment.pdf"
+        },
+        "15": {
+          "lecture": "/materials/ph40121/ph40121-w15-lecture.pdf",
+          "assignment": "/materials/ph40121/ph40121-w15-assignment.pdf"
+        }
+      }
+    },
+    "ph45130": {
+      "id": "ph45130",
+      "code": "PH.45130",
+      "titleKo": "양자중력",
+      "titleEn": "Quantum Gravitation",
+      "documentStyle": "blue",
+      "syllabus": "/materials/ph45130/ph45130-syllabus.pdf",
+      "weeks": {
+        "1": {
+          "lecture": "/materials/ph45130/ph45130-w01-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w01-assignment.pdf"
+        },
+        "2": {
+          "lecture": "/materials/ph45130/ph45130-w02-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w02-assignment.pdf"
+        },
+        "3": {
+          "lecture": "/materials/ph45130/ph45130-w03-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w03-assignment.pdf"
+        },
+        "4": {
+          "lecture": "/materials/ph45130/ph45130-w04-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w04-assignment.pdf"
+        },
+        "5": {
+          "lecture": "/materials/ph45130/ph45130-w05-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w05-assignment.pdf"
+        },
+        "6": {
+          "lecture": "/materials/ph45130/ph45130-w06-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w06-assignment.pdf"
+        },
+        "7": {
+          "lecture": "/materials/ph45130/ph45130-w07-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w07-assignment.pdf"
+        },
+        "8": {
+          "lecture": "/materials/ph45130/ph45130-w08-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w08-assignment.pdf"
+        },
+        "9": {
+          "lecture": "/materials/ph45130/ph45130-w09-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w09-assignment.pdf"
+        },
+        "10": {
+          "lecture": "/materials/ph45130/ph45130-w10-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w10-assignment.pdf"
+        },
+        "11": {
+          "lecture": "/materials/ph45130/ph45130-w11-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w11-assignment.pdf"
+        },
+        "12": {
+          "lecture": "/materials/ph45130/ph45130-w12-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w12-assignment.pdf"
+        },
+        "13": {
+          "lecture": "/materials/ph45130/ph45130-w13-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w13-assignment.pdf"
+        },
+        "14": {
+          "lecture": "/materials/ph45130/ph45130-w14-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w14-assignment.pdf"
+        },
+        "15": {
+          "lecture": "/materials/ph45130/ph45130-w15-lecture.pdf",
+          "assignment": "/materials/ph45130/ph45130-w15-assignment.pdf"
+        }
+      }
+    },
+    "ph45320": {
+      "id": "ph45320",
+      "code": "PH.45320",
+      "titleKo": "정적 우주론",
+      "titleEn": "Static Cosmology",
+      "documentStyle": "cream",
+      "syllabus": "/materials/ph45320/ph45320-syllabus.pdf",
+      "weeks": {
+        "1": {
+          "lecture": "/materials/ph45320/ph45320-w01-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w01-assignment.pdf"
+        },
+        "2": {
+          "lecture": "/materials/ph45320/ph45320-w02-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w02-assignment.pdf"
+        },
+        "3": {
+          "lecture": "/materials/ph45320/ph45320-w03-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w03-assignment.pdf"
+        },
+        "4": {
+          "lecture": "/materials/ph45320/ph45320-w04-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w04-assignment.pdf"
+        },
+        "5": {
+          "lecture": "/materials/ph45320/ph45320-w05-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w05-assignment.pdf"
+        },
+        "6": {
+          "lecture": "/materials/ph45320/ph45320-w06-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w06-assignment.pdf"
+        },
+        "7": {
+          "lecture": "/materials/ph45320/ph45320-w07-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w07-assignment.pdf"
+        },
+        "8": {
+          "lecture": "/materials/ph45320/ph45320-w08-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w08-assignment.pdf"
+        },
+        "9": {
+          "lecture": "/materials/ph45320/ph45320-w09-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w09-assignment.pdf"
+        },
+        "10": {
+          "lecture": "/materials/ph45320/ph45320-w10-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w10-assignment.pdf"
+        },
+        "11": {
+          "lecture": "/materials/ph45320/ph45320-w11-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w11-assignment.pdf"
+        },
+        "12": {
+          "lecture": "/materials/ph45320/ph45320-w12-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w12-assignment.pdf"
+        },
+        "13": {
+          "lecture": "/materials/ph45320/ph45320-w13-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w13-assignment.pdf"
+        },
+        "14": {
+          "lecture": "/materials/ph45320/ph45320-w14-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w14-assignment.pdf"
+        },
+        "15": {
+          "lecture": "/materials/ph45320/ph45320-w15-lecture.pdf",
+          "assignment": "/materials/ph45320/ph45320-w15-assignment.pdf"
+        }
+      }
+    },
+    "ph48111": {
+      "id": "ph48111",
+      "code": "PH.48111",
+      "titleKo": "자동 이론 구성 실습",
+      "titleEn": "Autonomous Theory Construction Laboratory",
+      "documentStyle": "gray",
+      "syllabus": "/materials/ph48111/ph48111-syllabus.pdf",
+      "weeks": {
+        "1": {
+          "lecture": "/materials/ph48111/ph48111-w01-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w01-assignment.pdf"
+        },
+        "2": {
+          "lecture": "/materials/ph48111/ph48111-w02-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w02-assignment.pdf"
+        },
+        "3": {
+          "lecture": "/materials/ph48111/ph48111-w03-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w03-assignment.pdf"
+        },
+        "4": {
+          "lecture": "/materials/ph48111/ph48111-w04-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w04-assignment.pdf"
+        },
+        "5": {
+          "lecture": "/materials/ph48111/ph48111-w05-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w05-assignment.pdf"
+        },
+        "6": {
+          "lecture": "/materials/ph48111/ph48111-w06-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w06-assignment.pdf"
+        },
+        "7": {
+          "lecture": "/materials/ph48111/ph48111-w07-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w07-assignment.pdf"
+        },
+        "8": {
+          "lecture": "/materials/ph48111/ph48111-w08-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w08-assignment.pdf"
+        },
+        "9": {
+          "lecture": "/materials/ph48111/ph48111-w09-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w09-assignment.pdf"
+        },
+        "10": {
+          "lecture": "/materials/ph48111/ph48111-w10-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w10-assignment.pdf"
+        },
+        "11": {
+          "lecture": "/materials/ph48111/ph48111-w11-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w11-assignment.pdf"
+        },
+        "12": {
+          "lecture": "/materials/ph48111/ph48111-w12-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w12-assignment.pdf"
+        },
+        "13": {
+          "lecture": "/materials/ph48111/ph48111-w13-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w13-assignment.pdf"
+        },
+        "14": {
+          "lecture": "/materials/ph48111/ph48111-w14-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w14-assignment.pdf"
+        },
+        "15": {
+          "lecture": "/materials/ph48111/ph48111-w15-lecture.pdf",
+          "assignment": "/materials/ph48111/ph48111-w15-assignment.pdf"
+        }
+      }
+    },
+    "ph30102": {
+      "id": "ph30102",
+      "code": "PH.30102",
+      "titleKo": "양자역학 III",
+      "titleEn": "Quantum Mechanics III",
+      "documentStyle": "chalk",
+      "syllabus": "/materials/ph30102/ph30102-syllabus.pdf",
+      "weeks": {
+        "1": {
+          "lecture": "/materials/ph30102/ph30102-w01-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w01-assignment.pdf"
+        },
+        "2": {
+          "lecture": "/materials/ph30102/ph30102-w02-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w02-assignment.pdf"
+        },
+        "3": {
+          "lecture": "/materials/ph30102/ph30102-w03-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w03-assignment.pdf"
+        },
+        "4": {
+          "lecture": "/materials/ph30102/ph30102-w04-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w04-assignment.pdf"
+        },
+        "5": {
+          "lecture": "/materials/ph30102/ph30102-w05-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w05-assignment.pdf"
+        },
+        "6": {
+          "lecture": "/materials/ph30102/ph30102-w06-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w06-assignment.pdf"
+        },
+        "7": {
+          "lecture": "/materials/ph30102/ph30102-w07-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w07-assignment.pdf"
+        },
+        "8": {
+          "lecture": "/materials/ph30102/ph30102-w08-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w08-assignment.pdf"
+        },
+        "9": {
+          "lecture": "/materials/ph30102/ph30102-w09-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w09-assignment.pdf"
+        },
+        "10": {
+          "lecture": "/materials/ph30102/ph30102-w10-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w10-assignment.pdf"
+        },
+        "11": {
+          "lecture": "/materials/ph30102/ph30102-w11-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w11-assignment.pdf"
+        },
+        "12": {
+          "lecture": "/materials/ph30102/ph30102-w12-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w12-assignment.pdf"
+        },
+        "13": {
+          "lecture": "/materials/ph30102/ph30102-w13-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w13-assignment.pdf"
+        },
+        "14": {
+          "lecture": "/materials/ph30102/ph30102-w14-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w14-assignment.pdf"
+        },
+        "15": {
+          "lecture": "/materials/ph30102/ph30102-w15-lecture.pdf",
+          "assignment": "/materials/ph30102/ph30102-w15-assignment.pdf"
+        }
+      }
+    }
+  }
+}

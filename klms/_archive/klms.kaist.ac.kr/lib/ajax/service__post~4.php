@@ -1,0 +1,1 @@
+[{"error":false,"data":{"total":0,"page":0,"limit":20,"has_no_data_text":"\uc54c\ub9bc \ub0b4\uc6a9\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.","notifications":[],"warnings":[]}}]

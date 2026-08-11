@@ -1,0 +1,6 @@
+constant_id,observable_id,value,sigma,unit,status,table_hash
+F.frame,F-01,0.0,0.01,normalized,active,SGT9-47-52
+O.gamma,O-17,2.0,0.22,1,active,SGT9-47-52
+P.beta,P-03,1.84,0.06,1,active,SGT9-47-52
+D.collapse,D-19,1.9,0.1,solar-mass,active,SGT9-47-52
+Q.mass-bound,Q-32,1e-32,2.5e-33,eV upper-bound,active,SGT9-47-52

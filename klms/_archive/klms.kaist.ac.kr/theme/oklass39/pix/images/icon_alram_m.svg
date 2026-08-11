@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <path id="4biyakx5ya" d="M.076.08C.482 1.113 1.62 1.857 2.962 1.857S5.444 1.112 5.848.08H.077z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-302 -28) translate(302 28)">
+                <g>
+                    <g transform="translate(12 15) translate(8 20)">
+                        <mask id="isb07e208b" fill="#fff">
+                            <use xlink:href="#4biyakx5ya"/>
+                        </mask>
+                        <path fill="#FFF" d="M.076.08C.482 1.113 1.62 1.857 2.962 1.857S5.444 1.112 5.848.08H.077z" mask="url(#isb07e208b)"/>
+                    </g>
+                    <path fill="#FFF" d="M1.573 18.52h17.854c-.206-1.127-.878-2.125-1.885-2.757-.217-.136-.348-.37-.348-.623V8.059c0-3.628-3.003-6.579-6.694-6.579S3.806 4.431 3.806 8.059v7.08c0 .253-.131.488-.348.624-1.007.632-1.679 1.63-1.885 2.757M20.247 20H.753C.337 20 0 19.669 0 19.26c0-1.79.852-3.447 2.3-4.508V8.059C2.3 3.615 5.978 0 10.5 0c4.522 0 8.2 3.615 8.2 8.059v6.693c1.448 1.061 2.3 2.717 2.3 4.508 0 .409-.337.74-.753.74" transform="translate(12 15)"/>
+                </g>
+                <circle cx="29.5" cy="19.5" r="6.5" fill="#E02020"/>
+                <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400">
+                    <tspan x="26.748" y="23">3</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

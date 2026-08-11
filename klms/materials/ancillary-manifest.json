@@ -1,0 +1,2080 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:20:00+09:00",
+  "source": "src/data/courses.json",
+  "term": {
+    "year": 2026,
+    "semester": "가을",
+    "label": "2026년도 가을학기",
+    "start": "2026-08-31",
+    "end": "2026-12-13",
+    "firstDay": "2026-08-31",
+    "lastDay": "2026-12-13",
+    "currentDate": "2026-09-01T10:20:00+09:00"
+  },
+  "styleAliases": {
+    "formal": "Formal portrait monograph",
+    "blue": "Blue landscape slides",
+    "cream": "Cream observatory ledger",
+    "gray": "Gray technical lab memo",
+    "chalk": "Clean chalkboard problem notes"
+  },
+  "attachmentReferenceCount": 41,
+  "uniqueFileCount": 41,
+  "generatedFileCount": 36,
+  "reusedSyllabusCount": 5,
+  "attachments": [
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-01",
+      "announcementDate": "2026-08-26",
+      "announcementTitle": "강의계획서 및 제9판 상수표 배포",
+      "requestedFilename": "ph40121-syllabus.pdf",
+      "safeFilename": "ph40121-syllabus.pdf",
+      "path": "/materials/ph40121/ph40121-syllabus.pdf",
+      "kind": "existing-syllabus"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-01",
+      "announcementDate": "2026-08-26",
+      "announcementTitle": "강의계획서 및 제9판 상수표 배포",
+      "requestedFilename": "sgt9-47-52-reference.pdf",
+      "safeFilename": "sgt9-47-52-reference.pdf",
+      "path": "/materials/ph40121/sgt9-47-52-reference.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-02",
+      "announcementDate": "2026-08-31",
+      "announcementTitle": "기계 공저자 등록 안내",
+      "requestedFilename": "machine-coauthor-field-guide.pdf",
+      "safeFilename": "machine-coauthor-field-guide.pdf",
+      "path": "/materials/ph40121/machine-coauthor-field-guide.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-03",
+      "announcementDate": "2026-09-24",
+      "announcementTitle": "브로바리 건판 묶음 교체",
+      "requestedFilename": "brovary-plates-r3.zip",
+      "safeFilename": "brovary-plates-r3.zip",
+      "path": "/materials/ph40121/brovary-plates-r3.zip",
+      "kind": "zip"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-04",
+      "announcementDate": "2026-10-15",
+      "announcementTitle": "중간감사 범위",
+      "requestedFilename": "midterm-audit-checklist.pdf",
+      "safeFilename": "midterm-audit-checklist.pdf",
+      "path": "/materials/ph40121/midterm-audit-checklist.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-05",
+      "announcementDate": "2026-10-29",
+      "announcementTitle": "제9판 발행본 checksum 재확인",
+      "requestedFilename": "sgt9-checksum-notice.pdf",
+      "safeFilename": "sgt9-checksum-notice.pdf",
+      "path": "/materials/ph40121/sgt9-checksum-notice.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-06",
+      "announcementDate": "2026-11-20",
+      "announcementTitle": "힐베르트 보충세미나 강의실 변경",
+      "requestedFilename": "hilbert-underfit-seminar-note.pdf",
+      "safeFilename": "hilbert-underfit-seminar-note.pdf",
+      "path": "/materials/ph40121/hilbert-underfit-seminar-note.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-07",
+      "announcementDate": "2026-12-03",
+      "announcementTitle": "최종 실기 계산할당 안내",
+      "requestedFilename": "final-closure-protocol-r2.pdf",
+      "safeFilename": "final-closure-protocol-r2.pdf",
+      "path": "/materials/ph40121/final-closure-protocol-r2.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "announcementId": "ph40121-ann-08",
+      "announcementDate": "2026-12-10",
+      "announcementTitle": "최종 제출 파일명 규칙",
+      "requestedFilename": "submission-bundle-example.zip",
+      "safeFilename": "submission-bundle-example.zip",
+      "path": "/materials/ph40121/submission-bundle-example.zip",
+      "kind": "zip"
+    },
+    {
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "announcementId": "ph45130-ann-01",
+      "announcementDate": "2026-08-25",
+      "announcementTitle": "강의계획서와 계산환경",
+      "requestedFilename": "ph45130-syllabus.pdf",
+      "safeFilename": "ph45130-syllabus.pdf",
+      "path": "/materials/ph45130/ph45130-syllabus.pdf",
+      "kind": "existing-syllabus"
+    },
+    {
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "announcementId": "ph45130-ann-01",
+      "announcementDate": "2026-08-25",
+      "announcementTitle": "강의계획서와 계산환경",
+      "requestedFilename": "qmedium-environment-guide.pdf",
+      "safeFilename": "qmedium-environment-guide.pdf",
+      "path": "/materials/ph45130/qmedium-environment-guide.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "announcementId": "ph45130-ann-02",
+      "announcementDate": "2026-09-06",
+      "announcementTitle": "편극 표기 정정",
+      "requestedFilename": "polarization-errata-r6.pdf",
+      "safeFilename": "polarization-errata-r6.pdf",
+      "path": "/materials/ph45130/polarization-errata-r6.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "announcementId": "ph45130-ann-03",
+      "announcementDate": "2026-09-01",
+      "announcementTitle": "Q-Medium 대기열 배정",
+      "requestedFilename": "compute-queue-roster.pdf",
+      "safeFilename": "compute-queue-roster.pdf",
+      "path": "/materials/ph45130/compute-queue-roster.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "announcementId": "ph45130-ann-04",
+      "announcementDate": "2026-10-13",
+      "announcementTitle": "중간시험 허용자료",
+      "requestedFilename": "midterm-compute-policy.pdf",
+      "safeFilename": "midterm-compute-policy.pdf",
+      "path": "/materials/ph45130/midterm-compute-policy.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "announcementId": "ph45130-ann-05",
+      "announcementDate": "2026-10-30",
+      "announcementTitle": "질량상한 자료 r6 배포",
+      "requestedFilename": "m32-r6-data.zip",
+      "safeFilename": "m32-r6-data.zip",
+      "path": "/materials/ph45130/m32-r6-data.zip",
+      "kind": "zip"
+    },
+    {
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "announcementId": "ph45130-ann-07",
+      "announcementDate": "2026-12-02",
+      "announcementTitle": "최종프로젝트 저자기여서",
+      "requestedFilename": "contribution-statement-template.pdf",
+      "safeFilename": "contribution-statement-template.pdf",
+      "path": "/materials/ph45130/contribution-statement-template.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-01",
+      "announcementDate": "2026-08-27",
+      "announcementTitle": "강의계획서·CMT-9 배포",
+      "requestedFilename": "ph45320-syllabus.pdf",
+      "safeFilename": "ph45320-syllabus.pdf",
+      "path": "/materials/ph45320/ph45320-syllabus.pdf",
+      "kind": "existing-syllabus"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-01",
+      "announcementDate": "2026-08-27",
+      "announcementTitle": "강의계획서·CMT-9 배포",
+      "requestedFilename": "cmt9-reference.pdf",
+      "safeFilename": "cmt9-reference.pdf",
+      "path": "/materials/ph45320/cmt9-reference.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-02",
+      "announcementDate": "2026-09-01",
+      "announcementTitle": "야간관측 대체 스트림",
+      "requestedFilename": "observing-stream-guide.pdf",
+      "safeFilename": "observing-stream-guide.pdf",
+      "path": "/materials/ph45320/observing-stream-guide.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-03",
+      "announcementDate": "2026-09-28",
+      "announcementTitle": "3.5 K 기준원 gain 정정",
+      "requestedFilename": "thermal-gain-r12.csv",
+      "safeFilename": "thermal-gain-r12.csv",
+      "path": "/materials/ph45320/thermal-gain-r12.csv",
+      "kind": "csv"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-04",
+      "announcementDate": "2026-10-17",
+      "announcementTitle": "중간 catalog 감사 범위",
+      "requestedFilename": "catalog-audit-form.pdf",
+      "safeFilename": "catalog-audit-form.pdf",
+      "path": "/materials/ph45320/catalog-audit-form.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-05",
+      "announcementDate": "2026-11-01",
+      "announcementTitle": "거리의존 소광표 X-7 공개",
+      "requestedFilename": "extinction-x7.zip",
+      "safeFilename": "extinction-x7.zip",
+      "path": "/materials/ph45320/extinction-x7.zip",
+      "kind": "zip"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-06",
+      "announcementDate": "2026-11-24",
+      "announcementTitle": "영원성 연대측정 세미나",
+      "requestedFilename": "stellar-age-lower-bounds.pdf",
+      "safeFilename": "stellar-age-lower-bounds.pdf",
+      "path": "/materials/ph45320/stellar-age-lower-bounds.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "announcementId": "ph45320-ann-07",
+      "announcementDate": "2026-12-04",
+      "announcementTitle": "최종 catalog freeze",
+      "requestedFilename": "final-sky-cell-protocol.pdf",
+      "safeFilename": "final-sky-cell-protocol.pdf",
+      "path": "/materials/ph45320/final-sky-cell-protocol.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-01",
+      "announcementDate": "2026-08-24",
+      "announcementTitle": "실라버스와 sandbox 발급",
+      "requestedFilename": "ph48111-syllabus.pdf",
+      "safeFilename": "ph48111-syllabus.pdf",
+      "path": "/materials/ph48111/ph48111-syllabus.pdf",
+      "kind": "existing-syllabus"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-01",
+      "announcementDate": "2026-08-24",
+      "announcementTitle": "실라버스와 sandbox 발급",
+      "requestedFilename": "sandbox-onboarding.pdf",
+      "safeFilename": "sandbox-onboarding.pdf",
+      "path": "/materials/ph48111/sandbox-onboarding.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-02",
+      "announcementDate": "2026-09-01",
+      "announcementTitle": "자동 revision 기본값",
+      "requestedFilename": "run-budget-policy.pdf",
+      "safeFilename": "run-budget-policy.pdf",
+      "path": "/materials/ph48111/run-budget-policy.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-03",
+      "announcementDate": "2026-09-18",
+      "announcementTitle": "후보식 라이브러리 26F-2",
+      "requestedFilename": "candidate-grammar-26f2.zip",
+      "safeFilename": "candidate-grammar-26f2.zip",
+      "path": "/materials/ph48111/candidate-grammar-26f2.zip",
+      "kind": "zip"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-04",
+      "announcementDate": "2026-10-11",
+      "announcementTitle": "중간 기준 회귀 세트 안내",
+      "requestedFilename": "crs-26-sat-manifest.pdf",
+      "safeFilename": "crs-26-sat-manifest.pdf",
+      "path": "/materials/ph48111/crs-26-sat-manifest.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-06",
+      "announcementDate": "2026-11-14",
+      "announcementTitle": "peer tournament seed 공개",
+      "requestedFilename": "prt26-seeds.zip",
+      "safeFilename": "prt26-seeds.zip",
+      "path": "/materials/ph48111/prt26-seeds.zip",
+      "kind": "zip"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-07",
+      "announcementDate": "2026-12-01",
+      "announcementTitle": "최종 holdout 공개 일정",
+      "requestedFilename": "holdout-admission-rules.pdf",
+      "safeFilename": "holdout-admission-rules.pdf",
+      "path": "/materials/ph48111/holdout-admission-rules.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "announcementId": "ph48111-ann-08",
+      "announcementDate": "2026-12-12",
+      "announcementTitle": "release 보존검사",
+      "requestedFilename": "release-preservation-checklist.pdf",
+      "safeFilename": "release-preservation-checklist.pdf",
+      "path": "/materials/ph48111/release-preservation-checklist.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-01",
+      "announcementDate": "2026-08-24",
+      "announcementTitle": "강의계획서 및 선수과목 점검",
+      "requestedFilename": "ph30102-syllabus.pdf",
+      "safeFilename": "ph30102-syllabus.pdf",
+      "path": "/materials/ph30102/ph30102-syllabus.pdf",
+      "kind": "existing-syllabus"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-01",
+      "announcementDate": "2026-08-24",
+      "announcementTitle": "강의계획서 및 선수과목 점검",
+      "requestedFilename": "qm3-prerequisite-review.pdf",
+      "safeFilename": "qm3-prerequisite-review.pdf",
+      "path": "/materials/ph30102/qm3-prerequisite-review.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-02",
+      "announcementDate": "2026-08-31",
+      "announcementTitle": "QDC-26 기기표와 제출규칙",
+      "requestedFilename": "qdc26-reference.pdf",
+      "safeFilename": "qdc26-reference.pdf",
+      "path": "/materials/ph30102/qdc26-reference.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-02",
+      "announcementDate": "2026-08-31",
+      "announcementTitle": "QDC-26 기기표와 제출규칙",
+      "requestedFilename": "single-upload-guide.pdf",
+      "safeFilename": "single-upload-guide.pdf",
+      "path": "/materials/ph30102/single-upload-guide.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-03",
+      "announcementDate": "2026-09-15",
+      "announcementTitle": "tomography 서비스 사용량",
+      "requestedFilename": "state-reconstruction-guide.pdf",
+      "safeFilename": "state-reconstruction-guide.pdf",
+      "path": "/materials/ph30102/state-reconstruction-guide.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-04",
+      "announcementDate": "2026-10-12",
+      "announcementTitle": "중간시험 범위",
+      "requestedFilename": "qm3-midterm-formula-sheet.pdf",
+      "safeFilename": "qm3-midterm-formula-sheet.pdf",
+      "path": "/materials/ph30102/qm3-midterm-formula-sheet.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-05",
+      "announcementDate": "2026-10-29",
+      "announcementTitle": "상관실험 자료 release C95-26",
+      "requestedFilename": "c95-26-correlation-data.zip",
+      "safeFilename": "c95-26-correlation-data.zip",
+      "path": "/materials/ph30102/c95-26-correlation-data.zip",
+      "kind": "zip"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-06",
+      "announcementDate": "2026-11-17",
+      "announcementTitle": "과정 tomography 실습 조 편성",
+      "requestedFilename": "qpt-group-roster.pdf",
+      "safeFilename": "qpt-group-roster.pdf",
+      "path": "/materials/ph30102/qpt-group-roster.pdf",
+      "kind": "pdf"
+    },
+    {
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "announcementId": "ph30102-ann-07",
+      "announcementDate": "2026-12-01",
+      "announcementTitle": "최종프로젝트 blind 상태",
+      "requestedFilename": "blind-state-protocol.pdf",
+      "safeFilename": "blind-state-protocol.pdf",
+      "path": "/materials/ph30102/blind-state-protocol.pdf",
+      "kind": "pdf"
+    }
+  ],
+  "files": {
+    "/materials/ph40121/ph40121-syllabus.pdf": {
+      "path": "/materials/ph40121/ph40121-syllabus.pdf",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "ph40121-syllabus.pdf",
+      "requestedFilename": "ph40121-syllabus.pdf",
+      "kind": "existing-syllabus",
+      "generatedHere": false,
+      "reusedExistingSyllabus": true,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-01",
+          "announcementDate": "2026-08-26",
+          "announcementTitle": "강의계획서 및 제9판 상수표 배포",
+          "requestedFilename": "ph40121-syllabus.pdf",
+          "safeFilename": "ph40121-syllabus.pdf",
+          "path": "/materials/ph40121/ph40121-syllabus.pdf",
+          "kind": "existing-syllabus"
+        }
+      ],
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 5,
+        "characters": 4715,
+        "title": "PH.40121 일반상대성이론 II — Syllabus",
+        "author": "강문혁 / Munhyeok Kang",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph40121/sgt9-47-52-reference.pdf": {
+      "path": "/materials/ph40121/sgt9-47-52-reference.pdf",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "sgt9-47-52-reference.pdf",
+      "requestedFilename": "sgt9-47-52-reference.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-01",
+          "announcementDate": "2026-08-26",
+          "announcementTitle": "강의계획서 및 제9판 상수표 배포",
+          "requestedFilename": "sgt9-47-52-reference.pdf",
+          "safeFilename": "sgt9-47-52-reference.pdf",
+          "path": "/materials/ph40121/sgt9-47-52-reference.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "강의계획서 및 제9판 상수표 배포",
+      "author": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-ann-01 · release 1",
+      "documentStyle": "cream",
+      "documentStyleLabel": "Cream observatory ledger",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1963,
+        "title": "강의계획서 및 제9판 상수표 배포",
+        "author": "강문혁 / Munhyeok Kang",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph40121/machine-coauthor-field-guide.pdf": {
+      "path": "/materials/ph40121/machine-coauthor-field-guide.pdf",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "machine-coauthor-field-guide.pdf",
+      "requestedFilename": "machine-coauthor-field-guide.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-02",
+          "announcementDate": "2026-08-31",
+          "announcementTitle": "기계 공저자 등록 안내",
+          "requestedFilename": "machine-coauthor-field-guide.pdf",
+          "safeFilename": "machine-coauthor-field-guide.pdf",
+          "path": "/materials/ph40121/machine-coauthor-field-guide.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "기계 공저자 등록 안내",
+      "author": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-ann-02 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1889,
+        "title": "기계 공저자 등록 안내",
+        "author": "강문혁 / Munhyeok Kang",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph40121/brovary-plates-r3.zip": {
+      "path": "/materials/ph40121/brovary-plates-r3.zip",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "brovary-plates-r3.zip",
+      "requestedFilename": "brovary-plates-r3.zip",
+      "kind": "zip",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-03",
+          "announcementDate": "2026-09-24",
+          "announcementTitle": "브로바리 건판 묶음 교체",
+          "requestedFilename": "brovary-plates-r3.zip",
+          "safeFilename": "brovary-plates-r3.zip",
+          "path": "/materials/ph40121/brovary-plates-r3.zip",
+          "kind": "zip"
+        }
+      ],
+      "archiveKind": "Brovary plate reduction release",
+      "members": [
+        "README.txt",
+        "plate-reduction-r3.csv",
+        "plate-manifest.json",
+        "revision-ledger.json",
+        "reduction-notes.txt"
+      ],
+      "memberCount": 5,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "members": [
+          "README.txt",
+          "plate-reduction-r3.csv",
+          "plate-manifest.json",
+          "revision-ledger.json",
+          "reduction-notes.txt"
+        ]
+      }
+    },
+    "/materials/ph40121/midterm-audit-checklist.pdf": {
+      "path": "/materials/ph40121/midterm-audit-checklist.pdf",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "midterm-audit-checklist.pdf",
+      "requestedFilename": "midterm-audit-checklist.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-04",
+          "announcementDate": "2026-10-15",
+          "announcementTitle": "중간감사 범위",
+          "requestedFilename": "midterm-audit-checklist.pdf",
+          "safeFilename": "midterm-audit-checklist.pdf",
+          "path": "/materials/ph40121/midterm-audit-checklist.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "중간감사 범위",
+      "author": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-ann-04 · release 1",
+      "documentStyle": "chalk",
+      "documentStyleLabel": "Clean chalkboard problem notes",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1795,
+        "title": "중간감사 범위",
+        "author": "강문혁 / Munhyeok Kang",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph40121/sgt9-checksum-notice.pdf": {
+      "path": "/materials/ph40121/sgt9-checksum-notice.pdf",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "sgt9-checksum-notice.pdf",
+      "requestedFilename": "sgt9-checksum-notice.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-05",
+          "announcementDate": "2026-10-29",
+          "announcementTitle": "제9판 발행본 checksum 재확인",
+          "requestedFilename": "sgt9-checksum-notice.pdf",
+          "safeFilename": "sgt9-checksum-notice.pdf",
+          "path": "/materials/ph40121/sgt9-checksum-notice.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "제9판 발행본 checksum 재확인",
+      "author": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-ann-05 · release 1",
+      "documentStyle": "formal",
+      "documentStyleLabel": "Formal portrait monograph",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1844,
+        "title": "제9판 발행본 checksum 재확인",
+        "author": "강문혁 / Munhyeok Kang",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph40121/hilbert-underfit-seminar-note.pdf": {
+      "path": "/materials/ph40121/hilbert-underfit-seminar-note.pdf",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "hilbert-underfit-seminar-note.pdf",
+      "requestedFilename": "hilbert-underfit-seminar-note.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-06",
+          "announcementDate": "2026-11-20",
+          "announcementTitle": "힐베르트 보충세미나 강의실 변경",
+          "requestedFilename": "hilbert-underfit-seminar-note.pdf",
+          "safeFilename": "hilbert-underfit-seminar-note.pdf",
+          "path": "/materials/ph40121/hilbert-underfit-seminar-note.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "힐베르트 보충세미나 강의실 변경",
+      "author": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-ann-06 · release 1",
+      "documentStyle": "formal",
+      "documentStyleLabel": "Formal portrait monograph",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1803,
+        "title": "힐베르트 보충세미나 강의실 변경",
+        "author": "강문혁 / Munhyeok Kang",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph40121/final-closure-protocol-r2.pdf": {
+      "path": "/materials/ph40121/final-closure-protocol-r2.pdf",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "final-closure-protocol-r2.pdf",
+      "requestedFilename": "final-closure-protocol-r2.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-07",
+          "announcementDate": "2026-12-03",
+          "announcementTitle": "최종 실기 계산할당 안내",
+          "requestedFilename": "final-closure-protocol-r2.pdf",
+          "safeFilename": "final-closure-protocol-r2.pdf",
+          "path": "/materials/ph40121/final-closure-protocol-r2.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "최종 실기 계산할당 안내",
+      "author": "강문혁 / Munhyeok Kang",
+      "revision": "ph40121-ann-07 · r2",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1874,
+        "title": "최종 실기 계산할당 안내",
+        "author": "강문혁 / Munhyeok Kang",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph40121/submission-bundle-example.zip": {
+      "path": "/materials/ph40121/submission-bundle-example.zip",
+      "courseId": "ph40121",
+      "courseCode": "PH.40121",
+      "filename": "submission-bundle-example.zip",
+      "requestedFilename": "submission-bundle-example.zip",
+      "kind": "zip",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph40121",
+          "courseCode": "PH.40121",
+          "announcementId": "ph40121-ann-08",
+          "announcementDate": "2026-12-10",
+          "announcementTitle": "최종 제출 파일명 규칙",
+          "requestedFilename": "submission-bundle-example.zip",
+          "safeFilename": "submission-bundle-example.zip",
+          "path": "/materials/ph40121/submission-bundle-example.zip",
+          "kind": "zip"
+        }
+      ],
+      "archiveKind": "submission example bundle",
+      "members": [
+        "README.txt",
+        "report-placeholder.txt",
+        "constant-delta.csv",
+        "revision-ledger.json",
+        "artifact-manifest.json",
+        "machine-use.json",
+        "unregistered-outputs.txt"
+      ],
+      "memberCount": 7,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "members": [
+          "README.txt",
+          "report-placeholder.txt",
+          "constant-delta.csv",
+          "revision-ledger.json",
+          "artifact-manifest.json",
+          "machine-use.json",
+          "unregistered-outputs.txt"
+        ]
+      }
+    },
+    "/materials/ph45130/ph45130-syllabus.pdf": {
+      "path": "/materials/ph45130/ph45130-syllabus.pdf",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "filename": "ph45130-syllabus.pdf",
+      "requestedFilename": "ph45130-syllabus.pdf",
+      "kind": "existing-syllabus",
+      "generatedHere": false,
+      "reusedExistingSyllabus": true,
+      "references": [
+        {
+          "courseId": "ph45130",
+          "courseCode": "PH.45130",
+          "announcementId": "ph45130-ann-01",
+          "announcementDate": "2026-08-25",
+          "announcementTitle": "강의계획서와 계산환경",
+          "requestedFilename": "ph45130-syllabus.pdf",
+          "safeFilename": "ph45130-syllabus.pdf",
+          "path": "/materials/ph45130/ph45130-syllabus.pdf",
+          "kind": "existing-syllabus"
+        }
+      ],
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 6,
+        "characters": 4368,
+        "title": "PH.45130 양자중력 — Syllabus",
+        "author": "서유란 / Yuran Seo",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45130/qmedium-environment-guide.pdf": {
+      "path": "/materials/ph45130/qmedium-environment-guide.pdf",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "filename": "qmedium-environment-guide.pdf",
+      "requestedFilename": "qmedium-environment-guide.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45130",
+          "courseCode": "PH.45130",
+          "announcementId": "ph45130-ann-01",
+          "announcementDate": "2026-08-25",
+          "announcementTitle": "강의계획서와 계산환경",
+          "requestedFilename": "qmedium-environment-guide.pdf",
+          "safeFilename": "qmedium-environment-guide.pdf",
+          "path": "/materials/ph45130/qmedium-environment-guide.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "강의계획서와 계산환경",
+      "author": "서유란 / Yuran Seo",
+      "revision": "ph45130-ann-01 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1800,
+        "title": "강의계획서와 계산환경",
+        "author": "서유란 / Yuran Seo",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45130/polarization-errata-r6.pdf": {
+      "path": "/materials/ph45130/polarization-errata-r6.pdf",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "filename": "polarization-errata-r6.pdf",
+      "requestedFilename": "polarization-errata-r6.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45130",
+          "courseCode": "PH.45130",
+          "announcementId": "ph45130-ann-02",
+          "announcementDate": "2026-09-06",
+          "announcementTitle": "편극 표기 정정",
+          "requestedFilename": "polarization-errata-r6.pdf",
+          "safeFilename": "polarization-errata-r6.pdf",
+          "path": "/materials/ph45130/polarization-errata-r6.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "편극 표기 정정",
+      "author": "서유란 / Yuran Seo",
+      "revision": "ph45130-ann-02 · r6",
+      "documentStyle": "formal",
+      "documentStyleLabel": "Formal portrait monograph",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1780,
+        "title": "편극 표기 정정",
+        "author": "서유란 / Yuran Seo",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45130/compute-queue-roster.pdf": {
+      "path": "/materials/ph45130/compute-queue-roster.pdf",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "filename": "compute-queue-roster.pdf",
+      "requestedFilename": "compute-queue-roster.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45130",
+          "courseCode": "PH.45130",
+          "announcementId": "ph45130-ann-03",
+          "announcementDate": "2026-09-01",
+          "announcementTitle": "Q-Medium 대기열 배정",
+          "requestedFilename": "compute-queue-roster.pdf",
+          "safeFilename": "compute-queue-roster.pdf",
+          "path": "/materials/ph45130/compute-queue-roster.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "Q-Medium 대기열 배정",
+      "author": "서유란 / Yuran Seo",
+      "revision": "ph45130-ann-03 · release 1",
+      "documentStyle": "blue",
+      "documentStyleLabel": "Blue landscape slides",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1732,
+        "title": "Q-Medium 대기열 배정",
+        "author": "서유란 / Yuran Seo",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45130/midterm-compute-policy.pdf": {
+      "path": "/materials/ph45130/midterm-compute-policy.pdf",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "filename": "midterm-compute-policy.pdf",
+      "requestedFilename": "midterm-compute-policy.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45130",
+          "courseCode": "PH.45130",
+          "announcementId": "ph45130-ann-04",
+          "announcementDate": "2026-10-13",
+          "announcementTitle": "중간시험 허용자료",
+          "requestedFilename": "midterm-compute-policy.pdf",
+          "safeFilename": "midterm-compute-policy.pdf",
+          "path": "/materials/ph45130/midterm-compute-policy.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "중간시험 허용자료",
+      "author": "서유란 / Yuran Seo",
+      "revision": "ph45130-ann-04 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1694,
+        "title": "중간시험 허용자료",
+        "author": "서유란 / Yuran Seo",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45130/m32-r6-data.zip": {
+      "path": "/materials/ph45130/m32-r6-data.zip",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "filename": "m32-r6-data.zip",
+      "requestedFilename": "m32-r6-data.zip",
+      "kind": "zip",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45130",
+          "courseCode": "PH.45130",
+          "announcementId": "ph45130-ann-05",
+          "announcementDate": "2026-10-30",
+          "announcementTitle": "질량상한 자료 r6 배포",
+          "requestedFilename": "m32-r6-data.zip",
+          "safeFilename": "m32-r6-data.zip",
+          "path": "/materials/ph45130/m32-r6-data.zip",
+          "kind": "zip"
+        }
+      ],
+      "archiveKind": "M32 propagation data release",
+      "members": [
+        "README.txt",
+        "m32-r6-propagation.csv",
+        "m32-r6-covariance.json",
+        "release-lineage.json",
+        "release-notes.txt"
+      ],
+      "memberCount": 5,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "members": [
+          "README.txt",
+          "m32-r6-propagation.csv",
+          "m32-r6-covariance.json",
+          "release-lineage.json",
+          "release-notes.txt"
+        ]
+      }
+    },
+    "/materials/ph45130/contribution-statement-template.pdf": {
+      "path": "/materials/ph45130/contribution-statement-template.pdf",
+      "courseId": "ph45130",
+      "courseCode": "PH.45130",
+      "filename": "contribution-statement-template.pdf",
+      "requestedFilename": "contribution-statement-template.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45130",
+          "courseCode": "PH.45130",
+          "announcementId": "ph45130-ann-07",
+          "announcementDate": "2026-12-02",
+          "announcementTitle": "최종프로젝트 저자기여서",
+          "requestedFilename": "contribution-statement-template.pdf",
+          "safeFilename": "contribution-statement-template.pdf",
+          "path": "/materials/ph45130/contribution-statement-template.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "최종프로젝트 저자기여서",
+      "author": "서유란 / Yuran Seo",
+      "revision": "ph45130-ann-07 · release 1",
+      "documentStyle": "cream",
+      "documentStyleLabel": "Cream observatory ledger",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1818,
+        "title": "최종프로젝트 저자기여서",
+        "author": "서유란 / Yuran Seo",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45320/ph45320-syllabus.pdf": {
+      "path": "/materials/ph45320/ph45320-syllabus.pdf",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "ph45320-syllabus.pdf",
+      "requestedFilename": "ph45320-syllabus.pdf",
+      "kind": "existing-syllabus",
+      "generatedHere": false,
+      "reusedExistingSyllabus": true,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-01",
+          "announcementDate": "2026-08-27",
+          "announcementTitle": "강의계획서·CMT-9 배포",
+          "requestedFilename": "ph45320-syllabus.pdf",
+          "safeFilename": "ph45320-syllabus.pdf",
+          "path": "/materials/ph45320/ph45320-syllabus.pdf",
+          "kind": "existing-syllabus"
+        }
+      ],
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 5,
+        "characters": 4299,
+        "title": "PH.45320 정적 우주론 — Syllabus",
+        "author": "정해온 / Haeon Jeong",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45320/cmt9-reference.pdf": {
+      "path": "/materials/ph45320/cmt9-reference.pdf",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "cmt9-reference.pdf",
+      "requestedFilename": "cmt9-reference.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-01",
+          "announcementDate": "2026-08-27",
+          "announcementTitle": "강의계획서·CMT-9 배포",
+          "requestedFilename": "cmt9-reference.pdf",
+          "safeFilename": "cmt9-reference.pdf",
+          "path": "/materials/ph45320/cmt9-reference.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "강의계획서·CMT-9 배포",
+      "author": "정해온 / Haeon Jeong",
+      "revision": "ph45320-ann-01 · release 1",
+      "documentStyle": "cream",
+      "documentStyleLabel": "Cream observatory ledger",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1780,
+        "title": "강의계획서·CMT-9 배포",
+        "author": "정해온 / Haeon Jeong",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45320/observing-stream-guide.pdf": {
+      "path": "/materials/ph45320/observing-stream-guide.pdf",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "observing-stream-guide.pdf",
+      "requestedFilename": "observing-stream-guide.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-02",
+          "announcementDate": "2026-09-01",
+          "announcementTitle": "야간관측 대체 스트림",
+          "requestedFilename": "observing-stream-guide.pdf",
+          "safeFilename": "observing-stream-guide.pdf",
+          "path": "/materials/ph45320/observing-stream-guide.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "야간관측 대체 스트림",
+      "author": "정해온 / Haeon Jeong",
+      "revision": "ph45320-ann-02 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1800,
+        "title": "야간관측 대체 스트림",
+        "author": "정해온 / Haeon Jeong",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45320/thermal-gain-r12.csv": {
+      "path": "/materials/ph45320/thermal-gain-r12.csv",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "thermal-gain-r12.csv",
+      "requestedFilename": "thermal-gain-r12.csv",
+      "kind": "csv",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-03",
+          "announcementDate": "2026-09-28",
+          "announcementTitle": "3.5 K 기준원 gain 정정",
+          "requestedFilename": "thermal-gain-r12.csv",
+          "safeFilename": "thermal-gain-r12.csv",
+          "path": "/materials/ph45320/thermal-gain-r12.csv",
+          "kind": "csv"
+        }
+      ],
+      "columns": [
+        "constant_id",
+        "observable_id",
+        "value",
+        "sigma",
+        "unit",
+        "status",
+        "table_hash"
+      ],
+      "rowCount": 5,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "rows": 5,
+        "columns": 7
+      }
+    },
+    "/materials/ph45320/catalog-audit-form.pdf": {
+      "path": "/materials/ph45320/catalog-audit-form.pdf",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "catalog-audit-form.pdf",
+      "requestedFilename": "catalog-audit-form.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-04",
+          "announcementDate": "2026-10-17",
+          "announcementTitle": "중간 catalog 감사 범위",
+          "requestedFilename": "catalog-audit-form.pdf",
+          "safeFilename": "catalog-audit-form.pdf",
+          "path": "/materials/ph45320/catalog-audit-form.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "중간 catalog 감사 범위",
+      "author": "정해온 / Haeon Jeong",
+      "revision": "ph45320-ann-04 · release 1",
+      "documentStyle": "cream",
+      "documentStyleLabel": "Cream observatory ledger",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1788,
+        "title": "중간 catalog 감사 범위",
+        "author": "정해온 / Haeon Jeong",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45320/extinction-x7.zip": {
+      "path": "/materials/ph45320/extinction-x7.zip",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "extinction-x7.zip",
+      "requestedFilename": "extinction-x7.zip",
+      "kind": "zip",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-05",
+          "announcementDate": "2026-11-01",
+          "announcementTitle": "거리의존 소광표 X-7 공개",
+          "requestedFilename": "extinction-x7.zip",
+          "safeFilename": "extinction-x7.zip",
+          "path": "/materials/ph45320/extinction-x7.zip",
+          "kind": "zip"
+        }
+      ],
+      "archiveKind": "controlled course archive",
+      "members": [
+        "README.txt",
+        "sample-records.csv",
+        "schema.json",
+        "revision-ledger.json"
+      ],
+      "memberCount": 4,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "members": [
+          "README.txt",
+          "sample-records.csv",
+          "schema.json",
+          "revision-ledger.json"
+        ]
+      }
+    },
+    "/materials/ph45320/stellar-age-lower-bounds.pdf": {
+      "path": "/materials/ph45320/stellar-age-lower-bounds.pdf",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "stellar-age-lower-bounds.pdf",
+      "requestedFilename": "stellar-age-lower-bounds.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-06",
+          "announcementDate": "2026-11-24",
+          "announcementTitle": "영원성 연대측정 세미나",
+          "requestedFilename": "stellar-age-lower-bounds.pdf",
+          "safeFilename": "stellar-age-lower-bounds.pdf",
+          "path": "/materials/ph45320/stellar-age-lower-bounds.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "영원성 연대측정 세미나",
+      "author": "정해온 / Haeon Jeong",
+      "revision": "ph45320-ann-06 · release 1",
+      "documentStyle": "cream",
+      "documentStyleLabel": "Cream observatory ledger",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1785,
+        "title": "영원성 연대측정 세미나",
+        "author": "정해온 / Haeon Jeong",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph45320/final-sky-cell-protocol.pdf": {
+      "path": "/materials/ph45320/final-sky-cell-protocol.pdf",
+      "courseId": "ph45320",
+      "courseCode": "PH.45320",
+      "filename": "final-sky-cell-protocol.pdf",
+      "requestedFilename": "final-sky-cell-protocol.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph45320",
+          "courseCode": "PH.45320",
+          "announcementId": "ph45320-ann-07",
+          "announcementDate": "2026-12-04",
+          "announcementTitle": "최종 catalog freeze",
+          "requestedFilename": "final-sky-cell-protocol.pdf",
+          "safeFilename": "final-sky-cell-protocol.pdf",
+          "path": "/materials/ph45320/final-sky-cell-protocol.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "최종 catalog freeze",
+      "author": "정해온 / Haeon Jeong",
+      "revision": "ph45320-ann-07 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1902,
+        "title": "최종 catalog freeze",
+        "author": "정해온 / Haeon Jeong",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph48111/ph48111-syllabus.pdf": {
+      "path": "/materials/ph48111/ph48111-syllabus.pdf",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "ph48111-syllabus.pdf",
+      "requestedFilename": "ph48111-syllabus.pdf",
+      "kind": "existing-syllabus",
+      "generatedHere": false,
+      "reusedExistingSyllabus": true,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-01",
+          "announcementDate": "2026-08-24",
+          "announcementTitle": "실라버스와 sandbox 발급",
+          "requestedFilename": "ph48111-syllabus.pdf",
+          "safeFilename": "ph48111-syllabus.pdf",
+          "path": "/materials/ph48111/ph48111-syllabus.pdf",
+          "kind": "existing-syllabus"
+        }
+      ],
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 5,
+        "characters": 4662,
+        "title": "PH.48111 자동 이론 구성 실습 — Syllabus",
+        "author": "윤가람 / Garam Yun",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph48111/sandbox-onboarding.pdf": {
+      "path": "/materials/ph48111/sandbox-onboarding.pdf",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "sandbox-onboarding.pdf",
+      "requestedFilename": "sandbox-onboarding.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-01",
+          "announcementDate": "2026-08-24",
+          "announcementTitle": "실라버스와 sandbox 발급",
+          "requestedFilename": "sandbox-onboarding.pdf",
+          "safeFilename": "sandbox-onboarding.pdf",
+          "path": "/materials/ph48111/sandbox-onboarding.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "실라버스와 sandbox 발급",
+      "author": "윤가람 / Garam Yun",
+      "revision": "ph48111-ann-01 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1806,
+        "title": "실라버스와 sandbox 발급",
+        "author": "윤가람 / Garam Yun",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph48111/run-budget-policy.pdf": {
+      "path": "/materials/ph48111/run-budget-policy.pdf",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "run-budget-policy.pdf",
+      "requestedFilename": "run-budget-policy.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-02",
+          "announcementDate": "2026-09-01",
+          "announcementTitle": "자동 revision 기본값",
+          "requestedFilename": "run-budget-policy.pdf",
+          "safeFilename": "run-budget-policy.pdf",
+          "path": "/materials/ph48111/run-budget-policy.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "자동 revision 기본값",
+      "author": "윤가람 / Garam Yun",
+      "revision": "ph48111-ann-02 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1806,
+        "title": "자동 revision 기본값",
+        "author": "윤가람 / Garam Yun",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph48111/candidate-grammar-26f2.zip": {
+      "path": "/materials/ph48111/candidate-grammar-26f2.zip",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "candidate-grammar-26f2.zip",
+      "requestedFilename": "candidate-grammar-26f2.zip",
+      "kind": "zip",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-03",
+          "announcementDate": "2026-09-18",
+          "announcementTitle": "후보식 라이브러리 26F-2",
+          "requestedFilename": "candidate-grammar-26f2.zip",
+          "safeFilename": "candidate-grammar-26f2.zip",
+          "path": "/materials/ph48111/candidate-grammar-26f2.zip",
+          "kind": "zip"
+        }
+      ],
+      "archiveKind": "controlled course archive",
+      "members": [
+        "README.txt",
+        "sample-records.csv",
+        "schema.json",
+        "revision-ledger.json"
+      ],
+      "memberCount": 4,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "members": [
+          "README.txt",
+          "sample-records.csv",
+          "schema.json",
+          "revision-ledger.json"
+        ]
+      }
+    },
+    "/materials/ph48111/crs-26-sat-manifest.pdf": {
+      "path": "/materials/ph48111/crs-26-sat-manifest.pdf",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "crs-26-sat-manifest.pdf",
+      "requestedFilename": "crs-26-sat-manifest.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-04",
+          "announcementDate": "2026-10-11",
+          "announcementTitle": "중간 기준 회귀 세트 안내",
+          "requestedFilename": "crs-26-sat-manifest.pdf",
+          "safeFilename": "crs-26-sat-manifest.pdf",
+          "path": "/materials/ph48111/crs-26-sat-manifest.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "중간 기준 회귀 세트 안내",
+      "author": "윤가람 / Garam Yun",
+      "revision": "ph48111-ann-04 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1807,
+        "title": "중간 기준 회귀 세트 안내",
+        "author": "윤가람 / Garam Yun",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph48111/prt26-seeds.zip": {
+      "path": "/materials/ph48111/prt26-seeds.zip",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "prt26-seeds.zip",
+      "requestedFilename": "prt26-seeds.zip",
+      "kind": "zip",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-06",
+          "announcementDate": "2026-11-14",
+          "announcementTitle": "peer tournament seed 공개",
+          "requestedFilename": "prt26-seeds.zip",
+          "safeFilename": "prt26-seeds.zip",
+          "path": "/materials/ph48111/prt26-seeds.zip",
+          "kind": "zip"
+        }
+      ],
+      "archiveKind": "controlled course archive",
+      "members": [
+        "README.txt",
+        "sample-records.csv",
+        "schema.json",
+        "revision-ledger.json"
+      ],
+      "memberCount": 4,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "members": [
+          "README.txt",
+          "sample-records.csv",
+          "schema.json",
+          "revision-ledger.json"
+        ]
+      }
+    },
+    "/materials/ph48111/holdout-admission-rules.pdf": {
+      "path": "/materials/ph48111/holdout-admission-rules.pdf",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "holdout-admission-rules.pdf",
+      "requestedFilename": "holdout-admission-rules.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-07",
+          "announcementDate": "2026-12-01",
+          "announcementTitle": "최종 holdout 공개 일정",
+          "requestedFilename": "holdout-admission-rules.pdf",
+          "safeFilename": "holdout-admission-rules.pdf",
+          "path": "/materials/ph48111/holdout-admission-rules.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "최종 holdout 공개 일정",
+      "author": "윤가람 / Garam Yun",
+      "revision": "ph48111-ann-07 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1810,
+        "title": "최종 holdout 공개 일정",
+        "author": "윤가람 / Garam Yun",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph48111/release-preservation-checklist.pdf": {
+      "path": "/materials/ph48111/release-preservation-checklist.pdf",
+      "courseId": "ph48111",
+      "courseCode": "PH.48111",
+      "filename": "release-preservation-checklist.pdf",
+      "requestedFilename": "release-preservation-checklist.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph48111",
+          "courseCode": "PH.48111",
+          "announcementId": "ph48111-ann-08",
+          "announcementDate": "2026-12-12",
+          "announcementTitle": "release 보존검사",
+          "requestedFilename": "release-preservation-checklist.pdf",
+          "safeFilename": "release-preservation-checklist.pdf",
+          "path": "/materials/ph48111/release-preservation-checklist.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "release 보존검사",
+      "author": "윤가람 / Garam Yun",
+      "revision": "ph48111-ann-08 · release 1",
+      "documentStyle": "chalk",
+      "documentStyleLabel": "Clean chalkboard problem notes",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1852,
+        "title": "release 보존검사",
+        "author": "윤가람 / Garam Yun",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/ph30102-syllabus.pdf": {
+      "path": "/materials/ph30102/ph30102-syllabus.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "ph30102-syllabus.pdf",
+      "requestedFilename": "ph30102-syllabus.pdf",
+      "kind": "existing-syllabus",
+      "generatedHere": false,
+      "reusedExistingSyllabus": true,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-01",
+          "announcementDate": "2026-08-24",
+          "announcementTitle": "강의계획서 및 선수과목 점검",
+          "requestedFilename": "ph30102-syllabus.pdf",
+          "safeFilename": "ph30102-syllabus.pdf",
+          "path": "/materials/ph30102/ph30102-syllabus.pdf",
+          "kind": "existing-syllabus"
+        }
+      ],
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 6,
+        "characters": 4676,
+        "title": "PH.30102 양자역학 III — Syllabus",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/qm3-prerequisite-review.pdf": {
+      "path": "/materials/ph30102/qm3-prerequisite-review.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "qm3-prerequisite-review.pdf",
+      "requestedFilename": "qm3-prerequisite-review.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-01",
+          "announcementDate": "2026-08-24",
+          "announcementTitle": "강의계획서 및 선수과목 점검",
+          "requestedFilename": "qm3-prerequisite-review.pdf",
+          "safeFilename": "qm3-prerequisite-review.pdf",
+          "path": "/materials/ph30102/qm3-prerequisite-review.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "강의계획서 및 선수과목 점검",
+      "author": "박선우 / Seonwoo Park",
+      "revision": "ph30102-ann-01 · release 1",
+      "documentStyle": "chalk",
+      "documentStyleLabel": "Clean chalkboard problem notes",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1833,
+        "title": "강의계획서 및 선수과목 점검",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/qdc26-reference.pdf": {
+      "path": "/materials/ph30102/qdc26-reference.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "qdc26-reference.pdf",
+      "requestedFilename": "qdc26-reference.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-02",
+          "announcementDate": "2026-08-31",
+          "announcementTitle": "QDC-26 기기표와 제출규칙",
+          "requestedFilename": "qdc26-reference.pdf",
+          "safeFilename": "qdc26-reference.pdf",
+          "path": "/materials/ph30102/qdc26-reference.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "QDC-26 기기표와 제출규칙",
+      "author": "박선우 / Seonwoo Park",
+      "revision": "ph30102-ann-02 · release 1",
+      "documentStyle": "cream",
+      "documentStyleLabel": "Cream observatory ledger",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1804,
+        "title": "QDC-26 기기표와 제출규칙",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/single-upload-guide.pdf": {
+      "path": "/materials/ph30102/single-upload-guide.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "single-upload-guide.pdf",
+      "requestedFilename": "single-upload-guide.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-02",
+          "announcementDate": "2026-08-31",
+          "announcementTitle": "QDC-26 기기표와 제출규칙",
+          "requestedFilename": "single-upload-guide.pdf",
+          "safeFilename": "single-upload-guide.pdf",
+          "path": "/materials/ph30102/single-upload-guide.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "QDC-26 기기표와 제출규칙",
+      "author": "박선우 / Seonwoo Park",
+      "revision": "ph30102-ann-02 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1812,
+        "title": "QDC-26 기기표와 제출규칙",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/state-reconstruction-guide.pdf": {
+      "path": "/materials/ph30102/state-reconstruction-guide.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "state-reconstruction-guide.pdf",
+      "requestedFilename": "state-reconstruction-guide.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-03",
+          "announcementDate": "2026-09-15",
+          "announcementTitle": "tomography 서비스 사용량",
+          "requestedFilename": "state-reconstruction-guide.pdf",
+          "safeFilename": "state-reconstruction-guide.pdf",
+          "path": "/materials/ph30102/state-reconstruction-guide.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "tomography 서비스 사용량",
+      "author": "박선우 / Seonwoo Park",
+      "revision": "ph30102-ann-03 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1829,
+        "title": "tomography 서비스 사용량",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/qm3-midterm-formula-sheet.pdf": {
+      "path": "/materials/ph30102/qm3-midterm-formula-sheet.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "qm3-midterm-formula-sheet.pdf",
+      "requestedFilename": "qm3-midterm-formula-sheet.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-04",
+          "announcementDate": "2026-10-12",
+          "announcementTitle": "중간시험 범위",
+          "requestedFilename": "qm3-midterm-formula-sheet.pdf",
+          "safeFilename": "qm3-midterm-formula-sheet.pdf",
+          "path": "/materials/ph30102/qm3-midterm-formula-sheet.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "중간시험 범위",
+      "author": "박선우 / Seonwoo Park",
+      "revision": "ph30102-ann-04 · release 1",
+      "documentStyle": "chalk",
+      "documentStyleLabel": "Clean chalkboard problem notes",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1839,
+        "title": "중간시험 범위",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/c95-26-correlation-data.zip": {
+      "path": "/materials/ph30102/c95-26-correlation-data.zip",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "c95-26-correlation-data.zip",
+      "requestedFilename": "c95-26-correlation-data.zip",
+      "kind": "zip",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-05",
+          "announcementDate": "2026-10-29",
+          "announcementTitle": "상관실험 자료 release C95-26",
+          "requestedFilename": "c95-26-correlation-data.zip",
+          "safeFilename": "c95-26-correlation-data.zip",
+          "path": "/materials/ph30102/c95-26-correlation-data.zip",
+          "kind": "zip"
+        }
+      ],
+      "archiveKind": "controlled course archive",
+      "members": [
+        "README.txt",
+        "sample-records.csv",
+        "schema.json",
+        "revision-ledger.json"
+      ],
+      "memberCount": 4,
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "members": [
+          "README.txt",
+          "sample-records.csv",
+          "schema.json",
+          "revision-ledger.json"
+        ]
+      }
+    },
+    "/materials/ph30102/qpt-group-roster.pdf": {
+      "path": "/materials/ph30102/qpt-group-roster.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "qpt-group-roster.pdf",
+      "requestedFilename": "qpt-group-roster.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-06",
+          "announcementDate": "2026-11-17",
+          "announcementTitle": "과정 tomography 실습 조 편성",
+          "requestedFilename": "qpt-group-roster.pdf",
+          "safeFilename": "qpt-group-roster.pdf",
+          "path": "/materials/ph30102/qpt-group-roster.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "과정 tomography 실습 조 편성",
+      "author": "박선우 / Seonwoo Park",
+      "revision": "ph30102-ann-06 · release 1",
+      "documentStyle": "blue",
+      "documentStyleLabel": "Blue landscape slides",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1844,
+        "title": "과정 tomography 실습 조 편성",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    },
+    "/materials/ph30102/blind-state-protocol.pdf": {
+      "path": "/materials/ph30102/blind-state-protocol.pdf",
+      "courseId": "ph30102",
+      "courseCode": "PH.30102",
+      "filename": "blind-state-protocol.pdf",
+      "requestedFilename": "blind-state-protocol.pdf",
+      "kind": "pdf",
+      "generatedHere": true,
+      "reusedExistingSyllabus": false,
+      "references": [
+        {
+          "courseId": "ph30102",
+          "courseCode": "PH.30102",
+          "announcementId": "ph30102-ann-07",
+          "announcementDate": "2026-12-01",
+          "announcementTitle": "최종프로젝트 blind 상태",
+          "requestedFilename": "blind-state-protocol.pdf",
+          "safeFilename": "blind-state-protocol.pdf",
+          "path": "/materials/ph30102/blind-state-protocol.pdf",
+          "kind": "pdf"
+        }
+      ],
+      "pages": 3,
+      "title": "최종프로젝트 blind 상태",
+      "author": "박선우 / Seonwoo Park",
+      "revision": "ph30102-ann-07 · release 1",
+      "documentStyle": "gray",
+      "documentStyleLabel": "Gray technical lab memo",
+      "validation": {
+        "ok": true,
+        "errors": [],
+        "pages": 3,
+        "characters": 1810,
+        "title": "최종프로젝트 blind 상태",
+        "author": "박선우 / Seonwoo Park",
+        "embeddedNanumSquare": true,
+        "extractor": "pdftotext"
+      }
+    }
+  },
+  "validation": {
+    "requested": true,
+    "ok": true,
+    "checked": 41,
+    "failures": []
+  }
+}
