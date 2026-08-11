@@ -1,0 +1,22 @@
+
+/* alternative-wiki — Minerva 위에 얹는 최소한의 것만 */
+.fabnotice-footer{border:1px solid #b31b1b;background:#fdf6f6;padding:.8em 1em;margin:1em 0 0;
+  font-size:.8125em;line-height:1.6;color:#54595d;border-radius:2px}
+.fabnotice-footer p{margin:0 0 .6em}
+.fabnotice-footer p:last-child{margin:0}
+.fabnotice-footer b{color:#b31b1b}
+.content table.infobox{display:block;width:100%!important;margin:0 0 1em;overflow-x:auto;
+  border:1px solid #a2a9b1;background:#f8f9fa;font-size:.875em;border-collapse:collapse}
+.content table.infobox caption{font-weight:700;padding:.5em;background:#e6e6fa;text-align:center}
+.content table.infobox th[scope=row]{text-align:left;vertical-align:top;padding:.35em .6em;
+  width:8.5em;background:#f8f9fa}
+.content table.infobox td{padding:.35em .6em;vertical-align:top}
+.content table.wikitable{display:block;overflow-x:auto;max-width:100%}
+.content .mw-heading2{border-bottom:1px solid #c8ccd1;margin-top:1.2em}
+a.new,a.new:visited{color:#d73333}
+.aw-index-grid{display:block}
+.aw-index-grid>div{padding:.15em 0}
+.aw-cat{margin:1.1em 0}
+.aw-desktop-toggle{display:block;text-align:center;padding:1em 0;font-size:.9375em}
+.last-modified-bar__text{white-space:normal;overflow:visible;text-overflow:clip}
+.minerva-footer .license{padding:0 1em .6em;font-size:.8125em;color:#54595d;line-height:1.5}

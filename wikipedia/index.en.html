@@ -59,7 +59,7 @@
 
 		</nav>
 			
-<a href="index.html" class="mw-logo">
+<a href="@@HOME@@index.html" class="mw-logo">
 	<img class="mw-logo-icon" src="assets/static/images/icons/enwiki-25.svg" alt="" aria-hidden="true" height="50" width="50">
 	<span class="mw-logo-container skin-invert">
 		<img class="mw-logo-wordmark" alt="Wikipedia" src="assets/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg" style="width: 8.75em; height: 1.375em;">
@@ -430,5 +430,5 @@
 </div>
 
 
-</body>
+<script>(function(){try{if(sessionStorage.getItem("aw-desktop"))return;if(window.innerWidth>=720)return;var p=location.pathname,i=p.lastIndexOf("/wikipedia/");if(i<0){i=p.lastIndexOf("/site/");}if(p.indexOf("/m/")>=0)return;var b=p.lastIndexOf("/");var rest=p.slice(0,b),f=p.slice(b);var seg=rest.split("/");var last=seg[seg.length-1];var to=(last==="ko"||last==="en")?seg.slice(0,-1).join("/")+"/m/"+last+f:rest+"/m"+f;location.replace(to+location.hash);}catch(e){}})();</script></body>
 </html>
